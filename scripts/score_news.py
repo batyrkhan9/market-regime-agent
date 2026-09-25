@@ -1,4 +1,4 @@
-"""Score each headline in a raw news file with Claude.
+"""Score each headline in a raw news file with an LLM (Gemini Flash, free tier).
 
 Input : data/raw/news_YYYY-MM-DD.json
 Output: data/scored/scored_YYYY-MM-DD.json  (one {score, confidence, reason} per article)
@@ -9,20 +9,24 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
+import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-import anthropic
 from dotenv import load_dotenv
+from google import genai
+from google.genai import types
 
 log = logging.getLogger("score_news")
 
 # Pinned on purpose: changing the model changes the score distribution, so every
 # output file records which model produced it and the prompt version it saw.
-MODEL = "claude-opus-5"
+MODEL = "gemini-2.5-flash"
 PROMPT_VERSION = "v1"
 RAW_DIR = Path("data/raw")
 SCORED_DIR = Path("data/scored")
+REQUEST_INTERVAL_S = 6.0  # free tier allows ~10 requests/minute; pace ourselves under it
 
 SYSTEM_PROMPT = """You are a financial news analyst scoring headlines for their implication
 for the overall US stock market (S&P 500 / SPY) over the next few trading days.
@@ -55,23 +59,60 @@ def format_article(article: dict) -> str:
     return f"Headline: {article['headline']}\nSummary: {summary or '(none)'}"
 
 
-def score_article(client: anthropic.Anthropic, article: dict) -> dict:
-    """Ask Claude for {score, confidence, reason} for one article."""
-    response = client.messages.create(
+def make_client() -> genai.Client:
+    """Build a Gemini client that retries 429/5xx with exponential backoff."""
+    key = os.getenv("GEMINI_API_KEY")
+    if not key:
+        raise SystemExit("GEMINI_API_KEY missing from environment (.env)")
+    retry = types.HttpRetryOptions(attempts=6, initial_delay=5.0, max_delay=60.0,
+                                   http_status_codes=[429, 500, 502, 503, 504])
+    return genai.Client(api_key=key, http_options=types.HttpOptions(retry_options=retry))
+
+
+def score_article(client: genai.Client, article: dict) -> dict:
+    """Ask the model for {score, confidence, reason} for one article."""
+    response = client.models.generate_content(
         model=MODEL,
-        max_tokens=256,
-        system=[{"type": "text", "text": SYSTEM_PROMPT, "cache_control": {"type": "ephemeral"}}],
-        messages=[{"role": "user", "content": format_article(article)}],
-        output_config={"effort": "low", "format": {"type": "json_schema", "schema": OUTPUT_SCHEMA}},
+        contents=format_article(article),
+        config=types.GenerateContentConfig(
+            system_instruction=SYSTEM_PROMPT,
+            response_mime_type="application/json",
+            response_json_schema=OUTPUT_SCHEMA,
+            temperature=0.0,
+            thinking_config=types.ThinkingConfig(thinking_budget=0),  # fast classification
+        ),
     )
-    if response.stop_reason != "end_turn":
-        raise RuntimeError(f"Unexpected stop_reason={response.stop_reason} for article {article['id']}")
-    text = next(b.text for b in response.content if b.type == "text")
-    result = json.loads(text)
+    if not response.text:
+        raise RuntimeError(f"Empty response for article {article['id']}: {response}")
+    result = json.loads(response.text)
     # Belt and braces: the schema constrains the range, but clamp anyway.
     result["score"] = max(-1.0, min(1.0, float(result["score"])))
     result["confidence"] = max(0.0, min(1.0, float(result["confidence"])))
     return result
+
+
+# --- Anthropic alternative (swap the three functions above; `uv add anthropic`) ---------
+# import anthropic
+# MODEL = "claude-opus-5"
+#
+# def make_client() -> anthropic.Anthropic:
+#     return anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from the environment
+#
+# def score_article(client: anthropic.Anthropic, article: dict) -> dict:
+#     response = client.messages.create(
+#         model=MODEL,
+#         max_tokens=256,
+#         system=[{"type": "text", "text": SYSTEM_PROMPT, "cache_control": {"type": "ephemeral"}}],
+#         messages=[{"role": "user", "content": format_article(article)}],
+#         output_config={"effort": "low", "format": {"type": "json_schema", "schema": OUTPUT_SCHEMA}},
+#     )
+#     if response.stop_reason != "end_turn":
+#         raise RuntimeError(f"Unexpected stop_reason={response.stop_reason} for article {article['id']}")
+#     result = json.loads(next(b.text for b in response.content if b.type == "text"))
+#     result["score"] = max(-1.0, min(1.0, float(result["score"])))
+#     result["confidence"] = max(0.0, min(1.0, float(result["confidence"])))
+#     return result
+# ---------------------------------------------------------------------------------------
 
 
 def main() -> None:
@@ -91,9 +132,10 @@ def main() -> None:
         return
 
     raw = json.loads(raw_path.read_text())
-    client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from the environment
+    client = make_client()
     scored: list[dict] = []
     for i, article in enumerate(raw["news"], start=1):
+        t0 = time.monotonic()
         result = score_article(client, article)
         scored.append({
             "id": article["id"],
@@ -105,6 +147,7 @@ def main() -> None:
         })
         log.info("[%d/%d] %+.2f (conf %.2f) %s", i, len(raw["news"]), result["score"],
                  result["confidence"], article["headline"][:80])
+        time.sleep(max(0.0, REQUEST_INTERVAL_S - (time.monotonic() - t0)))
 
     record = {
         "date": raw["date"],
