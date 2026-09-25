@@ -1,5 +1,8 @@
 """Score each headline in a raw news file with an LLM (Gemini Flash, free tier).
 
+Headlines are sent in batches of BATCH_SIZE per request because the free tier caps
+requests per day per model (20/day at the time of writing).
+
 Input : data/raw/news_YYYY-MM-DD.json
 Output: data/scored/scored_YYYY-MM-DD.json  (one {score, confidence, reason} per article)
 """
@@ -19,19 +22,23 @@ from google import genai
 from google.genai import types
 
 log = logging.getLogger("score_news")
+logging.getLogger("google_genai").setLevel(logging.ERROR)  # silence per-call SDK chatter
 
 # Pinned on purpose: changing the model changes the score distribution, so every
 # output file records which model produced it and the prompt version it saw.
-MODEL = "gemini-3.8-flash"
-PROMPT_VERSION = "v1"
+MODEL = "gemini-3.6-flash"
+PROMPT_VERSION = "v2-batched"
 RAW_DIR = Path("data/raw")
 SCORED_DIR = Path("data/scored")
-REQUEST_INTERVAL_S = 6.0  # free tier allows ~10 requests/minute; pace ourselves under it
+BATCH_SIZE = 25           # headlines per request; 181 headlines -> 8 requests
+REQUEST_INTERVAL_S = 6.0  # free tier also caps requests per minute; pace ourselves
 
 SYSTEM_PROMPT = """You are a financial news analyst scoring headlines for their implication
 for the overall US stock market (S&P 500 / SPY) over the next few trading days.
 
-Return a JSON object with:
+You will receive a numbered list of news items. Return a JSON object with an "items" array
+containing exactly one entry per input item, in the same order, each with:
+- idx: the item's number from the input.
 - score: float in [-1, 1]. -1 = strongly bearish for the broad US market, 0 = neutral or
   irrelevant to the broad market, +1 = strongly bullish.
 - confidence: float in [0, 1]. How confident you are that the score is right AND that the
@@ -39,24 +46,35 @@ Return a JSON object with:
   pieces should get low confidence (<= 0.2) even if the score is non-zero.
 - reason: one short sentence (<= 20 words) explaining the score.
 
-Judge only what the text says. Do not use knowledge of what happened to markets afterwards."""
+Score each item independently. Judge only what the text says. Do not use knowledge of what
+happened to markets afterwards."""
 
-OUTPUT_SCHEMA = {
+ITEM_SCHEMA = {
     "type": "object",
     "properties": {
+        "idx": {"type": "integer"},
         "score": {"type": "number", "minimum": -1, "maximum": 1},
         "confidence": {"type": "number", "minimum": 0, "maximum": 1},
         "reason": {"type": "string"},
     },
-    "required": ["score", "confidence", "reason"],
+    "required": ["idx", "score", "confidence", "reason"],
+    "additionalProperties": False,
+}
+OUTPUT_SCHEMA = {
+    "type": "object",
+    "properties": {"items": {"type": "array", "items": ITEM_SCHEMA}},
+    "required": ["items"],
     "additionalProperties": False,
 }
 
 
-def format_article(article: dict) -> str:
-    """Turn one Alpaca article into the user message the model scores."""
-    summary = (article.get("summary") or "").strip()
-    return f"Headline: {article['headline']}\nSummary: {summary or '(none)'}"
+def format_batch(articles: list[dict]) -> str:
+    """Turn a list of Alpaca articles into one numbered user message."""
+    lines = []
+    for i, a in enumerate(articles, start=1):
+        summary = (a.get("summary") or "").strip() or "(none)"
+        lines.append(f"{i}. Headline: {a['headline']}\n   Summary: {summary}")
+    return "\n\n".join(lines)
 
 
 def make_client() -> genai.Client:
@@ -64,16 +82,16 @@ def make_client() -> genai.Client:
     key = os.getenv("GEMINI_API_KEY")
     if not key:
         raise SystemExit("GEMINI_API_KEY missing from environment (.env)")
-    retry = types.HttpRetryOptions(attempts=6, initial_delay=5.0, max_delay=60.0,
+    retry = types.HttpRetryOptions(attempts=8, initial_delay=5.0, max_delay=90.0,
                                    http_status_codes=[429, 500, 502, 503, 504])
     return genai.Client(api_key=key, http_options=types.HttpOptions(retry_options=retry))
 
 
-def score_article(client: genai.Client, article: dict) -> dict:
-    """Ask the model for {score, confidence, reason} for one article."""
+def score_batch(client: genai.Client, articles: list[dict]) -> list[dict]:
+    """Ask the model for {score, confidence, reason} for each article, in input order."""
     response = client.models.generate_content(
         model=MODEL,
-        contents=format_article(article),
+        contents=format_batch(articles),
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM_PROMPT,
             response_mime_type="application/json",
@@ -83,35 +101,41 @@ def score_article(client: genai.Client, article: dict) -> dict:
         ),
     )
     if not response.text:
-        raise RuntimeError(f"Empty response for article {article['id']}: {response}")
-    result = json.loads(response.text)
-    # Belt and braces: the schema constrains the range, but clamp anyway.
-    result["score"] = max(-1.0, min(1.0, float(result["score"])))
-    result["confidence"] = max(0.0, min(1.0, float(result["confidence"])))
-    return result
+        raise RuntimeError(f"Empty response for batch starting {articles[0]['id']}: {response}")
+    items = {int(it["idx"]): it for it in json.loads(response.text)["items"]}
+    if set(items) != set(range(1, len(articles) + 1)):
+        raise RuntimeError(f"Model returned idx {sorted(items)} for {len(articles)} items")
+    results = []
+    for i in range(1, len(articles) + 1):
+        it = items[i]
+        results.append({
+            "score": max(-1.0, min(1.0, float(it["score"]))),        # belt and braces:
+            "confidence": max(0.0, min(1.0, float(it["confidence"]))),  # schema already bounds these
+            "reason": it["reason"],
+        })
+    return results
 
 
-# --- Anthropic alternative (swap the three functions above; `uv add anthropic`) ---------
+# --- Anthropic alternative (swap make_client/score_batch; `uv add anthropic`) ----------
 # import anthropic
 # MODEL = "claude-opus-5"
 #
 # def make_client() -> anthropic.Anthropic:
 #     return anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from the environment
 #
-# def score_article(client: anthropic.Anthropic, article: dict) -> dict:
+# def score_batch(client: anthropic.Anthropic, articles: list[dict]) -> list[dict]:
 #     response = client.messages.create(
 #         model=MODEL,
-#         max_tokens=256,
+#         max_tokens=4096,
 #         system=[{"type": "text", "text": SYSTEM_PROMPT, "cache_control": {"type": "ephemeral"}}],
-#         messages=[{"role": "user", "content": format_article(article)}],
+#         messages=[{"role": "user", "content": format_batch(articles)}],
 #         output_config={"effort": "low", "format": {"type": "json_schema", "schema": OUTPUT_SCHEMA}},
 #     )
 #     if response.stop_reason != "end_turn":
-#         raise RuntimeError(f"Unexpected stop_reason={response.stop_reason} for article {article['id']}")
-#     result = json.loads(next(b.text for b in response.content if b.type == "text"))
-#     result["score"] = max(-1.0, min(1.0, float(result["score"])))
-#     result["confidence"] = max(0.0, min(1.0, float(result["confidence"])))
-#     return result
+#         raise RuntimeError(f"Unexpected stop_reason={response.stop_reason}")
+#     items = {int(it["idx"]): it for it in
+#              json.loads(next(b.text for b in response.content if b.type == "text"))["items"]}
+#     ...same idx check and clamping as above...
 # ---------------------------------------------------------------------------------------
 
 
@@ -132,22 +156,27 @@ def main() -> None:
         return
 
     raw = json.loads(raw_path.read_text())
+    articles = raw["news"]
     client = make_client()
     scored: list[dict] = []
-    for i, article in enumerate(raw["news"], start=1):
+    n_batches = (len(articles) + BATCH_SIZE - 1) // BATCH_SIZE
+    for b, start in enumerate(range(0, len(articles), BATCH_SIZE), start=1):
+        batch = articles[start:start + BATCH_SIZE]
         t0 = time.monotonic()
-        result = score_article(client, article)
-        scored.append({
-            "id": article["id"],
-            "created_at": article.get("created_at"),
-            "headline": article["headline"],
-            "source": article.get("source"),
-            "url": article.get("url"),
-            **result,
-        })
-        log.info("[%d/%d] %+.2f (conf %.2f) %s", i, len(raw["news"]), result["score"],
-                 result["confidence"], article["headline"][:80])
-        time.sleep(max(0.0, REQUEST_INTERVAL_S - (time.monotonic() - t0)))
+        results = score_batch(client, batch)
+        for article, result in zip(batch, results):
+            scored.append({
+                "id": article["id"],
+                "created_at": article.get("created_at"),
+                "headline": article["headline"],
+                "source": article.get("source"),
+                "url": article.get("url"),
+                **result,
+            })
+        mean = sum(r["score"] for r in results) / len(results)
+        log.info("batch %d/%d: %d headlines, mean score %+.2f", b, n_batches, len(batch), mean)
+        if b < n_batches:
+            time.sleep(max(0.0, REQUEST_INTERVAL_S - (time.monotonic() - t0)))
 
     record = {
         "date": raw["date"],

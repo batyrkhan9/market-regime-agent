@@ -7,6 +7,13 @@ and writes **one row per trading day** describing the news-implied market regime
 It does **not** trade and does **not** predict prices. It produces a dataset that can later
 be tested against a simple price-based regime label built from SPY.
 
+## Status (2026-09-25)
+
+- Pipeline built end to end: fetch -> score -> aggregate -> market regime, plus the daily workflow.
+- Alpaca fetch verified: 181 headlines pulled for 2026-09-25.
+- LLM scoring not yet run: the Gemini free tier rate-limited mid-run (20 requests/day per model, plus overload errors).
+- Next step: pick a paid model after design review.
+
 ## How it works
 
 ```
@@ -68,7 +75,7 @@ One row per trading day `D`.
 ran**. On the scheduled run this means roughly `D-1` 16:00 ET to `D` 06:30 ET: the overnight
 news available before the open on `D`.
 
-**Per-headline scoring.** Each headline + summary is sent to Gemini (`gemini-3.8-flash`, thinking off,
+**Scoring.** Headlines + summaries are sent in batches of 25 to Gemini (`gemini-3.6-flash`, thinking off,
 JSON-schema-constrained output, paced to the free-tier rate limit) with a fixed prompt that asks for `score` in [-1, 1],
 `confidence` in [0, 1] and a one-sentence `reason`. The prompt tells the model to give low
 confidence to single-stock, celebrity, or promotional items so they carry little weight.
