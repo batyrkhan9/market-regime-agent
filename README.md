@@ -1,6 +1,6 @@
 # News-Based Market Regime Agent
 
-A small daily pipeline that reads US financial news, asks Claude to score each headline,
+A small daily pipeline that reads US financial news, asks an LLM (Gemini Flash) to score each headline,
 and writes **one row per trading day** describing the news-implied market regime
 (bearish / neutral / bullish) for the broad US market, using SPY as the proxy.
 
@@ -33,7 +33,7 @@ uv sync
 cp .env.example .env     # then fill in the three keys
 ```
 
-`.env` keys: `ALPACA_KEY`, `ALPACA_SECRET` (any Alpaca account, paper is fine), `ANTHROPIC_API_KEY`.
+`.env` keys: `ALPACA_KEY`, `ALPACA_SECRET` (any Alpaca account, paper is fine), `GEMINI_API_KEY` (Google AI Studio, free tier).
 
 For GitHub Actions, add the same three names as repository secrets.
 
@@ -68,8 +68,8 @@ One row per trading day `D`.
 ran**. On the scheduled run this means roughly `D-1` 16:00 ET to `D` 06:30 ET: the overnight
 news available before the open on `D`.
 
-**Per-headline scoring.** Each headline + summary is sent to Claude (`claude-opus-5`, low
-effort, JSON-schema-constrained output) with a fixed prompt that asks for `score` in [-1, 1],
+**Per-headline scoring.** Each headline + summary is sent to Gemini (`gemini-2.5-flash`, thinking off,
+JSON-schema-constrained output, paced to the free-tier rate limit) with a fixed prompt that asks for `score` in [-1, 1],
 `confidence` in [0, 1] and a one-sentence `reason`. The prompt tells the model to give low
 confidence to single-stock, celebrity, or promotional items so they carry little weight.
 
@@ -97,7 +97,7 @@ tests whether news leads the regime.
 
 ## Leakage risks and how they are handled
 
-**1. LLM lookahead bias on historical news.** Claude was trained on text up to a cutoff
+**1. LLM lookahead bias on historical news.** The model was trained on text up to a cutoff
 date. If you backfill headlines from before that cutoff, the model may "know" what happened
 next, and its scores will look better than they could ever be in real time.
 
