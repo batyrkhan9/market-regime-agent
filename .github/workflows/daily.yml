@@ -1,0 +1,74 @@
+name: daily-signal
+
+on:
+  schedule:
+    # GitHub cron is UTC only. 6:30 AM ET is 10:30 UTC in summer (EDT) and
+    # 11:30 UTC in winter (EST). Both fire; the "guard" step keeps the right one.
+    - cron: "30 10 * * 1-5"
+    - cron: "30 11 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Signal date YYYY-MM-DD (default: today ET)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-signal
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Guard against the wrong DST firing
+        id: guard
+        run: |
+          H=$(TZ=America/New_York date +%H); M=$(TZ=America/New_York date +%M)
+          echo "Now in ET: $H:$M (event=${{ github.event_name }})"
+          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$H" = "05" ] || { [ "$H" = "07" ] && [ "$M" -ge 25 ]; }; }; then
+            echo "Not the 6:30 AM ET firing; skipping."; echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.guard.outputs.run == 'true'
+
+      - uses: astral-sh/setup-uv@v6
+        if: steps.guard.outputs.run == 'true'
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        if: steps.guard.outputs.run == 'true'
+        run: uv sync --frozen
+
+      - name: Run daily pipeline
+        if: steps.guard.outputs.run == 'true'
+        env:
+          ALPACA_KEY: ${{ secrets.ALPACA_KEY }}
+          ALPACA_SECRET: ${{ secrets.ALPACA_SECRET }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            uv run python run_daily.py --date "${{ github.event.inputs.date }}"
+          else
+            uv run python run_daily.py
+          fi
+
+      - name: Commit results
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/signals.csv data/market_regime.csv data/scored/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."; exit 0
+          fi
+          git commit -m "data: daily signal $(TZ=America/New_York date +%F)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
