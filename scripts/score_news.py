@@ -22,7 +22,7 @@ log = logging.getLogger("score_news")
 
 # Pinned on purpose: changing the model changes the score distribution, so every
 # output file records which model produced it and the prompt version it saw.
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-3.8-flash"
 PROMPT_VERSION = "v1"
 RAW_DIR = Path("data/raw")
 SCORED_DIR = Path("data/scored")

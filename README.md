@@ -68,7 +68,7 @@ One row per trading day `D`.
 ran**. On the scheduled run this means roughly `D-1` 16:00 ET to `D` 06:30 ET: the overnight
 news available before the open on `D`.
 
-**Per-headline scoring.** Each headline + summary is sent to Gemini (`gemini-2.5-flash`, thinking off,
+**Per-headline scoring.** Each headline + summary is sent to Gemini (`gemini-3.8-flash`, thinking off,
 JSON-schema-constrained output, paced to the free-tier rate limit) with a fixed prompt that asks for `score` in [-1, 1],
 `confidence` in [0, 1] and a one-sentence `reason`. The prompt tells the model to give low
 confidence to single-stock, celebrity, or promotional items so they carry little weight.
