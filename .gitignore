@@ -1,0 +1,18 @@
+# secrets
+.env
+
+# raw news dumps are large, reproducible, and may have redistribution limits
+data/raw/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+
+# keep the folder, ignore the contents
+!data/raw/.gitkeep
