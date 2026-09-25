@@ -61,7 +61,7 @@ One row per trading day `D`.
 | `label` | `bearish` if score < -0.2, `bullish` if score > 0.2, else `neutral` |
 | `n_headlines` | number of headlines scored |
 | `top_reasons` | the 3 headlines with the largest `confidence * abs(score)`, with their scores |
-| `model`, `prompt_version` | which Claude model and prompt produced the row |
+| `model`, `prompt_version` | which LLM and prompt version produced the row |
 | `window_start`, `window_end` | exact news window used, ISO 8601 with offset |
 
 **News window.** Previous weekday 16:00 ET to `D` 16:00 ET, **capped at the time the fetch
