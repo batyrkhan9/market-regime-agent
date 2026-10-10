@@ -1,6 +1,6 @@
 # News-Based Market Regime Agent
 
-A small daily pipeline that reads US financial news, asks an LLM (Gemini Flash) to score each headline,
+A small daily pipeline that reads US financial news, asks an LLM (Claude Sonnet) to score each headline,
 and writes **one row per trading day** describing the news-implied market regime
 (bearish / neutral / bullish) for the broad US market, using SPY as the proxy.
 
@@ -11,8 +11,7 @@ be tested against a simple price-based regime label built from SPY.
 
 - Pipeline built end to end: fetch -> score -> aggregate -> market regime, plus the daily workflow.
 - Alpaca fetch verified: 181 headlines pulled for 2026-09-25.
-- LLM scoring not yet run: the Gemini free tier rate-limited mid-run (20 requests/day per model, plus overload errors).
-- Next step: pick a paid model after design review.
+- Scorer switched to Claude Sonnet (`claude-sonnet-5-5`) on 2026-10-10 after the Gemini free tier rate-limited mid-run. Gemini stays available with `--provider gemini`.
 
 ## How it works
 
@@ -37,12 +36,14 @@ dependencies from `uv.lock`.
 
 ```bash
 uv sync
-cp .env.example .env     # then fill in the three keys
+cp .env.example .env     # then fill in the keys
 ```
 
-`.env` keys: `ALPACA_KEY`, `ALPACA_SECRET` (any Alpaca account, paper is fine), `GEMINI_API_KEY` (Google AI Studio, free tier).
+`.env` keys: `ALPACA_KEY`, `ALPACA_SECRET` (any Alpaca account, paper is fine), `ANTHROPIC_API_KEY`
+(Anthropic Console). `GEMINI_API_KEY` (Google AI Studio, free tier) is only needed for
+`--provider gemini` / `SCORER_PROVIDER=gemini`.
 
-For GitHub Actions, add the same three names as repository secrets.
+For GitHub Actions, add the same names as repository secrets.
 
 ## Running
 
@@ -75,10 +76,13 @@ One row per trading day `D`.
 ran**. On the scheduled run this means roughly `D-1` 16:00 ET to `D` 06:30 ET: the overnight
 news available before the open on `D`.
 
-**Scoring.** Headlines + summaries are sent in batches of 25 to Gemini (`gemini-3.6-flash`, thinking off,
-JSON-schema-constrained output, paced to the free-tier rate limit) with a fixed prompt that asks for `score` in [-1, 1],
+**Scoring.** Headlines + summaries are sent in batches of 25 to Claude Sonnet (`claude-sonnet-5-5`,
+lowest thinking setting, low effort, JSON-schema-constrained output) with a fixed prompt that asks for `score` in [-1, 1],
 `confidence` in [0, 1] and a one-sentence `reason`. The prompt tells the model to give low
 confidence to single-stock, celebrity, or promotional items so they carry little weight.
+The same prompt, schema and output rows are used with `--provider gemini` (`gemini-3.6-flash`,
+thinking off, paced to the free-tier rate limit), so the two scorers are directly comparable;
+every output file records which model produced it.
 
 **Aggregation.** `regime_score = sum(score * confidence) / sum(confidence)`. Days with no
 headlines or all-zero confidence get score 0 and confidence 0.
