@@ -1,0 +1,1151 @@
+{
+  "date": "2026-10-10",
+  "window_start": "2026-10-09T16:00:00-04:00",
+  "window_end": "2026-10-10T16:00:00-04:00",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-batched",
+  "scored_at": "2026-10-10T21:49:11.917361+00:00",
+  "n_scored": 114,
+  "scored": [
+    {
+      "id": 62284239,
+      "created_at": "2026-10-09T20:00:35Z",
+      "headline": "If You Invested $1000 In Corteva Stock 5 Years Ago, You Would Have This Much Today",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284239/if-you-invested-1000-corteva-stock-5-years-ago-you-would-have-much-today",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock marketing-style piece, irrelevant to broad market."
+    },
+    {
+      "id": 62284257,
+      "created_at": "2026-10-09T20:00:48Z",
+      "headline": "President Trump Posts On Truth Social \"It is my Great Honor to have just appointed, as Press Secretary, Katie Zacharia. Katie currently serves as Senior Communications Advisor to Truth Social (Trump Media & Technology Group), where she has been outstanding! A native of California, Katie previously served as Spokesperson and Deputy Assistant Secretary for Public Affairs at the Department of Homeland Security....\"",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62284257/president-trump-posts-truth-social-it-my-great-honor-have-just-appointed-press-secretary-katie-zacha",
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Press secretary appointment has negligible market implication."
+    },
+    {
+      "id": 62284279,
+      "created_at": "2026-10-09T20:01:05Z",
+      "headline": "JP Morgan Maintains Neutral on Legend Biotech, Lowers Price Target to $33",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284279/jp-morgan-maintains-neutral-legend-biotech-lowers-price-target-33",
+      "score": -0.02,
+      "confidence": 0.05,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 62284310,
+      "created_at": "2026-10-09T20:01:36Z",
+      "headline": "Celanese Raises Prices For Select Polyamide Products In Americas, Effective Oct. 19",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284310/celanese-raises-prices-for-select-polyamide-products-in-americas",
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Company-specific product price increase, minor inflationary signal."
+    },
+    {
+      "id": 62284394,
+      "created_at": "2026-10-09T20:03:08Z",
+      "headline": "Mangoceuticals Closes Registered Direct Offering Following $2.5M Strategic Investment Commitment In MangoRx IP Holdings To Support Intellectual Property Commercialization",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284394/mangoceuticals-closes-registered-direct-offering-following-2-5m-strategic-investment-commitment-mang",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Micro-cap offering, irrelevant to broad market."
+    },
+    {
+      "id": 62284417,
+      "created_at": "2026-10-09T20:03:40Z",
+      "headline": "JP Morgan Maintains Overweight on Nucor, Lowers Price Target to $296",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284417/jp-morgan-maintains-overweight-nucor-lowers-price-target-296",
+      "score": -0.02,
+      "confidence": 0.08,
+      "reason": "Single-stock price target cut, overweight maintained."
+    },
+    {
+      "id": 62284447,
+      "created_at": "2026-10-09T20:04:31Z",
+      "headline": "Celanese Announces Polyamide Price Hikes Of $0.33/kg ($0.15/lb) For PA66 And $0.44/kg ($0.20/lb) For PA6 In The Americas, Effective October 19, 2026",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/CE",
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Company-specific price hikes, minor."
+    },
+    {
+      "id": 62284485,
+      "created_at": "2026-10-09T20:05:23Z",
+      "headline": "Processa Pharmaceuticals Files Prospectus For Offering 306.574M Common Shares On Behalf Of Selling Shareholders",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284485/processa-pharmaceuticals-files-prospectus-offering-306-574m-common-shares-behalf-selling-shareholder",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small-cap share offering, irrelevant to broad market."
+    },
+    {
+      "id": 62284496,
+      "created_at": "2026-10-09T20:05:27Z",
+      "headline": "JP Morgan Maintains Overweight on Palomar Hldgs, Lowers Price Target to $156",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284496/jp-morgan-maintains-overweight-palomar-hldgs-lowers-price-target-156",
+      "score": -0.02,
+      "confidence": 0.05,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 62284524,
+      "created_at": "2026-10-09T20:05:56Z",
+      "headline": "Star Bulk Announces Sale Of 35% Stake In Two Vessels To Hermes World Maritime; Terms Not Disclosed",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/SBLK",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Minor vessel stake sale."
+    },
+    {
+      "id": 62284556,
+      "created_at": "2026-10-09T20:06:32Z",
+      "headline": "Accendra Health Says It Received NYSE Notice Over $1.00 Minimum Share Price Rule; Will Consider Reverse Split If Necessary",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/ACH",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single small-cap listing notice."
+    },
+    {
+      "id": 62284577,
+      "created_at": "2026-10-09T20:06:52Z",
+      "headline": "Alpine Income Property Trust To Acquire A 13-Property Industrial Portfolio For $117.3M",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/m/26/10/62284577/alpine-income-property-trust-acquire-13-property-industrial-portfolio-117-3m",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small REIT acquisition, irrelevant to broad market."
+    },
+    {
+      "id": 62284594,
+      "created_at": "2026-10-09T20:07:18Z",
+      "headline": "JP Morgan Maintains Overweight on Parker Hannifin, Lowers Price Target to $1131",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284594/jp-morgan-maintains-overweight-parker-hannifin-lowers-price-target-1131",
+      "score": -0.03,
+      "confidence": 0.1,
+      "reason": "Industrial bellwether target cut, but price target is very high."
+    },
+    {
+      "id": 62284608,
+      "created_at": "2026-10-09T20:07:23Z",
+      "headline": "Fortune Favor Technology Announces $600M SPAC Merger With Quantumsphere Acquisition Corp.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/m/26/10/62284608/fortune-favor-technology-announces-600m-spac-merger-quantumsphere-acquisition-corp",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small SPAC merger announcement."
+    },
+    {
+      "id": 62284628,
+      "created_at": "2026-10-09T20:08:12Z",
+      "headline": "J-Star Holding Announces Capital Initiatives To Finance Construction Of Its Automated Carbon Fiber Manufacture Site In Houston, Secures Requisite Capital To Acquire Automated Equipment, Execute Site Preparation In U.S.",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284628/j-star-holding-announces-capital-initiatives-finance-construction-its-automated-carbon-fiber-manufac",
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap capital initiative."
+    },
+    {
+      "id": 62284641,
+      "created_at": "2026-10-09T20:08:35Z",
+      "headline": "POMDOCTOR Receives Nasdaq Delisting Determination",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/POM",
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap delisting, irrelevant."
+    },
+    {
+      "id": 62284653,
+      "created_at": "2026-10-09T20:08:41Z",
+      "headline": "JP Morgan Maintains Neutral on PepsiCo, Lowers Price Target to $137",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284653/jp-morgan-maintains-neutral-pepsico-lowers-price-target-137",
+      "score": -0.03,
+      "confidence": 0.1,
+      "reason": "Large-cap staple target cut, limited broad impact."
+    },
+    {
+      "id": 62284694,
+      "created_at": "2026-10-09T20:10:01Z",
+      "headline": "JP Morgan Maintains Overweight on Regal Rexnord, Lowers Price Target to $196",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284694/jp-morgan-maintains-overweight-regal-rexnord-lowers-price-target-196",
+      "score": -0.02,
+      "confidence": 0.06,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 62284721,
+      "created_at": "2026-10-09T20:10:57Z",
+      "headline": "Autozi Files Prospectus For Resale Of Up To 3,497,273 Shares By Selling Shareholders",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284721/autozi-files-prospectus-resale-3-497-273-shares-selling-shareholders",
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small-cap resale prospectus."
+    },
+    {
+      "id": 62284735,
+      "created_at": "2026-10-09T20:11:06Z",
+      "headline": "DarkHorse Files Prospectus For Offering 3.497M Class A Ordinary Shares On Behalf Of Selling Shareholders",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284735/darkhorse-files-prospectus-offering-3-497m-class-ordinary-shares-behalf-selling-shareholders",
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small-cap resale prospectus."
+    },
+    {
+      "id": 62284763,
+      "created_at": "2026-10-09T20:12:12Z",
+      "headline": "UPDATE: PomDoctor Ineligible For 180-Day Compliance Period; Securities Will Be Suspended From Trading At The Opening Of Business On October 15, 2026",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/POM",
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap trading suspension."
+    },
+    {
+      "id": 62284788,
+      "created_at": "2026-10-09T20:13:04Z",
+      "headline": "Blackstone Raises $1 Billion For Private Credit Continuation Fund As Secondaries Boom",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/private-markets/26/10/62284788/blackstone-raises-1-billion-for-private-credit-continuation-fund-as-secondaries-boom",
+      "score": 0.03,
+      "confidence": 0.1,
+      "reason": "Private credit secondaries activity, mildly positive liquidity signal."
+    },
+    {
+      "id": 62284801,
+      "created_at": "2026-10-09T20:13:35Z",
+      "headline": "JP Morgan Maintains Overweight on SPX Technologies, Lowers Price Target to $225",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284801/jp-morgan-maintains-overweight-spx-technologies-lowers-price-target-225",
+      "score": -0.02,
+      "confidence": 0.05,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 62284827,
+      "created_at": "2026-10-09T20:14:09Z",
+      "headline": "POMDOCTOR Intends To Timely Request A Hearing Before The Panel To Appeal The Staff's Determination And To Present A Plan To Regain Compliance With The Minimum Bid Price Requirement; Deadline For The Company To Request A Hearing Is October 13, 2026",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/POM",
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap hearing appeal."
+    },
+    {
+      "id": 62284842,
+      "created_at": "2026-10-09T20:14:47Z",
+      "headline": "JP Morgan Maintains Neutral on Steel Dynamics, Lowers Price Target to $260",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284842/jp-morgan-maintains-neutral-steel-dynamics-lowers-price-target-260",
+      "score": -0.02,
+      "confidence": 0.07,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 62284865,
+      "created_at": "2026-10-09T20:15:14Z",
+      "headline": "Ryde Group Files For Up To $96.399M Offering Of Class A Shares",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284865/ryde-group-files-96-399m-offering-class-shares",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small company share offering, irrelevant to broad market."
+    },
+    {
+      "id": 62284875,
+      "created_at": "2026-10-09T20:15:20Z",
+      "headline": "Here\u2019s How Much You Would Have Made Owning AbbVie Stock In The Last 5 Years",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284875/here-s-how-much-you-would-have-made-owning-abbvie-stock-last-5-years",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Backward-looking performance piece on a single stock."
+    },
+    {
+      "id": 62284892,
+      "created_at": "2026-10-09T20:15:40Z",
+      "headline": "EquipmentShare.com Refutes Recent Short Seller Report, Calls It Misleading, Defamatory",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284892/equipmentshare-com-refutes-recent-short-seller-report-calls-it-misleading-defamatory",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single company rebuttal of short seller report."
+    },
+    {
+      "id": 62284936,
+      "created_at": "2026-10-09T20:16:51Z",
+      "headline": "Goodyear Tire & Rubber Appoints Joe Hinrichs Board Chairman, Effective Oct. 7, Succeeding LauretteKoellner",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284936/goodyear-tire-rubber-appoints-joe-hinrichs-board-chairman-effective-oct-7-succeeding-laurettekoellne",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine board chair appointment at one company."
+    },
+    {
+      "id": 62284962,
+      "created_at": "2026-10-09T20:17:47Z",
+      "headline": "Maxim Group Initiates Coverage On The RMR Group with Buy Rating, Announces Price Target of $26",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284962/maxim-group-initiates-coverage-rmr-group-buy-rating-announces-price-target-26",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock analyst initiation."
+    },
+    {
+      "id": 62284995,
+      "created_at": "2026-10-09T20:19:07Z",
+      "headline": "Phoenix Education Partners Appoints Michael Cochran As Interim CFO, Effective Oct. 10; Succeeds Blair Westblom",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62284995/phoenix-education-partners-appoints-michael-cochran-interim-cfo-effective-oct-10-succeeds-blair-west",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Interim CFO appointment, company-specific."
+    },
+    {
+      "id": 62285036,
+      "created_at": "2026-10-09T20:20:48Z",
+      "headline": "Citigroup Initiates Coverage On Fortune Brands with Buy Rating, Announces Price Target of $48",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285036/citigroup-initiates-coverage-fortune-brands-buy-rating-announces-price-target-48",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock analyst initiation."
+    },
+    {
+      "id": 62285065,
+      "created_at": "2026-10-09T20:21:48Z",
+      "headline": "Citigroup Downgrades Pershing Square to Sell, Maintains Price Target to $45",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285065/citigroup-downgrades-pershing-square-sell-maintains-price-target-45",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock analyst downgrade."
+    },
+    {
+      "id": 62285089,
+      "created_at": "2026-10-09T20:23:02Z",
+      "headline": "Citigroup Maintains Buy on Kodiak Gas Services, Lowers Price Target to $82",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285089/citigroup-maintains-buy-kodiak-gas-services-lowers-price-target-82",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 62285111,
+      "created_at": "2026-10-09T20:24:30Z",
+      "headline": "Citigroup Maintains Neutral on PepsiCo, Lowers Price Target to $135",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285111/citigroup-maintains-neutral-pepsico-lowers-price-target-135",
+      "score": -0.02,
+      "confidence": 0.08,
+      "reason": "PepsiCo target cut, minor consumer staples signal."
+    },
+    {
+      "id": 62285195,
+      "created_at": "2026-10-09T20:29:07Z",
+      "headline": "Citigroup Maintains Buy on Viper Energy, Lowers Price Target to $52",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285195/citigroup-maintains-buy-viper-energy-lowers-price-target-52",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 62285237,
+      "created_at": "2026-10-09T20:30:17Z",
+      "headline": "Here\u2019s How Much You Would Have Made Owning Palantir Technologies Stock In The Last 15 Years",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285237/here-s-how-much-you-would-have-made-owning-palantir-technologies-stock-last-15-years",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Backward-looking single-stock performance piece."
+    },
+    {
+      "id": 62285292,
+      "created_at": "2026-10-09T20:31:16Z",
+      "headline": "Citigroup Maintains Buy on Sunrun, Lowers Price Target to $14",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285292/citigroup-maintains-buy-sunrun-lowers-price-target-14",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 62285293,
+      "created_at": "2026-10-09T20:31:17Z",
+      "headline": "Standard Motor Products Appoints James J. Burke Interim CFO, Effective Oct. 30, Succeeding Nathan R. Iles",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285293/standard-motor-products-appoints-james-j-burke-interim-cfo-effective-oct-30-succeeding-nathan-r-iles",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Interim CFO appointment, company-specific."
+    },
+    {
+      "id": 62285319,
+      "created_at": "2026-10-09T20:31:24Z",
+      "headline": "LionShares Announces Liquidation Of U.S. Equity Total Return ETF, Last Trading Day October 26",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/TOT",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small ETF liquidation, immaterial."
+    },
+    {
+      "id": 62285339,
+      "created_at": "2026-10-09T20:31:55Z",
+      "headline": "CytoMed Therapeutics Receives Nasdaq Noncompliance Notice",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285339/cytomed-therapeutics-receives-nasdaq-noncompliance-notice",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Micro-cap Nasdaq compliance notice."
+    },
+    {
+      "id": 62285364,
+      "created_at": "2026-10-09T20:33:15Z",
+      "headline": "CrowdStrike Advises Shareholders To Not Tender Their Shares In Response To Tutanota\u2019s $260/Share Offer For Up To 500,000 Shares",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285364/crowdstrike-advises-shareholders-not-tender-their-shares-response-tutanota-s-260-share-offer-500-000",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Mini-tender offer advisory, company-specific."
+    },
+    {
+      "id": 62285381,
+      "created_at": "2026-10-09T20:33:30Z",
+      "headline": "Cryo-Cell International Q3 EPS $0.16 Up From $0.09 YoY, Sales $7.820M Down From $7.830M YoY",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/earnings/26/10/62285381/cryo-cell-international-q3-eps-0-16-0-09-yoy-sales-7-820m-down-7-830m-yoy",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small company earnings."
+    },
+    {
+      "id": 62285391,
+      "created_at": "2026-10-09T20:33:34Z",
+      "headline": "QTREX Quantum Receives Nasdaq Noncompliance Notice, Gets Time Through April 3, 2027 To Regain Compliance",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285391/qtrex-quantum-receives-nasdaq-noncompliance-notice-gets-time-through-april-3-2027-regain-compliance",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Micro-cap Nasdaq compliance notice."
+    },
+    {
+      "id": 62285400,
+      "created_at": "2026-10-09T20:33:44Z",
+      "headline": "UBS Upgrades ArcelorMittal to Buy",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285400/ubs-upgrades-arcelormittal-buy",
+      "score": 0.02,
+      "confidence": 0.08,
+      "reason": "Single-stock upgrade, steel sector."
+    },
+    {
+      "id": 62285462,
+      "created_at": "2026-10-09T20:38:49Z",
+      "headline": "William Blair Downgrades Alignment Healthcare to Market Perform",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285462/william-blair-downgrades-alignment-healthcare-market-perform",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock downgrade."
+    },
+    {
+      "id": 62285478,
+      "created_at": "2026-10-09T20:39:06Z",
+      "headline": "SoftBank Wants up to $100 Billion From Gulf Investors for AI \u2014 but Its $65 Billion OpenAI Bet Is Raising Eyebrows",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/private-markets/26/10/62285478/softbank-wants-up-to-100-billion-from-gulf-investors-for-ai-but-its-65-billion-openai-bet-is-raising-eyebrows",
+      "score": 0.05,
+      "confidence": 0.15,
+      "reason": "Large AI funding push supports AI investment theme, though OpenAI concerns noted."
+    },
+    {
+      "id": 62285501,
+      "created_at": "2026-10-09T20:41:07Z",
+      "headline": "On October 5, 2026, Hydrofarm Holdings Agreed To Issue 300,000 Convertible Preferred Shares, Convertible Into 300,000 Common Shares, In Full Settlement Agreement",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285501/october-5-2026-hydrofarm-holdings-agreed-issue-300-000-convertible-preferred-shares-convertible-300-",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company preferred share settlement."
+    },
+    {
+      "id": 62285582,
+      "created_at": "2026-10-09T20:44:39Z",
+      "headline": "Trump Says Putin Is Sending Russian Diesel \u2014 So Much for Sanctions",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/commodities/26/10/62285582/trump-says-putin-is-sending-russian-diesel-so-much-for-sanctions",
+      "score": -0.05,
+      "confidence": 0.2,
+      "reason": "Fuel prices near records and sanctions uncertainty; mild macro concern."
+    },
+    {
+      "id": 62285596,
+      "created_at": "2026-10-09T20:45:22Z",
+      "headline": "Here's How Much $100 Invested In BlackRock 20 Years Ago Would Be Worth Today",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285596/here-s-how-much-100-invested-blackrock-20-years-ago-would-be-worth-today",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Backward-looking single-stock performance piece."
+    },
+    {
+      "id": 62285610,
+      "created_at": "2026-10-09T20:45:49Z",
+      "headline": "RoboStrategy Files For Offering Of Common Stock, Preferred Stock, Subscription Rights, Debt Securities, Size Not Disclosed",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285610/robostrategy-files-offering-common-stock-preferred-stock-subscription-rights-debt-securities-size-no",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small company securities offering filing, irrelevant to broad market."
+    },
+    {
+      "id": 62285634,
+      "created_at": "2026-10-09T20:47:17Z",
+      "headline": "'GTCR and Elliott Said to Near Deal for Software Firm CCC'- Bloomberg",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/m/26/10/62285634/gtcr-and-elliott-said-near-deal-software-firm-ccc-bloomberg",
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Single-company private equity takeover; minor positive for M&A sentiment."
+    },
+    {
+      "id": 62285692,
+      "created_at": "2026-10-09T20:52:16Z",
+      "headline": "Quantum Terminates William H. White As CFO And Principal Financial Officer Effective Oct 9, 2026; Hiral A. Patel Appointed Principal Financial Officer",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285692/quantum-terminates-william-h-white-cfo-and-principal-financial-officer-effective-oct-9-2026-hiral-pa",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-company CFO change, no broad market relevance."
+    },
+    {
+      "id": 62285822,
+      "created_at": "2026-10-09T21:00:14Z",
+      "headline": "Here's How Much $1000 Invested In Workiva 10 Years Ago Would Be Worth Today",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285822/here-s-how-much-1000-invested-workiva-10-years-ago-would-be-worth-today",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Historical return marketing piece, no market implication."
+    },
+    {
+      "id": 62285890,
+      "created_at": "2026-10-09T21:02:58Z",
+      "headline": "Star Bulk Carriers Renews Existing ATM Equity Offering Programs; Enters ATM Sales Agreement With Deutsche Bank For Up To $41.37M; Enters ATM Sales Agreement With Jefferies For Up To $75M",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285890/star-bulk-carriers-renews-existing-atm-equity-offering-programs-enters-atm-sales-agreement-deutsche-",
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Single company ATM program renewal, irrelevant to broad market."
+    },
+    {
+      "id": 62285904,
+      "created_at": "2026-10-09T21:03:11Z",
+      "headline": "Apple's iPhone Order Cut Is a Fall Tradition \u2014 And So Is the Stock Rebound",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62285904/apples-iphone-order-cut-is-a-fall-tradition-and-so-is-the-stock-rebound",
+      "score": -0.05,
+      "confidence": 0.15,
+      "reason": "Apple order cut reports mildly negative but described as seasonal and recoverable."
+    },
+    {
+      "id": 62285927,
+      "created_at": "2026-10-09T21:04:51Z",
+      "headline": "BranchOut Food Files Prospectus To Offer Securities Up To $50M",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285927/branchout-food-files-prospectus-offer-securities-50m",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company shelf offering, no broad relevance."
+    },
+    {
+      "id": 62285947,
+      "created_at": "2026-10-09T21:05:50Z",
+      "headline": "12 Information Technology Stocks Moving In Friday's After-Market Session",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62285947/12-information-technology-stocks-moving-friday-s-after-market-session",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "After-hours mover list of mostly small caps, noise."
+    },
+    {
+      "id": 62285948,
+      "created_at": "2026-10-09T21:05:51Z",
+      "headline": "12 Industrials Stocks Moving In Friday's After-Market Session",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62285948/12-industrials-stocks-moving-friday-s-after-market-session",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "After-hours movers of micro caps, noise."
+    },
+    {
+      "id": 62285949,
+      "created_at": "2026-10-09T21:05:51Z",
+      "headline": "12 Health Care Stocks Moving In Friday's After-Market Session",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62285949/12-health-care-stocks-moving-friday-s-after-market-session",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "After-hours movers of micro caps, noise."
+    },
+    {
+      "id": 62285950,
+      "created_at": "2026-10-09T21:05:51Z",
+      "headline": "12 Consumer Discretionary Stocks Moving In Friday's After-Market Session",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62285950/12-consumer-discretionary-stocks-moving-friday-s-after-market-session",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "After-hours movers of micro caps, noise."
+    },
+    {
+      "id": 62285998,
+      "created_at": "2026-10-09T21:06:56Z",
+      "headline": "BIO-key International Files Prospectus Related To The Resale Of Up To 1,236,668 Shares Of Common Stock By The Selling Stockholder",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62285998/bio-key-international-files-prospectus-related-resale-1-236-668-shares-common-stock-selling-stockhol",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company resale prospectus, irrelevant."
+    },
+    {
+      "id": 62286029,
+      "created_at": "2026-10-09T21:08:55Z",
+      "headline": "NextBoat's Chad Corbin To Resign As CFO; Chad Corbin To Remain As CFO During Transition Period Until Successor Is Identified",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286029/nextboat-s-chad-corbin-resign-cfo-chad-corbin-remain-cfo-during-transition-period-until-successor-id",
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap CFO resignation, irrelevant."
+    },
+    {
+      "id": 62286085,
+      "created_at": "2026-10-09T21:15:28Z",
+      "headline": "Here's How Much $100 Invested In Teledyne Technologies 15 Years Ago Would Be Worth Today",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286085/here-s-how-much-100-invested-teledyne-technologies-15-years-ago-would-be-worth-today",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Historical return marketing piece."
+    },
+    {
+      "id": 62286122,
+      "created_at": "2026-10-09T21:18:10Z",
+      "headline": "Special Envoy Steve Witkoff On Ukraine Talks Says The Exchange Was Productive And Helped Identify Areas For Further Exploration; Participants Reaffirmed Their Shared Commitment To Continuing Diplomatic Efforts",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286122/special-envoy-steve-witkoff-ukraine-talks-says-exchange-was-productive-and-helped-identify-areas-fur",
+      "score": 0.1,
+      "confidence": 0.15,
+      "reason": "Productive Ukraine diplomacy talks slightly reduce geopolitical risk."
+    },
+    {
+      "id": 62286152,
+      "created_at": "2026-10-09T21:21:09Z",
+      "headline": "Gran Tierra Energy Receives Stockholders' Approval For Sale Of Colombian And Ecuadorian Businesses",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286152/gran-tierra-energy-receives-stockholders-approval-sale-colombian-and-ecuadorian-businesses",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single company asset sale approval, irrelevant to market."
+    },
+    {
+      "id": 62286181,
+      "created_at": "2026-10-09T21:22:34Z",
+      "headline": "Ruanyun Edai Technology Receives Nasdaq Noncompliance Notice",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286181/ruanyun-edai-technology-receives-nasdaq-noncompliance-notice",
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap Nasdaq compliance notice."
+    },
+    {
+      "id": 62286205,
+      "created_at": "2026-10-09T21:24:23Z",
+      "headline": "Volato Group  Enters Common Stock Purchase Agreement With DFU, On October 8, 2026; May Issue Up To $1B Of Class A Common Stock",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286205/volato-group-enters-common-stock-purchase-agreement-dfu-october-8-2026-may-issue-1b-class-common-sto",
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap equity purchase agreement."
+    },
+    {
+      "id": 62286283,
+      "created_at": "2026-10-09T21:26:49Z",
+      "headline": "Niki BioSolutions Enters At The Market Offering Agreement On October 9, 2026; May Sell Common Stock Up To $1.40M Aggregate Maximum Offering Price",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286283/niki-biosolutions-enters-market-offering-agreement-october-9-2026-may-sell-common-stock-1-40m-aggreg",
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap ATM offering."
+    },
+    {
+      "id": 62286311,
+      "created_at": "2026-10-09T21:28:04Z",
+      "headline": "Amprius Technologies Files Shelf Prospectus For Offering; Size Not Disclosed",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286311/amprius-technologies-files-shelf-prospectus-offering-size-not-disclosed",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single company shelf filing."
+    },
+    {
+      "id": 62286340,
+      "created_at": "2026-10-09T21:30:16Z",
+      "headline": "Here's How Much $1000 Invested In Marriott International 20 Years Ago Would Be Worth Today",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286340/here-s-how-much-1000-invested-marriott-international-20-years-ago-would-be-worth-today",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Historical return marketing piece."
+    },
+    {
+      "id": 62286359,
+      "created_at": "2026-10-09T21:32:02Z",
+      "headline": "GT Biopharma Files Prospectus Related To The Offer Up To 13,502,835 Shares Of Common Stock By Selling Stockholders",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286359/gt-biopharma-files-prospectus-related-offer-13-502-835-shares-common-stock-selling-stockholders",
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small biotech resale prospectus."
+    },
+    {
+      "id": 62286378,
+      "created_at": "2026-10-09T21:34:05Z",
+      "headline": "iPower Files Prospectus Related To The Offer And Sale Of Securities Up To $50M Aggregate Offering Price",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286378/ipower-files-prospectus-related-offer-and-sale-securities-50m-aggregate-offering-price",
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company shelf offering."
+    },
+    {
+      "id": 62286441,
+      "created_at": "2026-10-09T21:45:28Z",
+      "headline": "Here's How Much $1000 Invested In Raymond James Finl 15 Years Ago Would Be Worth Today",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286441/here-s-how-much-1000-invested-raymond-james-finl-15-years-ago-would-be-worth-today",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Historical return marketing piece."
+    },
+    {
+      "id": 62286514,
+      "created_at": "2026-10-09T22:00:20Z",
+      "headline": "$100 Invested In Trane Technologies 15 Years Ago Would Be Worth This Much Today",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286514/100-invested-trane-technologies-15-years-ago-would-be-worth-much-today",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Historical return marketing piece."
+    },
+    {
+      "id": 62286533,
+      "created_at": "2026-10-09T22:03:31Z",
+      "headline": "Apimeds Pharmaceuticals US' Subsidiary Mindwave Innovations Signs Three Agreements Between Sept. 24 And Oct. 4, 2026, To Build And Operate Dedicated Blockchain Networks For Clients In Climate Finance, Sports Media And Insurance",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286533/apimeds-pharmaceuticals-us-subsidiary-mindwave-innovations-signs-three-agreements-between-sept-24-an",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small-cap blockchain agreements, irrelevant to the broad market."
+    },
+    {
+      "id": 62286561,
+      "created_at": "2026-10-09T22:15:45Z",
+      "headline": "Here's How Much $1000 Invested In Corning 5 Years Ago Would Be Worth Today",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286561/here-s-how-much-1000-invested-corning-5-years-ago-would-be-worth-today",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Historical return piece on a single stock, no market implication."
+    },
+    {
+      "id": 62286619,
+      "created_at": "2026-10-09T22:30:21Z",
+      "headline": "Here's How Much $1000 Invested In Aramark 5 Years Ago Would Be Worth Today",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286619/here-s-how-much-1000-invested-aramark-5-years-ago-would-be-worth-today",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Historical return piece on a single stock, no market implication."
+    },
+    {
+      "id": 62286649,
+      "created_at": "2026-10-09T22:45:16Z",
+      "headline": "If You Invested $100 In Clean Harbors Stock 10 Years Ago, You Would Have This Much Today",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286649/if-you-invested-100-clean-harbors-stock-10-years-ago-you-would-have-much-today",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Historical return piece on a single stock, no market implication."
+    },
+    {
+      "id": 62286691,
+      "created_at": "2026-10-09T23:00:21Z",
+      "headline": "Here's How Much $1000 Invested In Delta Air Lines 15 Years Ago Would Be Worth Today",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286691/here-s-how-much-1000-invested-delta-air-lines-15-years-ago-would-be-worth-today",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Historical return piece on a single stock, no market implication."
+    },
+    {
+      "id": 62286733,
+      "created_at": "2026-10-09T23:15:15Z",
+      "headline": "Here\u2019s How Much You Would Have Made Owning Semtech Stock In The Last 20 Years",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286733/here-s-how-much-you-would-have-made-owning-semtech-stock-last-20-years",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Historical return piece on a single stock, no market implication."
+    },
+    {
+      "id": 62286765,
+      "created_at": "2026-10-09T23:30:13Z",
+      "headline": "Here\u2019s How Much You Would Have Made Owning First Citizens BancShares Stock In The Last 15 Years",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286765/here-s-how-much-you-would-have-made-owning-first-citizens-bancshares-stock-last-15-years",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Historical return piece on a single stock, no market implication."
+    },
+    {
+      "id": 62286793,
+      "created_at": "2026-10-09T23:45:20Z",
+      "headline": "Here's How Much $1000 Invested In Mastercard 20 Years Ago Would Be Worth Today",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62286793/here-s-how-much-1000-invested-mastercard-20-years-ago-would-be-worth-today",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Historical return piece on a single stock, no market implication."
+    },
+    {
+      "id": 62286809,
+      "created_at": "2026-10-09T23:50:00Z",
+      "headline": "Trading Halt: Halted at 7:50:00 p.m. ET - Trading Halt: Halt News Pending",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/quote/ZBAO",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock trading halt with no details."
+    },
+    {
+      "id": 62286982,
+      "created_at": "2026-10-10T02:00:05Z",
+      "headline": "Trump Sets Nov. 5 Hearing For Lisa Cook Over Alleged Mortgage Fraud As Her Lawyers Question Legitimacy of Probe",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62286982/trump-lisa-cook-mortgage-fraud-inquiry",
+      "score": -0.15,
+      "confidence": 0.3,
+      "reason": "Political pressure on a Fed governor raises Fed independence concerns, mildly negative."
+    },
+    {
+      "id": 62286996,
+      "created_at": "2026-10-10T02:07:18Z",
+      "headline": "Trump Touts Russian Diesel Deal to Slash Fuel Prices Ahead of Midterms, But Chuck Schumer Says It Will Help Putin Fund His War: 'Deal With the Devil'",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62286996/trump-russian-diesel-chuck-schumer-help-putin",
+      "score": 0.1,
+      "confidence": 0.2,
+      "reason": "Lower fuel prices mildly positive, but political controversy limits impact."
+    },
+    {
+      "id": 62287034,
+      "created_at": "2026-10-10T02:34:12Z",
+      "headline": "Top Analyst Says iPhone 18 Pro and Pro Max Lead Times Have Dropped, But Apple\u2019s Cycle Is \u2018Off to a Solid Start\u2019",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62287034/gene-munster-iphone-lead-times-dropped",
+      "score": 0.1,
+      "confidence": 0.25,
+      "reason": "Solid iPhone cycle start is mildly positive for Apple, a large index weight."
+    },
+    {
+      "id": 62287054,
+      "created_at": "2026-10-10T03:16:46Z",
+      "headline": "Kamala Harris\u2019s Husband Doesn\u2019t Want Her to Run for President Again as Donors Call 2028 Bid a Long Shot: Report",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62287054/kamala-harris-doug-emhoff-run-for-president",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Political gossip, no market relevance."
+    },
+    {
+      "id": 62287077,
+      "created_at": "2026-10-10T03:57:18Z",
+      "headline": "Anthropic AI Model Submits Fake Homicide Tip to Philadelphia Police: 'Delay In Detecting and Reporting' Is Unacceptable, Says Department",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62287077/anthropic-ai-false-homicide-tip-philadelphia-police",
+      "score": -0.05,
+      "confidence": 0.1,
+      "reason": "AI testing mishap, minimal market relevance."
+    },
+    {
+      "id": 62287122,
+      "created_at": "2026-10-10T04:27:58Z",
+      "headline": "AI Could Soon Take a Bigger Bite Out of the US Economy Than You Think, With Annual Revenue Projected to Hit $3.5 Trillion By 2032",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62287122/ai-services-us-gdp-2032",
+      "score": 0.15,
+      "confidence": 0.2,
+      "reason": "Bullish AI growth projection but speculative commentary."
+    },
+    {
+      "id": 62287144,
+      "created_at": "2026-10-10T05:13:50Z",
+      "headline": "Trump Admin Sanctions International Criminal Court Hours After Former Judge Wins Nobel Peace Prize: \u2018Ban Transactions With This Rogue Court,\u2019 Rubio Says",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62287144/trump-sanctions-international-criminal-court",
+      "score": -0.05,
+      "confidence": 0.1,
+      "reason": "Geopolitical sanctions with limited market impact."
+    },
+    {
+      "id": 62287169,
+      "created_at": "2026-10-10T05:54:17Z",
+      "headline": "John Moolenaar Urges Defense Department to Add 120 Chinese Schools and Tech Labs to US Research Funding Watchlist",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62287169/lawmaker-funding-restrictions-chinese-schools",
+      "score": -0.1,
+      "confidence": 0.15,
+      "reason": "US-China tech tensions slightly negative, but only a request."
+    },
+    {
+      "id": 62287803,
+      "created_at": "2026-10-10T06:35:27Z",
+      "headline": "Delta Reconsiders First-Ever US Airline Flights to Riyadh After Deadly Airport Attacks, CEO Ed Bastian Says \u2018Safety Is Going to Make the Call\u2019",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62287803/delta-air-lines-reviews-riyadh-flights-attacks",
+      "score": -0.1,
+      "confidence": 0.2,
+      "reason": "Deadly attacks in Riyadh raise geopolitical risk, mainly affecting Delta."
+    },
+    {
+      "id": 62287815,
+      "created_at": "2026-10-10T06:56:13Z",
+      "headline": "Trump Asks Supreme Court to Revive Dismissed Hillary Clinton Russia Lawsuit After Nearly $1 Million In Sanctions: \u2018Troubling Trend\u2019",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/legal/26/10/62287815/trump-supreme-court-lawsuit-hillary-clinton-russia",
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Political legal matter, irrelevant to markets."
+    },
+    {
+      "id": 62287843,
+      "created_at": "2026-10-10T07:43:55Z",
+      "headline": "New Student Loan Rules Are Here: $257,500 Lifetime Borrowing Cap, Lower Limits for Part-Time Students and What Families Need to Know",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/education/26/10/62287843/federal-student-loan-lifetime-borrowing-cap",
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Student loan rule changes, little broad market effect."
+    },
+    {
+      "id": 62287866,
+      "created_at": "2026-10-10T08:04:21Z",
+      "headline": "Jeff Bezos Says AI Could Make 3-Day Workweeks and Single-Income Households More Common, But Warns Investors Face a Tricky Bet",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62287866/jeff-bezos-ai-3-day-workweeks",
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "General AI commentary from Bezos, little near-term impact."
+    },
+    {
+      "id": 62287878,
+      "created_at": "2026-10-10T08:13:47Z",
+      "headline": "Super Micro Contractor Pleads Guilty in $2.5 Billion Nvidia AI Chip Smuggling Case",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/legal/26/10/62287878/super-micro-contractor-nvidia-ai-chips-china",
+      "score": -0.15,
+      "confidence": 0.3,
+      "reason": "Nvidia chip smuggling case raises export-control and AI sector risk."
+    },
+    {
+      "id": 62288073,
+      "created_at": "2026-10-10T12:00:11Z",
+      "headline": "Benzinga Bulls and Bears: Nvidia, Lumentum, Planet Labs",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/market-summary/26/10/62288073/benzinga-bulls-and-bears-nvidia-lumentum-planet-labs",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Generic stock roundup with no specific news."
+    },
+    {
+      "id": 62286575,
+      "created_at": "2026-10-10T12:30:00Z",
+      "headline": "Benzinga's 'Stock Whisper' Index: Five Stocks Investors Secretly Monitor But Don't Talk About Yet",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62286575/benzingas-stock-whisper-index-five-stocks-investors-secretly-monitor-but-dont-talk-about-yet-3",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Generic retail interest index, no market signal."
+    },
+    {
+      "id": 62288135,
+      "created_at": "2026-10-10T12:58:24Z",
+      "headline": "SpaceX, Micron, AMD and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62288135/spacex-micron-amd-and-more-5-stocks-investors-couldnt-stop-buzzing-about-this-week",
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Retail buzz roundup, mild risk-on sentiment only."
+    },
+    {
+      "id": 62288197,
+      "created_at": "2026-10-10T14:00:23Z",
+      "headline": "Will Bitcoin Hit $500,000 by 2030? Strive CEO Matt Cole Says Maybe",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62288197/will-bitcoin-hit-500000-by-2030-strive-ceo-matt-cole-says-maybe",
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Speculative long-term Bitcoin prediction from one CEO; negligible near-term effect on broad US equities."
+    },
+    {
+      "id": 62288253,
+      "created_at": "2026-10-10T15:00:24Z",
+      "headline": "EXCLUSIVE: Treasury Yields at 8%? This CEO Sees a Big Bitcoin ETF Opportunity",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62288253/exclusive-treasury-yields-at-8-this-ceo-sees-a-big-bitcoin-etf-opportunity",
+      "score": -0.1,
+      "confidence": 0.15,
+      "reason": "Speculative 8% Treasury yield talk is hypothetical; mildly bearish framing but low relevance."
+    },
+    {
+      "id": 62288329,
+      "created_at": "2026-10-10T16:00:11Z",
+      "headline": "JD Vance Defends Trump\u2019s Visa Crackdown, Says Bernie Sanders Once Echoed Stephen Miller on Open Borders: \u2018It is Ironic\u2019",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/10/62288329/jd-vance-defends-trumps-visa-crackdown-says-bernie-sanders-once-echoed-stephen-miller-on-open-borders-it-is-ironic",
+      "score": -0.05,
+      "confidence": 0.15,
+      "reason": "Political commentary on visa crackdown; minor labor-supply implications, little market impact."
+    },
+    {
+      "id": 62288378,
+      "created_at": "2026-10-10T16:54:15Z",
+      "headline": "SoundHound AI Stock: Why This Nvidia-Backed AI Voice Giant Is in a Freefall",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62288378/soundhound-ai-stock-why-this-nvidia-backed-ai-voice-giant-is-in-a-freefall",
+      "score": -0.05,
+      "confidence": 0.1,
+      "reason": "Single-stock decline in small-cap AI name; little broad market relevance."
+    },
+    {
+      "id": 62288411,
+      "created_at": "2026-10-10T17:00:10Z",
+      "headline": "Mark Cuban Once Explained Why People Should Be Like Sponges: Billionaire Says 'It Makes You Smarter...'",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62288411/mark-cuban-be-like-sponges-smarter-billionaire-advice",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Motivational celebrity quote with no market relevance."
+    },
+    {
+      "id": 62288442,
+      "created_at": "2026-10-10T17:20:05Z",
+      "headline": "Dry Beer Taps, Glove Shortages and Record Tanker Rates Trace Back to Hormuz",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/commodities/26/10/62288442/dry-beer-taps-glove-shortages-and-record-tanker-rates-trace-back-to-hormuz",
+      "score": -0.3,
+      "confidence": 0.4,
+      "reason": "Hormuz disruption raising freight and diesel costs implies inflationary pressure and supply chain stress."
+    },
+    {
+      "id": 62288461,
+      "created_at": "2026-10-10T17:40:13Z",
+      "headline": "Jeff Bezos Is Closing the Net Worth Gap With Elon Musk, Thanks to Blue Origin",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62288461/jeff-bezos-is-closing-the-net-worth-gap-with-elon-musk-thanks-to-blue-origin",
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Billionaire net worth news; no broad market implication."
+    },
+    {
+      "id": 62288488,
+      "created_at": "2026-10-10T18:12:35Z",
+      "headline": "Why Micron Stock is Struggling Despite Revenue Growth and a Low Valuation",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62288488/why-micron-stock-is-struggling-despite-revenue-growth-and-a-low-valuation",
+      "score": -0.05,
+      "confidence": 0.15,
+      "reason": "Single-stock range-bound commentary; minor read-through to semiconductors."
+    },
+    {
+      "id": 62288504,
+      "created_at": "2026-10-10T18:20:21Z",
+      "headline": "Nvidia-Backed Neoclouds Face a Test as IREN, CoreWeave and Nebius Stocks Slide",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62288504/nvidia-backed-neoclouds-face-a-test-as-iren-coreweave-and-nebius-stocks-slide",
+      "score": -0.2,
+      "confidence": 0.3,
+      "reason": "AI infrastructure neocloud stocks in bear market signals some AI sentiment weakness."
+    },
+    {
+      "id": 62288521,
+      "created_at": "2026-10-10T18:30:05Z",
+      "headline": "Trump\u2019s Rejected Fed Pick Joins Treasury: Can Bitcoin and XRP Benefit?",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62288521/trumps-rejected-fed-pick-joins-treasury-can-bitcoin-and-xrp-benefit",
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Personnel appointment with limited role; minimal market impact."
+    },
+    {
+      "id": 62288537,
+      "created_at": "2026-10-10T18:41:04Z",
+      "headline": "S&P 500 Earnings Preview: Will Strong Profits Fuel the Next Rally?",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62288537/sp-500-earnings-preview-will-strong-profits-fuel-the-next-rally",
+      "score": 0.2,
+      "confidence": 0.35,
+      "reason": "Earnings preview expecting strong profit growth is mildly supportive for the index."
+    },
+    {
+      "id": 62288564,
+      "created_at": "2026-10-10T19:15:27Z",
+      "headline": "Report: Nvidia Eyes Reflection AI Takeover as the AI Arms Race Heats Up",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/m-a/26/10/62288564/report-nvidia-eyes-reflection-ai-takeover-as-the-ai-arms-race-heats-up",
+      "score": 0.1,
+      "confidence": 0.2,
+      "reason": "Nvidia acquisition talks signal AI sector vigor but are single-company news."
+    },
+    {
+      "id": 62288579,
+      "created_at": "2026-10-10T19:20:23Z",
+      "headline": "Ethereum Price Drops to Crucial Support as ETF Selling Spree Continues",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/crypto/26/10/62288579/ethereum-price-drops-to-crucial-support-as-etf-selling-spree-continues",
+      "score": -0.1,
+      "confidence": 0.15,
+      "reason": "Ethereum ETF outflows reflect crypto weakness with limited spillover to equities."
+    },
+    {
+      "id": 62288601,
+      "created_at": "2026-10-10T19:40:06Z",
+      "headline": "Consumer Tech (Oct 5-9): SpaceX Expands Wireless Ambitions, Amazon Cuts Jobs, OpenAI Reports Lower Revenue & More",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62288601/consumer-tech-oct-5-9-spacex-expands-wireless-ambitions-amazon-cuts-jobs-openai-reports-lower-revenue-more",
+      "score": 0.1,
+      "confidence": 0.2,
+      "reason": "Mixed tech roundup with record chip revenue and data center deals, offset by job cuts."
+    }
+  ]
+}
