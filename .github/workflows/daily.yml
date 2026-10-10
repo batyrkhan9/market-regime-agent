@@ -72,6 +72,9 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing to commit."; exit 0
           fi
-          git commit -m "data: daily signal $(TZ=America/New_York date +%F)"
+          # Signal date = the dispatched date if given, else today in ET (matches run_daily.py)
+          DAY="${{ github.event.inputs.date }}"
+          [ -z "$DAY" ] && DAY=$(TZ=America/New_York date +%F)
+          git commit -m "data: daily signal $DAY"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
