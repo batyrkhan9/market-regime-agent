@@ -5,6 +5,7 @@ requires-python = ">=3.12"
 dependencies = [
     "anthropic>=1.8.0",
     "google-genai>=2.25.0",
+    "holidays>=0.106",
     "pandas>=3.0.6",
     "python-dotenv>=1.2.3",
     "requests>=2.34.2",

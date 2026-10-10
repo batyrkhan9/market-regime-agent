@@ -21,7 +21,9 @@ SIGNALS_PATH = Path("data/signals.csv")
 BEARISH_MAX = -0.2  # label is bearish if score < this
 BULLISH_MIN = 0.2   # label is bullish if score > this
 N_REASONS = 3
-COLUMNS = ["date", "regime_score", "confidence", "label", "n_headlines",
+MODES = ("live", "backfill", "test")  # live: produced on the day; backfill: historical;
+                                     # test: dev run, exclude from evaluation
+COLUMNS = ["date", "mode", "regime_score", "confidence", "label", "n_headlines",
            "top_reasons", "model", "prompt_version", "window_start", "window_end"]
 
 
@@ -62,6 +64,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--date", type=date.fromisoformat, default=date.today(),
                         help="Date of the scored file to aggregate (YYYY-MM-DD)")
+    parser.add_argument("--mode", choices=MODES, default="live",
+                        help="How this row was produced (recorded in the mode column)")
     args = parser.parse_args()
 
     scored_path = SCORED_DIR / f"scored_{args.date.isoformat()}.json"
@@ -77,6 +81,7 @@ def main() -> None:
     regime_score, confidence, top_reasons = aggregate(record["scored"])
     row = {
         "date": record["date"],
+        "mode": args.mode,
         "regime_score": regime_score,
         "confidence": confidence,
         "label": label_for(regime_score),
@@ -91,8 +96,8 @@ def main() -> None:
     signals = signals.sort_values("date")[COLUMNS]
     SIGNALS_PATH.parent.mkdir(parents=True, exist_ok=True)
     signals.to_csv(SIGNALS_PATH, index=False)
-    log.info("Appended %s: score=%+.3f conf=%.2f label=%s n=%d",
-             row["date"], regime_score, confidence, row["label"], row["n_headlines"])
+    log.info("Appended %s (%s): score=%+.3f conf=%.2f label=%s n=%d",
+             row["date"], args.mode, regime_score, confidence, row["label"], row["n_headlines"])
 
 
 if __name__ == "__main__":

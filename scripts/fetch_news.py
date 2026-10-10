@@ -1,6 +1,8 @@
 """Fetch financial news from the Alpaca News API for one trading-day window.
 
-Window: previous weekday 16:00 ET -> target date 16:00 ET (capped at "now").
+Window: previous NYSE trading day 16:00 ET -> target date 16:00 ET (capped at "now").
+So Monday's window starts Friday 16:00 ET, and the day after a holiday starts at the
+close before the holiday: weekend and holiday news lands in the next trading day's row.
 Output: data/raw/news_YYYY-MM-DD.json
 """
 
@@ -10,13 +12,14 @@ import argparse
 import json
 import logging
 import os
-from datetime import date, datetime, time, timedelta
+from datetime import date, datetime, time
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
 from dotenv import load_dotenv
 from requests.adapters import HTTPAdapter
+from trading_days import previous_trading_day
 from urllib3.util import Retry
 
 log = logging.getLogger("fetch_news")
@@ -28,17 +31,9 @@ PAGE_SIZE = 50  # Alpaca's maximum per request
 RAW_DIR = Path("data/raw")
 
 
-def previous_weekday(d: date) -> date:
-    """Return the most recent Mon-Fri date strictly before `d` (holidays ignored)."""
-    d -= timedelta(days=1)
-    while d.weekday() >= 5:  # 5 = Saturday, 6 = Sunday
-        d -= timedelta(days=1)
-    return d
-
-
 def news_window(target: date) -> tuple[datetime, datetime]:
     """Return (start, end) datetimes in ET for the news window ending on `target`."""
-    start = datetime.combine(previous_weekday(target), MARKET_CLOSE, tzinfo=ET)
+    start = datetime.combine(previous_trading_day(target), MARKET_CLOSE, tzinfo=ET)
     end = datetime.combine(target, MARKET_CLOSE, tzinfo=ET)
     now = datetime.now(ET)
     if end > now:

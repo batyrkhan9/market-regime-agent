@@ -63,7 +63,8 @@ One row per trading day `D`.
 
 | column | meaning |
 |---|---|
-| `date` | signal date `D` (ET) |
+| `date` | signal date `D` (ET), always an NYSE trading day |
+| `mode` | `live` (produced on day `D`), `backfill` (historical), or `test` (dev run; exclude from evaluation) |
 | `regime_score` | confidence-weighted mean of headline scores, in [-1, 1] |
 | `confidence` | plain mean of headline confidences, in [0, 1] |
 | `label` | `bearish` if score < -0.2, `bullish` if score > 0.2, else `neutral` |
@@ -72,9 +73,12 @@ One row per trading day `D`.
 | `model`, `prompt_version` | which LLM and prompt version produced the row |
 | `window_start`, `window_end` | exact news window used, ISO 8601 with offset |
 
-**News window.** Previous weekday 16:00 ET to `D` 16:00 ET, **capped at the time the fetch
-ran**. On the scheduled run this means roughly `D-1` 16:00 ET to `D` 06:30 ET: the overnight
-news available before the open on `D`.
+**News window.** Previous NYSE trading day 16:00 ET to `D` 16:00 ET, **capped at the time
+the fetch ran**. On the scheduled run this means roughly `D-1` 16:00 ET to `D` 06:30 ET: the
+overnight news available before the open on `D`. Monday's window starts Friday 16:00 ET, and
+the day after a holiday starts at the close before it, so weekend and holiday news lands in
+the next trading day's row. Weekends and NYSE holidays (via the `holidays` package) produce no
+row: `run_daily.py` exits 0 without running, unless `--mode test` is given.
 
 **Scoring.** Headlines + summaries are sent in batches of 25 to Claude Sonnet (`claude-sonnet-5-5`,
 lowest thinking setting, low effort, JSON-schema-constrained output) with a fixed prompt that asks for `score` in [-1, 1],

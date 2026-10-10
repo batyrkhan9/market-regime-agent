@@ -11,6 +11,9 @@ on:
       date:
         description: "Signal date YYYY-MM-DD (default: today ET)"
         required: false
+      mode:
+        description: "Row mode: live, backfill or test (default: live for today, else backfill)"
+        required: false
 
 permissions:
   contents: write
@@ -55,11 +58,10 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            uv run python run_daily.py --date "${{ github.event.inputs.date }}"
-          else
-            uv run python run_daily.py
-          fi
+          ARGS=()
+          [ -n "${{ github.event.inputs.date }}" ] && ARGS+=(--date "${{ github.event.inputs.date }}")
+          [ -n "${{ github.event.inputs.mode }}" ] && ARGS+=(--mode "${{ github.event.inputs.mode }}")
+          uv run python run_daily.py "${ARGS[@]}"
 
       - name: Commit results
         if: steps.guard.outputs.run == 'true'
