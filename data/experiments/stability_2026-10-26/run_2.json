@@ -1,0 +1,6381 @@
+{
+  "run": 2,
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-batched",
+  "batch_size": 25,
+  "scored_at": "2026-11-14T23:15:51.701347+00:00",
+  "elapsed_s": 321.7,
+  "batch_failures": [],
+  "usage": [
+    {
+      "request_id": "req_011Ch3fWQjKEQU9v5pRDC3WC",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1390,
+      "output_tokens": 1131,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fX6zk8jLHHK9WKviJm",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1715,
+      "output_tokens": 1185,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fXex7JtBhk7ZQ2u6S2",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1346,
+      "output_tokens": 1223,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fYDDKXECJVyZ98m2g3",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1485,
+      "output_tokens": 1221,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fYjnLn2VwS861J5jT8",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1353,
+      "output_tokens": 1171,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fZJGTuRALMCUdRwnVw",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1132,
+      "output_tokens": 1096,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fa18McCsZvLwYuUjc4",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1136,
+      "output_tokens": 1067,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3facT83EBhxwWhGyByB",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1267,
+      "output_tokens": 1101,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fb7NvXizE4ZxVKxr5P",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1151,
+      "output_tokens": 1104,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fbaVaVL9R5ysLYdsK5",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1161,
+      "output_tokens": 1131,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fc8kJiKgCjbDVjpgmD",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1118,
+      "output_tokens": 1139,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fceGa7rJhCpEGZbNaL",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1216,
+      "output_tokens": 1184,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fdARHTzxtbt74PPp7R",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1182,
+      "output_tokens": 1193,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fdgBSSPH1HFjdL8zCX",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1150,
+      "output_tokens": 1148,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3feFUBZVHWsHecZEgL6",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1471,
+      "output_tokens": 1219,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3feoFdMur6shWRmS7gQ",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1117,
+      "output_tokens": 1080,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3ffJLLhAXuFQL1w6kT4",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1150,
+      "output_tokens": 1066,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3ffobzDZrTwx7y3YREZ",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1142,
+      "output_tokens": 1144,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fgQJYsf6rT6Jpj9TKk",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1207,
+      "output_tokens": 1122,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fgt68e46G4gmAZTRfd",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1062,
+      "output_tokens": 1129,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fhQ9uBP4UKXyPH9qDd",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1244,
+      "output_tokens": 1211,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fhyQu3N3Nq1MY8i1Zx",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1250,
+      "output_tokens": 1098,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fiZu4dkSLUAhq88dk2",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1127,
+      "output_tokens": 1063,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fjGYoAh4PZuRrV6vc7",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1176,
+      "output_tokens": 1152,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fjtE9xX1EZ8ws7tmXq",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1140,
+      "output_tokens": 1082,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fkcHVFa1APpM5i1yVp",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1149,
+      "output_tokens": 1011,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fm58XPpu99mgfn2nLF",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1259,
+      "output_tokens": 1189,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fmcZ8yA5Aa1rCgaWsh",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1186,
+      "output_tokens": 1160,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fn7Z9TZDibhtJMRp5R",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1226,
+      "output_tokens": 1111,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fngYHELqjRzW6wbexd",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1345,
+      "output_tokens": 1152,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3foCWKwTyFwxwVnpjHD",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1194,
+      "output_tokens": 1166,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3foo8vLBuUG6dgBLxe9",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1208,
+      "output_tokens": 1208,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fpdjAPLVZQFvfQvRy7",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1176,
+      "output_tokens": 1220,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fqQee724UeNno7Sgax",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1295,
+      "output_tokens": 1095,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fqxdEicmbGMpU6NUBS",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1105,
+      "output_tokens": 1200,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3frWLyEsw2N9x5kcucS",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1388,
+      "output_tokens": 1277,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fs8ZZMamgPQLbLBdGg",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1392,
+      "output_tokens": 1131,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fsgMG13B4C5XjywtoN",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1858,
+      "output_tokens": 1247,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3ftWSUJ14osmdfYbF6u",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1267,
+      "output_tokens": 1146,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    },
+    {
+      "request_id": "req_011Ch3fuLafiiooPfN5XiijY",
+      "model": "claude-sonnet-5-5",
+      "stop_reason": "end_turn",
+      "input_tokens": 1976,
+      "output_tokens": 1197,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 651
+    }
+  ],
+  "cost": {
+    "requests": 40,
+    "input_tokens": 50912,
+    "output_tokens": 45970,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 26040,
+    "usd": 0.5667
+  },
+  "scored": [
+    {
+      "id": 62574189,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Marketing-style historical return piece with no market implication."
+    },
+    {
+      "id": 62574204,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single-stock analyst price target tweak, negligible broad market effect."
+    },
+    {
+      "id": 103002376,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single drug approval, no broad market relevance."
+    },
+    {
+      "id": 103002377,
+      "score": 0.02,
+      "confidence": 0.06,
+      "reason": "Company product launch in China, minor for broad market."
+    },
+    {
+      "id": 103003623,
+      "score": 0.01,
+      "confidence": 0.05,
+      "reason": "Small procurement contract, immaterial to S&P 500."
+    },
+    {
+      "id": 103003624,
+      "score": -0.02,
+      "confidence": 0.06,
+      "reason": "European insurer downgrade, minimal US market impact."
+    },
+    {
+      "id": 62574266,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single-stock price target raise, minor."
+    },
+    {
+      "id": 103003625,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Conference abstract announcement, no market impact."
+    },
+    {
+      "id": 62574279,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Small biotech trial data, irrelevant to broad market."
+    },
+    {
+      "id": 103003626,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Corporate recycling claims commitment, immaterial."
+    },
+    {
+      "id": 62574296,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Opinion/commentary piece without market-moving content."
+    },
+    {
+      "id": 103003627,
+      "score": -0.02,
+      "confidence": 0.06,
+      "reason": "Bank product launch on Italian bonds, minimal US relevance."
+    },
+    {
+      "id": 62574301,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Small biotech data presentation, not broad market."
+    },
+    {
+      "id": 62574354,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Single drug real-world data, no broad impact."
+    },
+    {
+      "id": 62574366,
+      "score": -0.02,
+      "confidence": 0.05,
+      "reason": "Small bank revenue miss, negligible for market."
+    },
+    {
+      "id": 62574383,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single-stock price target raise, minor."
+    },
+    {
+      "id": 62574401,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Technical commentary on one stock."
+    },
+    {
+      "id": 62574430,
+      "score": -0.01,
+      "confidence": 0.04,
+      "reason": "Single small REIT delisting, immaterial to market."
+    },
+    {
+      "id": 62574452,
+      "score": -0.01,
+      "confidence": 0.03,
+      "reason": "Small company compliance notice, no broad impact."
+    },
+    {
+      "id": 62574454,
+      "score": -0.02,
+      "confidence": 0.06,
+      "reason": "Routine CEO share sale, minor signal."
+    },
+    {
+      "id": 62574497,
+      "score": 0.01,
+      "confidence": 0.04,
+      "reason": "Small utility dividend increase, immaterial."
+    },
+    {
+      "id": 62574557,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single-stock price target raise, minor."
+    },
+    {
+      "id": 62574585,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single-stock price target raise, minor."
+    },
+    {
+      "id": 62574603,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small REIT merger shareholder approval, irrelevant broadly."
+    },
+    {
+      "id": 62574623,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Regional bank price target raise, minor."
+    },
+    {
+      "id": 62574652,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single small-cap biotech trial data; irrelevant to broad market."
+    },
+    {
+      "id": 62574665,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company earnings decline; no broad market implication."
+    },
+    {
+      "id": 62574695,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock analyst price target cut; negligible market impact."
+    },
+    {
+      "id": 62574730,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Small regional bank earnings beat; minimal broad market relevance."
+    },
+    {
+      "id": 62574748,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Interim CFO appointment at small company; irrelevant to market."
+    },
+    {
+      "id": 62574751,
+      "score": 0.0,
+      "confidence": 0.06,
+      "reason": "Telecom spectrum policy lobbying; narrow sector relevance only."
+    },
+    {
+      "id": 62574781,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock price target cut; negligible market impact."
+    },
+    {
+      "id": 62574800,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock price target cut; negligible market impact."
+    },
+    {
+      "id": 62574812,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap stock split; no market implication."
+    },
+    {
+      "id": 62574828,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Lock-up waiver at tiny company; irrelevant to market."
+    },
+    {
+      "id": 62574850,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock price target cut; negligible market impact."
+    },
+    {
+      "id": 62574869,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Generic historical return marketing piece; no market signal."
+    },
+    {
+      "id": 62574881,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Micro-cap private placement; irrelevant to broad market."
+    },
+    {
+      "id": 62574982,
+      "score": 0.01,
+      "confidence": 0.04,
+      "reason": "Crypto-related company buyback increase; minimal broad market effect."
+    },
+    {
+      "id": 62575012,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Micro-cap business pivot to digital assets; irrelevant to market."
+    },
+    {
+      "id": 62575040,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Nasdaq non-compliance notice for tiny company; no market effect."
+    },
+    {
+      "id": 62575082,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small-cap analyst initiation; irrelevant to broad market."
+    },
+    {
+      "id": 62575098,
+      "score": 0.01,
+      "confidence": 0.04,
+      "reason": "Single company investment commitment in Macau; negligible broad impact."
+    },
+    {
+      "id": 62575113,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Closed-end fund reverse split; no market implication."
+    },
+    {
+      "id": 62575129,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Single-stock price target cut; negligible market impact."
+    },
+    {
+      "id": 62575152,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Tiny distribution raise at one MLP; irrelevant to broad market."
+    },
+    {
+      "id": 62575192,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company equity facility; no broad market relevance."
+    },
+    {
+      "id": 62575213,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Single-stock analyst downgrade; negligible market impact."
+    },
+    {
+      "id": 62575234,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Insider buying at small company; irrelevant to broad market."
+    },
+    {
+      "id": 62575257,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Generic historical return marketing piece; no market signal."
+    },
+    {
+      "id": 62575267,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Crypto corporate treasury commentary, little broad equity market implication."
+    },
+    {
+      "id": 62575272,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Routine shelf filing by a single REIT; negligible market impact."
+    },
+    {
+      "id": 62575302,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Single-stock analyst price target change, minimal broad relevance."
+    },
+    {
+      "id": 62575352,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Small REIT ATM offering; irrelevant to broad market."
+    },
+    {
+      "id": 103039878,
+      "score": 0.05,
+      "confidence": 0.15,
+      "reason": "Refinery restart modestly eases supply; limited market-wide effect."
+    },
+    {
+      "id": 103039879,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Minor corporate award recognition; no market relevance."
+    },
+    {
+      "id": 103039880,
+      "score": -0.35,
+      "confidence": 0.35,
+      "reason": "Significant hedge fund losses amid volatility suggests market stress and deleveraging risk."
+    },
+    {
+      "id": 103039881,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Single-drug FDA approval; company-specific positive only."
+    },
+    {
+      "id": 103039882,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Pipeline project revival is company-specific with slight energy infrastructure relevance."
+    },
+    {
+      "id": 103041141,
+      "score": 0.1,
+      "confidence": 0.15,
+      "reason": "Positive-sounding cancer vaccine data is company-specific, small sector sentiment lift."
+    },
+    {
+      "id": 103039883,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Local hotel executive appointment; irrelevant."
+    },
+    {
+      "id": 103041143,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Corporate collaboration announcement; no broad market impact."
+    },
+    {
+      "id": 103039884,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Philanthropic partnership; not market relevant."
+    },
+    {
+      "id": 103039885,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single small-cap debt maturity extension; negligible."
+    },
+    {
+      "id": 62575384,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Single-stock price target cut; minimal broad relevance."
+    },
+    {
+      "id": 62575417,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Single-stock analyst target raise; minor."
+    },
+    {
+      "id": 62575471,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Single-stock analyst target raise; minor."
+    },
+    {
+      "id": 62575500,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small asset sale by one company; irrelevant to broad market."
+    },
+    {
+      "id": 62575534,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Tiny company earnings; no market impact."
+    },
+    {
+      "id": 62575560,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Biotech research agreement; company-specific."
+    },
+    {
+      "id": 62575578,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Generic performance marketing piece; no information."
+    },
+    {
+      "id": 62575662,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Single-stock price target cut for homebuilder; minimal broad effect."
+    },
+    {
+      "id": 62575673,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Tiny company earnings; irrelevant to broad market."
+    },
+    {
+      "id": 62575684,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Single-stock analyst target raise; minor."
+    },
+    {
+      "id": 62575695,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Single-stock hold with target raise; negligible."
+    },
+    {
+      "id": 62575725,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Single-stock analyst upgrade; negligible broad market implication."
+    },
+    {
+      "id": 62575739,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Single-stock price target raise; mildly positive consumer sentiment signal only."
+    },
+    {
+      "id": 62575750,
+      "score": 0.03,
+      "confidence": 0.08,
+      "reason": "Company-specific aircraft order option exercise; no broad market effect."
+    },
+    {
+      "id": 62575765,
+      "score": -0.02,
+      "confidence": 0.05,
+      "reason": "Small-cap REIT price target cut; irrelevant to broad market."
+    },
+    {
+      "id": 62575838,
+      "score": -0.01,
+      "confidence": 0.04,
+      "reason": "Micro-cap analyst target cut; irrelevant to broad market."
+    },
+    {
+      "id": 62575899,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Small-cap toy company target raise; irrelevant to broad market."
+    },
+    {
+      "id": 62575914,
+      "score": 0.05,
+      "confidence": 0.12,
+      "reason": "Meta acquisition of small AI startup; minor corporate news."
+    },
+    {
+      "id": 62575929,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Generic historical return marketing piece; no market information."
+    },
+    {
+      "id": 103077686,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Isolated aviation incident; no market impact."
+    },
+    {
+      "id": 103077687,
+      "score": 0.03,
+      "confidence": 0.1,
+      "reason": "Embraer record backlog is company-specific; slight positive for aerospace demand."
+    },
+    {
+      "id": 62575998,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Micro-cap target adjustment due to reverse split; irrelevant."
+    },
+    {
+      "id": 62576025,
+      "score": 0.04,
+      "confidence": 0.1,
+      "reason": "Single retailer target raise; mild consumer signal only."
+    },
+    {
+      "id": 62576039,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Generic after-market movers list; no directional information."
+    },
+    {
+      "id": 62576040,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Generic after-market movers list; no directional information."
+    },
+    {
+      "id": 62576041,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Generic after-market movers list; no directional information."
+    },
+    {
+      "id": 62576042,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Generic after-market movers list; no directional information."
+    },
+    {
+      "id": 62576087,
+      "score": -0.03,
+      "confidence": 0.08,
+      "reason": "Single-stock target cut on Deckers; limited broad relevance."
+    },
+    {
+      "id": 62576120,
+      "score": -0.03,
+      "confidence": 0.08,
+      "reason": "Single-stock target cut on Pool; limited broad relevance."
+    },
+    {
+      "id": 62576144,
+      "score": 0.03,
+      "confidence": 0.08,
+      "reason": "Regional bank target raise; minor sector signal."
+    },
+    {
+      "id": 62576169,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Micro-cap contract amendment; irrelevant."
+    },
+    {
+      "id": 62576181,
+      "score": 0.03,
+      "confidence": 0.08,
+      "reason": "Regional bank target raise; minor sector signal."
+    },
+    {
+      "id": 62576195,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Generic historical return marketing piece; no market information."
+    },
+    {
+      "id": 62576240,
+      "score": 0.04,
+      "confidence": 0.08,
+      "reason": "Software single-stock target raise; minimal broad impact."
+    },
+    {
+      "id": 62576255,
+      "score": -0.02,
+      "confidence": 0.06,
+      "reason": "Small company default notices; no broad market relevance."
+    },
+    {
+      "id": 62576274,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine S&P SmallCap 600 index change; no broad impact."
+    },
+    {
+      "id": 62576308,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small-cap software contract, irrelevant to broad market."
+    },
+    {
+      "id": 62576325,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Micro-cap equity financing, no market-wide implication."
+    },
+    {
+      "id": 62576350,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company CFO change, irrelevant to S&P 500."
+    },
+    {
+      "id": 62576407,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Generic retrospective piece with no market-moving information."
+    },
+    {
+      "id": 103115548,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Junior miner financing news, not broad-market relevant."
+    },
+    {
+      "id": 103115549,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Junior miner financing and partnership, immaterial to market."
+    },
+    {
+      "id": 103115550,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock analyst rating maintained, negligible market impact."
+    },
+    {
+      "id": 103115551,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine analyst rating on one large-cap, little broad effect."
+    },
+    {
+      "id": 103115552,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small royalty trust meeting, irrelevant to the broad market."
+    },
+    {
+      "id": 103115553,
+      "score": 0.02,
+      "confidence": 0.06,
+      "reason": "Single-stock analyst reiteration, minimal broad implication."
+    },
+    {
+      "id": 103115554,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Hotel art residency, no market relevance."
+    },
+    {
+      "id": 103115555,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Company-specific corporate governance matter, not market-wide."
+    },
+    {
+      "id": 103116851,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine preferred dividend from small bank."
+    },
+    {
+      "id": 103116852,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Earnings date announcement, no information content."
+    },
+    {
+      "id": 103116853,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Conference call scheduling, no market relevance."
+    },
+    {
+      "id": 103115556,
+      "score": 0.02,
+      "confidence": 0.06,
+      "reason": "Analyst rating maintained with target tweak, single stock."
+    },
+    {
+      "id": 103115557,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small miner price target change, immaterial."
+    },
+    {
+      "id": 103115558,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "REIT rebranding, no market impact."
+    },
+    {
+      "id": 103116857,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Minor industry award, irrelevant to market."
+    },
+    {
+      "id": 103115559,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Small acquisition completion, negligible broad effect."
+    },
+    {
+      "id": 103116858,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Rating affirmation for Chile, no US market effect."
+    },
+    {
+      "id": 103116860,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Earnings schedule announcement only."
+    },
+    {
+      "id": 103116861,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine small-cap dividend declaration."
+    },
+    {
+      "id": 103115560,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Small-cap price target tweak with underperform rating."
+    },
+    {
+      "id": 103115561,
+      "score": -0.03,
+      "confidence": 0.08,
+      "reason": "Lawsuit against UnitedHealth, mainly single-stock legal risk."
+    },
+    {
+      "id": 103115562,
+      "score": 0.05,
+      "confidence": 0.05,
+      "reason": "Single-stock analyst target raise; negligible market impact."
+    },
+    {
+      "id": 103115563,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Retail store opening; irrelevant to broad market."
+    },
+    {
+      "id": 103115564,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Local parking policy at one mall; no market relevance."
+    },
+    {
+      "id": 103115565,
+      "score": -0.05,
+      "confidence": 0.05,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 103115566,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Auction catalog release; irrelevant."
+    },
+    {
+      "id": 103116868,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine earnings call scheduling."
+    },
+    {
+      "id": 103116870,
+      "score": 0.05,
+      "confidence": 0.07,
+      "reason": "Small regional bank earnings growth; minor read-through."
+    },
+    {
+      "id": 103115567,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Small company app agreement; no broad impact."
+    },
+    {
+      "id": 103115568,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Single-stock price target adjustment."
+    },
+    {
+      "id": 103115569,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Single small bank price target change."
+    },
+    {
+      "id": 103115570,
+      "score": -0.03,
+      "confidence": 0.04,
+      "reason": "Single small bank price target cut."
+    },
+    {
+      "id": 103116875,
+      "score": 0.05,
+      "confidence": 0.08,
+      "reason": "Ad-tech earnings beat; slight read for ad market."
+    },
+    {
+      "id": 103116876,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine earnings call scheduling."
+    },
+    {
+      "id": 103115571,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine earnings call scheduling."
+    },
+    {
+      "id": 103115572,
+      "score": -0.05,
+      "confidence": 0.06,
+      "reason": "Single-stock target cut; mild consumer weakness signal."
+    },
+    {
+      "id": 103115573,
+      "score": 0.05,
+      "confidence": 0.08,
+      "reason": "Merger study supports rail consolidation; limited broad effect."
+    },
+    {
+      "id": 103115574,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Executive appointment at small biotech."
+    },
+    {
+      "id": 103115575,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Executive appointment at small biotech."
+    },
+    {
+      "id": 103115576,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Board cooperation agreement at single company."
+    },
+    {
+      "id": 103115577,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Niche issue on stock tokenization; no market impact."
+    },
+    {
+      "id": 103115578,
+      "score": 0.02,
+      "confidence": 0.07,
+      "reason": "M&A talk for single company; minor sentiment."
+    },
+    {
+      "id": 103115579,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine earnings announcement scheduling."
+    },
+    {
+      "id": 103115580,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Pre-earnings consensus for small Canadian retailer."
+    },
+    {
+      "id": 103116884,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine small bank dividend."
+    },
+    {
+      "id": 103116888,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single-stock price target change."
+    },
+    {
+      "id": 103116889,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small utility dividend increase, irrelevant to broad market."
+    },
+    {
+      "id": 103116890,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine dividend maintenance by small company."
+    },
+    {
+      "id": 103116891,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Regulatory disclosure with no market implication."
+    },
+    {
+      "id": 103116892,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Earnings date announcement, no market impact."
+    },
+    {
+      "id": 103116893,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Conference call scheduling, immaterial to market."
+    },
+    {
+      "id": 103116894,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Promotional content, no market relevance."
+    },
+    {
+      "id": 103116895,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Product integration news for single company."
+    },
+    {
+      "id": 103116896,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Single regional bank earnings, minimal broad signal."
+    },
+    {
+      "id": 103116897,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small biotech position initiation, irrelevant to market."
+    },
+    {
+      "id": 103116898,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Clinical data presentation by small biotech."
+    },
+    {
+      "id": 103116899,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Analyst estimates preview for single stock."
+    },
+    {
+      "id": 103116900,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Earnings scheduling announcement only."
+    },
+    {
+      "id": 103116901,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Executive appointment at one company."
+    },
+    {
+      "id": 103116902,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Single-stock analyst target changes."
+    },
+    {
+      "id": 103116903,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Board appointment at small bank."
+    },
+    {
+      "id": 103116904,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Earnings date announcement."
+    },
+    {
+      "id": 103116905,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Routine small bank dividend."
+    },
+    {
+      "id": 103116906,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock downgrades, no broad impact."
+    },
+    {
+      "id": 103116907,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Preclinical data presentation, single biotech."
+    },
+    {
+      "id": 103116908,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Conference call scheduling only."
+    },
+    {
+      "id": 103116909,
+      "score": 0.0,
+      "confidence": 0.06,
+      "reason": "Small bank earnings, limited market signal."
+    },
+    {
+      "id": 103116910,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Routine quarterly dividend."
+    },
+    {
+      "id": 103116911,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Workplace award, irrelevant to market."
+    },
+    {
+      "id": 103116912,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Small privacy settlement for one company."
+    },
+    {
+      "id": 103116913,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock analyst rating maintained."
+    },
+    {
+      "id": 103116914,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single-stock analyst price target change, negligible market impact."
+    },
+    {
+      "id": 103116915,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine earnings call announcement from a small company."
+    },
+    {
+      "id": 103116916,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Single biotech conference data presentation, not market relevant."
+    },
+    {
+      "id": 103116917,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine conference call scheduling."
+    },
+    {
+      "id": 103116918,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Small fund position in a single pharma company."
+    },
+    {
+      "id": 103116919,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Single biotech clinical data update."
+    },
+    {
+      "id": 103116920,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Small biotech trial enrollment milestone."
+    },
+    {
+      "id": 103116921,
+      "score": -0.03,
+      "confidence": 0.08,
+      "reason": "Commodity market fragmentation comment, minor mild concern for trade."
+    },
+    {
+      "id": 103116922,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Marketing event with no market implications."
+    },
+    {
+      "id": 103116923,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Small mining financing upsized, irrelevant to broad market."
+    },
+    {
+      "id": 103116924,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine earnings call date announcement."
+    },
+    {
+      "id": 103116925,
+      "score": 0.01,
+      "confidence": 0.04,
+      "reason": "Small REIT earnings and financing, not broad market relevant."
+    },
+    {
+      "id": 103116926,
+      "score": 0.01,
+      "confidence": 0.05,
+      "reason": "Small regional bank earnings, little broad implication."
+    },
+    {
+      "id": 103116927,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine results date announcement."
+    },
+    {
+      "id": 103116928,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Board appointment at small bank."
+    },
+    {
+      "id": 103116929,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Small biotech clinical data and call."
+    },
+    {
+      "id": 103116930,
+      "score": 0.02,
+      "confidence": 0.06,
+      "reason": "Single company refinancing, modest credit signal only."
+    },
+    {
+      "id": 103116931,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single small biotech earnings preview."
+    },
+    {
+      "id": 62576457,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Generic historical return content, no new information."
+    },
+    {
+      "id": 62576543,
+      "score": -0.08,
+      "confidence": 0.15,
+      "reason": "Airline distress and bond selloff; sector-specific, slight credit concern."
+    },
+    {
+      "id": 62576561,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Generic historical return content for one stock."
+    },
+    {
+      "id": 103156119,
+      "score": 0.01,
+      "confidence": 0.04,
+      "reason": "Single mining project incentive application."
+    },
+    {
+      "id": 103156120,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine ETF distribution announcement."
+    },
+    {
+      "id": 103156121,
+      "score": -0.1,
+      "confidence": 0.15,
+      "reason": "Warning on AI chip financing risks, mild bearish sentiment signal."
+    },
+    {
+      "id": 103156122,
+      "score": -0.03,
+      "confidence": 0.08,
+      "reason": "Single-stock earnings risk from food outbreak, minor."
+    },
+    {
+      "id": 103156123,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Company award; irrelevant to broad market."
+    },
+    {
+      "id": 103156124,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock analyst rating reiteration; no market implication."
+    },
+    {
+      "id": 103156125,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Routine price target changes for one company."
+    },
+    {
+      "id": 103156126,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Law firm solicitation about a single stock; noise."
+    },
+    {
+      "id": 103156127,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Product launch from one company; irrelevant to market."
+    },
+    {
+      "id": 103156128,
+      "score": -0.02,
+      "confidence": 0.08,
+      "reason": "Corporate lawsuit against insurer; minor sector-specific news."
+    },
+    {
+      "id": 103156129,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Law firm merger investigation; single-stock noise."
+    },
+    {
+      "id": 103156130,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Derivative lawsuit involving crypto firm; negligible broad impact."
+    },
+    {
+      "id": 103156131,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single-stock price target raise for a regional bank."
+    },
+    {
+      "id": 103156132,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Retail product launch; irrelevant."
+    },
+    {
+      "id": 103156133,
+      "score": 0.05,
+      "confidence": 0.15,
+      "reason": "Housing cost executive order mildly supportive for housing sector, limited broad effect."
+    },
+    {
+      "id": 103156134,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Charity campaign co-chair; irrelevant."
+    },
+    {
+      "id": 103156135,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine insider sale at one company."
+    },
+    {
+      "id": 103156136,
+      "score": 0.02,
+      "confidence": 0.04,
+      "reason": "Single-stock price target raise."
+    },
+    {
+      "id": 103156137,
+      "score": 0.02,
+      "confidence": 0.04,
+      "reason": "Single-stock price target raise."
+    },
+    {
+      "id": 103156138,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Marketing event commentary; irrelevant."
+    },
+    {
+      "id": 103156139,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine analyst updates for one company."
+    },
+    {
+      "id": 103156140,
+      "score": -0.02,
+      "confidence": 0.04,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 103156141,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Company credit facility; routine financing."
+    },
+    {
+      "id": 103157515,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Local utility regulatory filing; irrelevant."
+    },
+    {
+      "id": 103157516,
+      "score": 0.02,
+      "confidence": 0.04,
+      "reason": "Single-stock rating and price target raise."
+    },
+    {
+      "id": 103157517,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "State tax treatment update; minor."
+    },
+    {
+      "id": 103157518,
+      "score": -0.02,
+      "confidence": 0.04,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 103157519,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Local award; irrelevant."
+    },
+    {
+      "id": 103157521,
+      "score": -0.02,
+      "confidence": 0.04,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 103157522,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Analyst report product launch, irrelevant to broad market."
+    },
+    {
+      "id": 103157523,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small corporate nonprofit partnership, no market impact."
+    },
+    {
+      "id": 103157524,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine earnings call scheduling for a single company."
+    },
+    {
+      "id": 103157525,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Single-stock price target adjustments, negligible for broad market."
+    },
+    {
+      "id": 103157526,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Phishing incident at a sports company, irrelevant to market."
+    },
+    {
+      "id": 103157527,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Media personnel appointment, no market relevance."
+    },
+    {
+      "id": 103157528,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Stable mortgage score pricing mildly supportive for housing lenders."
+    },
+    {
+      "id": 103157529,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Documentary about a single company's facility, no market impact."
+    },
+    {
+      "id": 103157530,
+      "score": 0.05,
+      "confidence": 0.12,
+      "reason": "M&A talks signal deal activity but affect individual stocks mainly."
+    },
+    {
+      "id": 103157531,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Sponsorship partnership, immaterial to broad market."
+    },
+    {
+      "id": 103157532,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Seasonal product expansion, no broad market implication."
+    },
+    {
+      "id": 103157533,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Executive job change at private firm, irrelevant."
+    },
+    {
+      "id": 103157534,
+      "score": 0.02,
+      "confidence": 0.08,
+      "reason": "Single-stock analyst rating maintenance, minimal market effect."
+    },
+    {
+      "id": 103157535,
+      "score": 0.02,
+      "confidence": 0.06,
+      "reason": "Single-stock analyst initiation, negligible for S&P."
+    },
+    {
+      "id": 103157536,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Small property acquisition, immaterial."
+    },
+    {
+      "id": 103157537,
+      "score": 0.03,
+      "confidence": 0.08,
+      "reason": "Data center infrastructure collaboration, minor sector theme."
+    },
+    {
+      "id": 103157538,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Minor REIT price target adjustment."
+    },
+    {
+      "id": 103157539,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Industry ranking recognition for one company."
+    },
+    {
+      "id": 103157540,
+      "score": 0.02,
+      "confidence": 0.07,
+      "reason": "Single-stock price target change, little broad impact."
+    },
+    {
+      "id": 103157541,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Radio programming announcement, irrelevant."
+    },
+    {
+      "id": 103157542,
+      "score": 0.02,
+      "confidence": 0.06,
+      "reason": "Maintained rating on single stock, negligible."
+    },
+    {
+      "id": 103157543,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Insurance settlement notice, no market effect."
+    },
+    {
+      "id": 103157544,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine earnings date announcement."
+    },
+    {
+      "id": 103157545,
+      "score": 0.03,
+      "confidence": 0.08,
+      "reason": "Takeover speculation on one small-cap stock."
+    },
+    {
+      "id": 103157546,
+      "score": 0.03,
+      "confidence": 0.1,
+      "reason": "Positive retail analyst note, single-stock focus."
+    },
+    {
+      "id": 103157547,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Marketing collaboration news, irrelevant to the broad market."
+    },
+    {
+      "id": 103157548,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Law firm investigation of a single small-cap, no market implication."
+    },
+    {
+      "id": 103157549,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Single-stock analyst price target changes, negligible market impact."
+    },
+    {
+      "id": 103157550,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock price target adjustment, not market relevant."
+    },
+    {
+      "id": 103157551,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Routine small bank dividend declaration."
+    },
+    {
+      "id": 103157552,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Index addition for a single company, no broad impact."
+    },
+    {
+      "id": 103157553,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Foreign small company routine annual report notice."
+    },
+    {
+      "id": 103157554,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single REIT analyst rating maintained, minimal impact."
+    },
+    {
+      "id": 103157555,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Biotech conference presentation, irrelevant to the broad market."
+    },
+    {
+      "id": 103157556,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small exploration company update, no market relevance."
+    },
+    {
+      "id": 103157557,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Single MLP dividend increase, negligible market impact."
+    },
+    {
+      "id": 103157558,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Earnings date announcement, no informational content."
+    },
+    {
+      "id": 103157559,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Micro-cap reverse split, irrelevant to the broad market."
+    },
+    {
+      "id": 103157560,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock coverage initiation, minimal market impact."
+    },
+    {
+      "id": 103157561,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Restaurant marketing promotion, not market relevant."
+    },
+    {
+      "id": 103157562,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Maintained rating on one stock, no impact."
+    },
+    {
+      "id": 103157563,
+      "score": -0.03,
+      "confidence": 0.06,
+      "reason": "Single-stock target cut, slightly negative but immaterial."
+    },
+    {
+      "id": 103157564,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock target raise with hold rating, negligible."
+    },
+    {
+      "id": 103157565,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Routine utility dividend declaration."
+    },
+    {
+      "id": 103157566,
+      "score": 0.02,
+      "confidence": 0.08,
+      "reason": "Regional bank loan growth guidance, mild positive signal only."
+    },
+    {
+      "id": 103157567,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small foreign litigation funder news, irrelevant."
+    },
+    {
+      "id": 103157568,
+      "score": -0.03,
+      "confidence": 0.06,
+      "reason": "Single-stock target cut, immaterial to the broad market."
+    },
+    {
+      "id": 103157569,
+      "score": -0.05,
+      "confidence": 0.08,
+      "reason": "Large target cut on one restaurant stock, slight consumer caution."
+    },
+    {
+      "id": 103157570,
+      "score": -0.02,
+      "confidence": 0.05,
+      "reason": "Single-stock target adjustment, negligible."
+    },
+    {
+      "id": 103157571,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Corporate event attendance, not market relevant."
+    },
+    {
+      "id": 103157572,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock analyst target changes; irrelevant to broad market."
+    },
+    {
+      "id": 103157573,
+      "score": -0.02,
+      "confidence": 0.05,
+      "reason": "Single REIT price target cut; negligible market impact."
+    },
+    {
+      "id": 103157574,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small-cap conference presentation; no market relevance."
+    },
+    {
+      "id": 103157575,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single airline aircraft order; minimal broad impact."
+    },
+    {
+      "id": 62576592,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Historical return marketing piece; no new information."
+    },
+    {
+      "id": 62576640,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Historical return marketing piece; no new information."
+    },
+    {
+      "id": 62576683,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Historical return marketing piece; no new information."
+    },
+    {
+      "id": 62576717,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Historical return marketing piece; no new information."
+    },
+    {
+      "id": 103242182,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Canadian ETF dissolution; irrelevant to US market."
+    },
+    {
+      "id": 103242183,
+      "score": 0.01,
+      "confidence": 0.05,
+      "reason": "Minor regulatory registration for clearing; negligible effect."
+    },
+    {
+      "id": 103242184,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock price target adjustment; no broad implication."
+    },
+    {
+      "id": 103242185,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock price target adjustment; no broad implication."
+    },
+    {
+      "id": 103243624,
+      "score": 0.02,
+      "confidence": 0.08,
+      "reason": "Analyst comment on rail growth outlook; mildly positive, narrow."
+    },
+    {
+      "id": 103243625,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine inducement equity awards; no market impact."
+    },
+    {
+      "id": 62576749,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Historical return marketing piece; no new information."
+    },
+    {
+      "id": 62576782,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Historical return marketing piece; no new information."
+    },
+    {
+      "id": 62576817,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Historical return marketing piece; no new information."
+    },
+    {
+      "id": 62576834,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Unspecified single-stock trading halt; unknown, likely narrow."
+    },
+    {
+      "id": 103328586,
+      "score": 0.02,
+      "confidence": 0.08,
+      "reason": "Speculative merger chatter on two names; limited broad relevance."
+    },
+    {
+      "id": 103328587,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine holdings disclosure for UK stock; irrelevant."
+    },
+    {
+      "id": 103328588,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small brand distribution news; irrelevant to market."
+    },
+    {
+      "id": 103328589,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Advisor recruiting news; no market impact."
+    },
+    {
+      "id": 103328590,
+      "score": 0.03,
+      "confidence": 0.1,
+      "reason": "Oracle investor day scheduling; mild AI sentiment, narrow."
+    },
+    {
+      "id": 103328591,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small retailer store opening in Australia; irrelevant."
+    },
+    {
+      "id": 103328592,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small media partnership; irrelevant to broad market."
+    },
+    {
+      "id": 103328593,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Small aircraft order by one airline; negligible broad market impact."
+    },
+    {
+      "id": 103328602,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single-company clinical publication; no broad market relevance."
+    },
+    {
+      "id": 103328603,
+      "score": 0.03,
+      "confidence": 0.08,
+      "reason": "Analyst commentary on copper producers; sector-specific, minimal market effect."
+    },
+    {
+      "id": 103328604,
+      "score": 0.03,
+      "confidence": 0.08,
+      "reason": "Private AI startup funding with NVIDIA participation; minor AI sentiment signal."
+    },
+    {
+      "id": 103328605,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Foreign small-cap earnings date announcement; irrelevant to broad market."
+    },
+    {
+      "id": 103328606,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Minor appointment at small Japanese company; irrelevant."
+    },
+    {
+      "id": 103328607,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine insider share sale; single-stock, no broad implication."
+    },
+    {
+      "id": 103328608,
+      "score": 0.02,
+      "confidence": 0.06,
+      "reason": "Company operational strategy in Argentina; minor energy sector news."
+    },
+    {
+      "id": 103329494,
+      "score": 0.01,
+      "confidence": 0.04,
+      "reason": "Niche tokenized security launch; negligible market impact."
+    },
+    {
+      "id": 103329495,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company wind-down of legacy business; irrelevant to broad market."
+    },
+    {
+      "id": 103329496,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Non-binding term sheet by tiny company; irrelevant."
+    },
+    {
+      "id": 103329497,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small-cap Nasdaq compliance regained; irrelevant to broad market."
+    },
+    {
+      "id": 103329498,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Proposed secondary listing eligibility letter; irrelevant."
+    },
+    {
+      "id": 103329499,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Product launch by small company; irrelevant."
+    },
+    {
+      "id": 103329500,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company shelf registration; no broad market impact."
+    },
+    {
+      "id": 103329501,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company operational update; irrelevant."
+    },
+    {
+      "id": 103329502,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap share consolidation; irrelevant to broad market."
+    },
+    {
+      "id": 103329503,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company product launch; irrelevant."
+    },
+    {
+      "id": 103329504,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap share consolidation; irrelevant."
+    },
+    {
+      "id": 103329505,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap reverse split; irrelevant to broad market."
+    },
+    {
+      "id": 103329506,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Earnings date announcement for foreign company; irrelevant."
+    },
+    {
+      "id": 103329507,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Corporate name change; no market implication."
+    },
+    {
+      "id": 103329508,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company filing and pivot; irrelevant."
+    },
+    {
+      "id": 103329509,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "UK small-cap trading venue change; irrelevant."
+    },
+    {
+      "id": 103329541,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small-cap Nasdaq compliance regained; irrelevant."
+    },
+    {
+      "id": 103329542,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Obscure small-company technical disclosure, irrelevant to broad market."
+    },
+    {
+      "id": 103329543,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single small company merger completion, no market-wide implication."
+    },
+    {
+      "id": 103329544,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Micro-cap earnings, negligible broad market relevance."
+    },
+    {
+      "id": 103329545,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine AGM results from a tiny company."
+    },
+    {
+      "id": 103329546,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Minor warrant exercise at small company, irrelevant."
+    },
+    {
+      "id": 103329547,
+      "score": -0.01,
+      "confidence": 0.04,
+      "reason": "Reverse split by micro-cap pharma, no market impact."
+    },
+    {
+      "id": 103329548,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company patent grant, immaterial to market."
+    },
+    {
+      "id": 103329549,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Small share buyback, no broad significance."
+    },
+    {
+      "id": 103329550,
+      "score": 0.01,
+      "confidence": 0.04,
+      "reason": "Small hardware order delivery, immaterial."
+    },
+    {
+      "id": 103329551,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Share consolidation at micro-cap, irrelevant."
+    },
+    {
+      "id": 103329552,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Micro-cap half-year results, no market relevance."
+    },
+    {
+      "id": 103329553,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine AGM results, irrelevant."
+    },
+    {
+      "id": 103329554,
+      "score": 0.01,
+      "confidence": 0.05,
+      "reason": "Industry award for single company, marketing-like."
+    },
+    {
+      "id": 103332210,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Maintained Hold rating on single stock, neutral."
+    },
+    {
+      "id": 103332211,
+      "score": 0.03,
+      "confidence": 0.1,
+      "reason": "Single analyst upgrade; slight sentiment signal for space/IPO names."
+    },
+    {
+      "id": 103332212,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Law firm investigation announcement, boilerplate."
+    },
+    {
+      "id": 103332213,
+      "score": 0.01,
+      "confidence": 0.1,
+      "reason": "Rating maintained, no change; minor European sovereign news."
+    },
+    {
+      "id": 103332214,
+      "score": 0.03,
+      "confidence": 0.1,
+      "reason": "Single-stock target raise, limited broad impact."
+    },
+    {
+      "id": 103332215,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Union lobbying for defense contract, minimal market effect."
+    },
+    {
+      "id": 103332216,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Executive commentary, no market-moving content."
+    },
+    {
+      "id": 103332217,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Correction notice on single company projections."
+    },
+    {
+      "id": 103332218,
+      "score": -0.01,
+      "confidence": 0.03,
+      "reason": "Reverse split at micro-cap, irrelevant."
+    },
+    {
+      "id": 103332219,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-company merger shareholder dispute, immaterial."
+    },
+    {
+      "id": 103332220,
+      "score": 0.03,
+      "confidence": 0.12,
+      "reason": "Phase 3 data for Merck/Moderna; sector-specific, limited market effect."
+    },
+    {
+      "id": 103332277,
+      "score": 0.02,
+      "confidence": 0.08,
+      "reason": "Single-stock target raise, minor positive."
+    },
+    {
+      "id": 103332278,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Minor cybersecurity partnership expansion; negligible broad market impact."
+    },
+    {
+      "id": 62577115,
+      "score": -0.35,
+      "confidence": 0.45,
+      "reason": "Oil near six-month high on Saudi supply fears raises inflation and energy cost worries."
+    },
+    {
+      "id": 62577133,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Political commentary about Musk and Ukraine; no market relevance."
+    },
+    {
+      "id": 62577176,
+      "score": 0.05,
+      "confidence": 0.15,
+      "reason": "Small fuel shipment; slight easing of supply but minimal market effect."
+    },
+    {
+      "id": 62577196,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Company-specific AI training news; limited broad market implication."
+    },
+    {
+      "id": 62577212,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Media company ad leadership personnel news; irrelevant to broad market."
+    },
+    {
+      "id": 62577241,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Commentary on AI security; no market impact."
+    },
+    {
+      "id": 62577268,
+      "score": 0.2,
+      "confidence": 0.3,
+      "reason": "Tariff easing on some Canadian goods modestly positive for trade sentiment."
+    },
+    {
+      "id": 103346142,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small Finnish bank offer result; irrelevant to US market."
+    },
+    {
+      "id": 103346143,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small foreign firm interim results; no broad impact."
+    },
+    {
+      "id": 103346144,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single company litigation verdict; negligible market effect."
+    },
+    {
+      "id": 103346145,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Tiny private placement; no broad market relevance."
+    },
+    {
+      "id": 103346146,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Reverse split by microcap; irrelevant to broad market."
+    },
+    {
+      "id": 103346147,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Earnings scheduling announcement; no market implication."
+    },
+    {
+      "id": 103346148,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small biotech trial progress; no broad impact."
+    },
+    {
+      "id": 103346149,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Microcap reverse split; irrelevant to broad market."
+    },
+    {
+      "id": 103346150,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Preclinical data presentation by small biotechs; no broad impact."
+    },
+    {
+      "id": 103346151,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Trading halt on tiny company; irrelevant."
+    },
+    {
+      "id": 103346152,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small subsidiary stake acquisition; irrelevant."
+    },
+    {
+      "id": 103346222,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Promotional show feature; no market relevance."
+    },
+    {
+      "id": 103346223,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company collaboration announcement; negligible."
+    },
+    {
+      "id": 103346224,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small shipping company vessel purchase; irrelevant."
+    },
+    {
+      "id": 103346225,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small biotech regulatory milestone; no broad impact."
+    },
+    {
+      "id": 103346226,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Microcap shareholder letter; irrelevant."
+    },
+    {
+      "id": 103346227,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Minor certification for one company; negligible market effect."
+    },
+    {
+      "id": 62577328,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Dubious claim of ceasefire; low credibility, minimal broad market relevance."
+    },
+    {
+      "id": 103350728,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Niche investor identification, irrelevant to broad market."
+    },
+    {
+      "id": 103350729,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine shareholding disclosure of small European company."
+    },
+    {
+      "id": 103350730,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single foreign company dividend, no market impact."
+    },
+    {
+      "id": 103350731,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine incentive program news for small energy company."
+    },
+    {
+      "id": 103350732,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Minor supplier funding tied to AI/EV supply chain, limited broad impact."
+    },
+    {
+      "id": 103350733,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single German company shareholder vote, irrelevant to US market."
+    },
+    {
+      "id": 103350734,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Soccer result, no market relevance."
+    },
+    {
+      "id": 103350735,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small-cap analyst price target change, foreign stock."
+    },
+    {
+      "id": 103350736,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single Swedish software company results, negligible broad impact."
+    },
+    {
+      "id": 103350737,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Presentation slide correction, immaterial."
+    },
+    {
+      "id": 103350738,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine regulatory filing."
+    },
+    {
+      "id": 103350739,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Minor price target adjustment on foreign stock."
+    },
+    {
+      "id": 103350740,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine voting rights notification."
+    },
+    {
+      "id": 103350741,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single biotech trial result, no broad market effect."
+    },
+    {
+      "id": 103350742,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine voting rights notification."
+    },
+    {
+      "id": 103350743,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Administrative publication notice."
+    },
+    {
+      "id": 103350744,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Conference call invitation, no content."
+    },
+    {
+      "id": 103350745,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small company bond prospectus approval, irrelevant broadly."
+    },
+    {
+      "id": 103350746,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Maintained analyst rating on small foreign stock."
+    },
+    {
+      "id": 103350747,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine holdings threshold disclosure."
+    },
+    {
+      "id": 103350748,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Small company product launch, negligible market effect."
+    },
+    {
+      "id": 103350749,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small-cap analyst target updates, irrelevant broadly."
+    },
+    {
+      "id": 103350750,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine major holding notification."
+    },
+    {
+      "id": 103350751,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine small company financing."
+    },
+    {
+      "id": 103350752,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small Swedish company shareholder meeting, irrelevant to US market."
+    },
+    {
+      "id": 103350753,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Niche product launch, no broad market relevance."
+    },
+    {
+      "id": 103350754,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small-cap corporate integration news, no market impact."
+    },
+    {
+      "id": 103350755,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small contract for a Swedish engineering firm."
+    },
+    {
+      "id": 103350756,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Minor listing on Oslo growth exchange."
+    },
+    {
+      "id": 103350757,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Regional French bank quarterly results, negligible for US market."
+    },
+    {
+      "id": 103350758,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small partnership termination, irrelevant."
+    },
+    {
+      "id": 103350759,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine buyback status update from a small Norwegian firm."
+    },
+    {
+      "id": 103350760,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small construction contract in Kyrgyzstan."
+    },
+    {
+      "id": 103350761,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single small company financing commitment."
+    },
+    {
+      "id": 103350762,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Financial calendar update, no market information."
+    },
+    {
+      "id": 103350763,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Meeting minutes publication, irrelevant."
+    },
+    {
+      "id": 103350764,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small equity raise by a Norwegian solar company."
+    },
+    {
+      "id": 103350765,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Polish company internal agreement, irrelevant."
+    },
+    {
+      "id": 103350766,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single small order for Polish firm."
+    },
+    {
+      "id": 103350767,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small contract win, negligible market impact."
+    },
+    {
+      "id": 103350768,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine voting rights notification."
+    },
+    {
+      "id": 103350769,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Single analyst target change on a Swedish stock."
+    },
+    {
+      "id": 103350770,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Foreign company earnings, minimal US market relevance."
+    },
+    {
+      "id": 103350771,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single small company OTC listing."
+    },
+    {
+      "id": 103350772,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small Norwegian bank bond redemption."
+    },
+    {
+      "id": 103350773,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Personnel appointment at a small Italian firm."
+    },
+    {
+      "id": 103350774,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Museum exhibition, no market relevance."
+    },
+    {
+      "id": 103350775,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single Italian yacht company distress, not broad market."
+    },
+    {
+      "id": 103350903,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small-cap research publication, irrelevant."
+    },
+    {
+      "id": 103350776,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small foreign company analyst research note, irrelevant to US market."
+    },
+    {
+      "id": 103350777,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Foreign small-cap rating update, no broad market relevance."
+    },
+    {
+      "id": 103350778,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small foreign company legal proceeding, no market implication."
+    },
+    {
+      "id": 103350779,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Minor corporate share capital notice for a small Norwegian firm."
+    },
+    {
+      "id": 103350780,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company restructuring, irrelevant to the broad market."
+    },
+    {
+      "id": 103350909,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Company newsletter publication, no market relevance."
+    },
+    {
+      "id": 103350910,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Local Norwegian bank meeting announcement, no broad impact."
+    },
+    {
+      "id": 103350911,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Polish company meeting procedural news, irrelevant to US market."
+    },
+    {
+      "id": 103350912,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Small single-company contract award, negligible market effect."
+    },
+    {
+      "id": 103350913,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Routine earnings report scheduling for a small firm."
+    },
+    {
+      "id": 103350914,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Publication date change, immaterial to markets."
+    },
+    {
+      "id": 103350915,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Foreign small-cap takeover offer, no US market implication."
+    },
+    {
+      "id": 103350916,
+      "score": 0.02,
+      "confidence": 0.04,
+      "reason": "Small German company earnings, irrelevant to broad market."
+    },
+    {
+      "id": 103350917,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small grant to a Swedish firm, no broad impact."
+    },
+    {
+      "id": 103350918,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Art market PR piece, irrelevant."
+    },
+    {
+      "id": 103350919,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small German agricultural firm results, no broad relevance."
+    },
+    {
+      "id": 103350920,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single shipping contract option, minor and company-specific."
+    },
+    {
+      "id": 103350921,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Routine director dealing disclosure, immaterial."
+    },
+    {
+      "id": 103350922,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Board chairman change at a tiny firm, immaterial."
+    },
+    {
+      "id": 103350923,
+      "score": -0.02,
+      "confidence": 0.05,
+      "reason": "French retailer sales decline, limited relevance to US market."
+    },
+    {
+      "id": 103350924,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small bond prospectus approval, no broad impact."
+    },
+    {
+      "id": 103350925,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Polish company meeting resolutions, irrelevant."
+    },
+    {
+      "id": 103350926,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Routine shareholder disclosure, irrelevant."
+    },
+    {
+      "id": 103350927,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small Swedish rights issue outcome, no market implication."
+    },
+    {
+      "id": 103350928,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Regulatory shareholding notification, immaterial."
+    },
+    {
+      "id": 103350929,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small Swedish company rights issue, irrelevant to broad US market."
+    },
+    {
+      "id": 103350930,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Minor Swedish biotech governance news, no market impact."
+    },
+    {
+      "id": 103350931,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company bond financing, irrelevant to S&P 500."
+    },
+    {
+      "id": 103350932,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small mining company loan drawdown, no broad market relevance."
+    },
+    {
+      "id": 103350933,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "French real estate developer activity update, negligible US market impact."
+    },
+    {
+      "id": 103350934,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small Swedish company interim report, irrelevant."
+    },
+    {
+      "id": 103350935,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Niche medical testing certification, no market impact."
+    },
+    {
+      "id": 103350936,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Tiny unit agreement with Apple, immaterial for broad market."
+    },
+    {
+      "id": 103350937,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Small company results, negligible broad market signal."
+    },
+    {
+      "id": 103351096,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small biotech interim study results, irrelevant."
+    },
+    {
+      "id": 103350938,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small Polish company buyback result, no impact."
+    },
+    {
+      "id": 103351098,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small Swedish fintech trading update, irrelevant."
+    },
+    {
+      "id": 103351099,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small French gaming company capital increase, irrelevant."
+    },
+    {
+      "id": 103351100,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Product launch from small gaming accessory firm, no impact."
+    },
+    {
+      "id": 103351101,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company quarterly report, irrelevant."
+    },
+    {
+      "id": 62577354,
+      "score": 0.1,
+      "confidence": 0.12,
+      "reason": "Strong Apple launch demand mildly positive but single-stock focused."
+    },
+    {
+      "id": 62577374,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Political/regulatory story about Starlink, little broad market relevance."
+    },
+    {
+      "id": 103360393,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Trade exhibition announcement, irrelevant."
+    },
+    {
+      "id": 103360394,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Routine small-cap share transaction notice."
+    },
+    {
+      "id": 103360395,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Routine small-cap share transaction notice."
+    },
+    {
+      "id": 103360396,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Annual report publication by small company."
+    },
+    {
+      "id": 103360397,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Executive award at small UK estate agent, irrelevant."
+    },
+    {
+      "id": 103360398,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Routine voting rights disclosure, no market impact."
+    },
+    {
+      "id": 103360399,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Routine position disclosure, no market impact."
+    },
+    {
+      "id": 103360400,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Minor director share purchase, immaterial."
+    },
+    {
+      "id": 103360401,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock earnings preview; negligible broad market impact."
+    },
+    {
+      "id": 103360402,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "UK small-cap tender offer result; irrelevant to US market."
+    },
+    {
+      "id": 103360403,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine shareholding disclosure for a small energy company."
+    },
+    {
+      "id": 103360577,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Takeover Panel disclosure listing; no broad market relevance."
+    },
+    {
+      "id": 103360579,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Minor corporate shareholding reorganisation at small UK firm."
+    },
+    {
+      "id": 103360580,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company share claims announcement; irrelevant to broad market."
+    },
+    {
+      "id": 103360581,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine director share purchase at small UK company."
+    },
+    {
+      "id": 103360582,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Circular and general meeting notice; no market impact."
+    },
+    {
+      "id": 103360583,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small-cap buyback execution; no broad market effect."
+    },
+    {
+      "id": 103360584,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine AGM results of a tiny UK company."
+    },
+    {
+      "id": 103360585,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small mining permit news; irrelevant to S&P 500."
+    },
+    {
+      "id": 103360586,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine general meeting notice from small miner."
+    },
+    {
+      "id": 103360587,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small stake increase in UK microcap; no broad relevance."
+    },
+    {
+      "id": 103360588,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Executive return at small UK firm; irrelevant."
+    },
+    {
+      "id": 103360589,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small contract wins for a UK microcap; no market impact."
+    },
+    {
+      "id": 103360590,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Loan interest converted to equity at small company."
+    },
+    {
+      "id": 103360591,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Board changes at small UK firm; irrelevant."
+    },
+    {
+      "id": 103360592,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine AGM results; no broad implications."
+    },
+    {
+      "id": 103360593,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Minor interests acquisition update for small company."
+    },
+    {
+      "id": 103360594,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small fundraising completion; irrelevant to US market."
+    },
+    {
+      "id": 103360595,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Marketing-style product marketplace news; no impact."
+    },
+    {
+      "id": 103360596,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small UK REIT annual results; no broad market effect."
+    },
+    {
+      "id": 103360597,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small holding increase in UK company; irrelevant."
+    },
+    {
+      "id": 103360598,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small AIM listing and fundraising note; no impact."
+    },
+    {
+      "id": 103360599,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Gold exploration technical overview from a microcap; irrelevant."
+    },
+    {
+      "id": 103360600,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Tiny UK small-cap placing, irrelevant to the broad US market."
+    },
+    {
+      "id": 103360601,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small UK company acquisition, no market-wide implication."
+    },
+    {
+      "id": 103360602,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine executive share awards at a UK homebuilder."
+    },
+    {
+      "id": 103360603,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine regulatory disclosure form for a small UK-listed miner."
+    },
+    {
+      "id": 103360604,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small-cap listing on Oslo exchange, irrelevant to US market."
+    },
+    {
+      "id": 103360605,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Minor private subscription for a small company."
+    },
+    {
+      "id": 103360606,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Administration update for a tiny UK firm, no broad impact."
+    },
+    {
+      "id": 103360607,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine warrant issuance to market maker, immaterial."
+    },
+    {
+      "id": 103360608,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small-cap interview, no market relevance."
+    },
+    {
+      "id": 103360609,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine warrant exercise at a small company."
+    },
+    {
+      "id": 103360610,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Reverse split by micro-cap biotech, no broad market effect."
+    },
+    {
+      "id": 103360611,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine dividend timetable for a small UK company."
+    },
+    {
+      "id": 62577400,
+      "score": -0.05,
+      "confidence": 0.1,
+      "reason": "Cybersecurity warning commentary, mild risk theme but not market-moving."
+    },
+    {
+      "id": 103372884,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small AIM company fundraising, irrelevant to US market."
+    },
+    {
+      "id": 62577636,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Generic bulls and bears roundup with no specific market signal."
+    },
+    {
+      "id": 103410505,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Foreign fintech IPO terms hint at healthy IPO market, minor signal."
+    },
+    {
+      "id": 103410506,
+      "score": 0.03,
+      "confidence": 0.05,
+      "reason": "Korean data center construction, minor AI infrastructure theme."
+    },
+    {
+      "id": 103410507,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Japanese automaker supply MOU, little US market relevance."
+    },
+    {
+      "id": 62577669,
+      "score": 0.03,
+      "confidence": 0.08,
+      "reason": "Retail-interest stock roundup, no macro signal."
+    },
+    {
+      "id": 62577702,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Speculative merger commentary, no concrete market impact."
+    },
+    {
+      "id": 103423228,
+      "score": 0.03,
+      "confidence": 0.1,
+      "reason": "Early-stage positive drug data for one company, minimal index impact."
+    },
+    {
+      "id": 103423229,
+      "score": -0.02,
+      "confidence": 0.05,
+      "reason": "Brazilian regulatory demand on Meta, minor and local."
+    },
+    {
+      "id": 103423230,
+      "score": 0.08,
+      "confidence": 0.15,
+      "reason": "Expanded AI infrastructure partnership supports AI demand theme for Nvidia."
+    },
+    {
+      "id": 103423231,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Service restoration in Ukraine, no broad market effect."
+    },
+    {
+      "id": 103423232,
+      "score": 0.03,
+      "confidence": 0.1,
+      "reason": "Positive phase 3 substudy for J&J, modest company-specific news."
+    },
+    {
+      "id": 103423233,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine distribution announcement for single MLP, no broad market impact."
+    },
+    {
+      "id": 103423234,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Minor product launch by small company."
+    },
+    {
+      "id": 103423235,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Minor product launch by small company."
+    },
+    {
+      "id": 103423236,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "New ETF launch, negligible market significance."
+    },
+    {
+      "id": 103423237,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Corporate office designation, irrelevant to broad market."
+    },
+    {
+      "id": 103423238,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Security research note, no market implication."
+    },
+    {
+      "id": 103423239,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small climate fund investment, immaterial to market."
+    },
+    {
+      "id": 103423240,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Corporate award, no market relevance."
+    },
+    {
+      "id": 103423241,
+      "score": 0.01,
+      "confidence": 0.05,
+      "reason": "Routine credit rating on securitization, minor positive for data center financing."
+    },
+    {
+      "id": 103423474,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Sector commentary on copper miner, limited broad impact."
+    },
+    {
+      "id": 103423242,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Product update from single company."
+    },
+    {
+      "id": 103423243,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Clinical collaboration, single-stock biotech news."
+    },
+    {
+      "id": 103423477,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Foreign miner earnings report, little US market effect."
+    },
+    {
+      "id": 103423244,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Research agreement, immaterial to market."
+    },
+    {
+      "id": 103423245,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Logistics partnership, no broad impact."
+    },
+    {
+      "id": 103423246,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Neutral analyst rating maintained, no change."
+    },
+    {
+      "id": 103423481,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Entertainment collaboration, irrelevant."
+    },
+    {
+      "id": 103423247,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Law firm investigation spam on single-stock merger."
+    },
+    {
+      "id": 103423483,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small REIT acquisition update, minor."
+    },
+    {
+      "id": 103423484,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Conference data presentation for one biotech."
+    },
+    {
+      "id": 103423485,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Malware report, no market impact."
+    },
+    {
+      "id": 103423486,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Single-company medical data presentation."
+    },
+    {
+      "id": 103423487,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Private biotech trial data, irrelevant to market."
+    },
+    {
+      "id": 103423488,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Industry antitrust allegations, narrow sector."
+    },
+    {
+      "id": 103423489,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Earnings date announcement, no information."
+    },
+    {
+      "id": 103423490,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single biotech trial data; irrelevant to broad market."
+    },
+    {
+      "id": 103423734,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Local franchise store opening; no market implication."
+    },
+    {
+      "id": 103423735,
+      "score": 0.05,
+      "confidence": 0.08,
+      "reason": "Single-company product launch; minor fintech/crypto relevance."
+    },
+    {
+      "id": 103423736,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Cannabis company comment on foreign regulation; negligible for broad market."
+    },
+    {
+      "id": 103423737,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock analyst price target change."
+    },
+    {
+      "id": 103423738,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Conference data presentation by a small biotech."
+    },
+    {
+      "id": 103423739,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock price target adjustment."
+    },
+    {
+      "id": 103423740,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Conference data presentation by a single biotech."
+    },
+    {
+      "id": 103423741,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock price target adjustment."
+    },
+    {
+      "id": 103423742,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Coverage initiation on a small-cap stock."
+    },
+    {
+      "id": 103423743,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock rating and target cut."
+    },
+    {
+      "id": 103423744,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock price target change."
+    },
+    {
+      "id": 103423745,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock price target cut."
+    },
+    {
+      "id": 103423746,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small state grant to a single biotech."
+    },
+    {
+      "id": 103423747,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock analyst action."
+    },
+    {
+      "id": 103423748,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small REIT acquisition procedural step."
+    },
+    {
+      "id": 103423749,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock price target adjustment."
+    },
+    {
+      "id": 103423750,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Single-company earnings-related target changes."
+    },
+    {
+      "id": 103423751,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small bank dividend increase; negligible market impact."
+    },
+    {
+      "id": 103423752,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine insider sale at a single company."
+    },
+    {
+      "id": 103423753,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock rating maintained."
+    },
+    {
+      "id": 103423754,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine earnings call announcement."
+    },
+    {
+      "id": 103423755,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single regional bank guidance."
+    },
+    {
+      "id": 103423756,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine insider filing."
+    },
+    {
+      "id": 103423757,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Single-stock rating maintained."
+    },
+    {
+      "id": 103423758,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Consumer survey on BNPL usage; no market-moving information."
+    },
+    {
+      "id": 103423759,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine earnings schedule announcement for small company."
+    },
+    {
+      "id": 103423760,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine voting rights notification; irrelevant to broad market."
+    },
+    {
+      "id": 103423761,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine institutional holdings disclosure; no market implication."
+    },
+    {
+      "id": 103423762,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-company legal ruling; limited broad market relevance."
+    },
+    {
+      "id": 103423763,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine earnings call scheduling."
+    },
+    {
+      "id": 103423764,
+      "score": 0.05,
+      "confidence": 0.07,
+      "reason": "Small-cap product focus expansion; negligible index impact."
+    },
+    {
+      "id": 103423765,
+      "score": -0.02,
+      "confidence": 0.08,
+      "reason": "Security vulnerability research; minor broad market relevance."
+    },
+    {
+      "id": 103423766,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine earnings date announcement."
+    },
+    {
+      "id": 103423767,
+      "score": -0.03,
+      "confidence": 0.05,
+      "reason": "Single small REIT price target cut; immaterial to market."
+    },
+    {
+      "id": 103423768,
+      "score": 0.03,
+      "confidence": 0.04,
+      "reason": "Single small-cap price target raise; immaterial."
+    },
+    {
+      "id": 103423769,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine earnings call scheduling."
+    },
+    {
+      "id": 103423770,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine earnings date announcement."
+    },
+    {
+      "id": 103423771,
+      "score": 0.03,
+      "confidence": 0.05,
+      "reason": "Small share buyback by foreign-listed company; minor."
+    },
+    {
+      "id": 103424060,
+      "score": 0.02,
+      "confidence": 0.04,
+      "reason": "Single company product deployment; negligible market impact."
+    },
+    {
+      "id": 103424061,
+      "score": -0.03,
+      "confidence": 0.04,
+      "reason": "Analyst price target cuts on small Canadian firm; immaterial."
+    },
+    {
+      "id": 103424062,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Maintained price target; no new information."
+    },
+    {
+      "id": 103423772,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Event marketing announcement; irrelevant to broad market."
+    },
+    {
+      "id": 103424064,
+      "score": 0.03,
+      "confidence": 0.05,
+      "reason": "Product availability news; minor retail/tech relevance."
+    },
+    {
+      "id": 103424065,
+      "score": -0.03,
+      "confidence": 0.05,
+      "reason": "Single stock price target cut; minimal broad implication."
+    },
+    {
+      "id": 103423773,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine earnings release scheduling."
+    },
+    {
+      "id": 103424066,
+      "score": 0.05,
+      "confidence": 0.06,
+      "reason": "Positive biotech trial data for single company; small effect."
+    },
+    {
+      "id": 103423774,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine inducement grant disclosure."
+    },
+    {
+      "id": 103423775,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Small bank earnings report; no broad signal."
+    },
+    {
+      "id": 103424070,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Large private capital commitment signals healthy deal appetite; limited direct effect."
+    },
+    {
+      "id": 103424071,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small-cap acquisition completion, irrelevant to broad market."
+    },
+    {
+      "id": 103423776,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine stock option grant by a junior miner."
+    },
+    {
+      "id": 103423777,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine employee inducement grants, no market relevance."
+    },
+    {
+      "id": 103423778,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small bank earnings report, negligible market impact."
+    },
+    {
+      "id": 103424075,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Earnings date announcement only."
+    },
+    {
+      "id": 103424076,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-company private financing, no broad market implication."
+    },
+    {
+      "id": 103424077,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "New store opening, marketing-type news."
+    },
+    {
+      "id": 103424078,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Sponsorship partnership, irrelevant to broad market."
+    },
+    {
+      "id": 103424079,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small bank routine dividend declaration."
+    },
+    {
+      "id": 103424080,
+      "score": -0.05,
+      "confidence": 0.1,
+      "reason": "Fuel constraints at a nickel JV; minor commodity relevance only."
+    },
+    {
+      "id": 103424081,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single small-cap biotech trial result."
+    },
+    {
+      "id": 103424082,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Junior miner operational update."
+    },
+    {
+      "id": 103424083,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Tiny listing and offering, no market impact."
+    },
+    {
+      "id": 103424084,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock analyst price target change."
+    },
+    {
+      "id": 103424085,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Small REIT merger approval, not market-relevant."
+    },
+    {
+      "id": 103424086,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Administrative corporate change."
+    },
+    {
+      "id": 103424087,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Earnings call scheduling notice."
+    },
+    {
+      "id": 103424088,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Junior miner technical report filing."
+    },
+    {
+      "id": 103424089,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine shareholder meeting results."
+    },
+    {
+      "id": 103424090,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Junior miner operational update."
+    },
+    {
+      "id": 103424091,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-company executive appointment."
+    },
+    {
+      "id": 103424092,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Analyst initiation on a micro-cap stock."
+    },
+    {
+      "id": 103424093,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "SPAC deadline extension, routine."
+    },
+    {
+      "id": 103424094,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Earnings call scheduling notice."
+    },
+    {
+      "id": 103424095,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Earnings call scheduling notice."
+    },
+    {
+      "id": 103424096,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap equity grant, irrelevant to broad market."
+    },
+    {
+      "id": 103424097,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small private placement by micro-cap company."
+    },
+    {
+      "id": 103424098,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single biotech trial result, negligible market impact."
+    },
+    {
+      "id": 103424099,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Minor director share purchase at small company."
+    },
+    {
+      "id": 103424100,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small restaurant chain news, immaterial to market."
+    },
+    {
+      "id": 103424101,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Local event marketing, irrelevant."
+    },
+    {
+      "id": 103424102,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small mining financing, no broad relevance."
+    },
+    {
+      "id": 103424103,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine insider filing at small company."
+    },
+    {
+      "id": 103424104,
+      "score": 0.02,
+      "confidence": 0.08,
+      "reason": "Policy designation affects niche helium sector only."
+    },
+    {
+      "id": 103424105,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Tiny dividend declaration by small company."
+    },
+    {
+      "id": 103424106,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Conference presentation by small biotech."
+    },
+    {
+      "id": 103424107,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Single micro-cap trading halt."
+    },
+    {
+      "id": 103424108,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Earnings date announcement, no information."
+    },
+    {
+      "id": 103424109,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small product portfolio addition."
+    },
+    {
+      "id": 103424110,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single analyst rating on small-cap stock."
+    },
+    {
+      "id": 103424111,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine 13D/A filing on micro-cap."
+    },
+    {
+      "id": 103424112,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Routine AGM results."
+    },
+    {
+      "id": 103424113,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Routine stock option grant."
+    },
+    {
+      "id": 103424114,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Local real estate contract, immaterial."
+    },
+    {
+      "id": 103424115,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company management changes."
+    },
+    {
+      "id": 103424116,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company divestiture, no broad impact."
+    },
+    {
+      "id": 103424117,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap gold spinout proposal."
+    },
+    {
+      "id": 103424118,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company asset sale approval."
+    },
+    {
+      "id": 103424119,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company restructuring, irrelevant to market."
+    },
+    {
+      "id": 103424120,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small mining private placement."
+    },
+    {
+      "id": 103424121,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small-cap mining drill program, irrelevant to broad market."
+    },
+    {
+      "id": 103424122,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Minor advisory role on a small prospectus, no market impact."
+    },
+    {
+      "id": 103424123,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single small biotech clinical data, not market-relevant."
+    },
+    {
+      "id": 103424124,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small crypto-related acquisition, negligible broad impact."
+    },
+    {
+      "id": 103424125,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Micro-cap private placement, irrelevant to S&P 500."
+    },
+    {
+      "id": 103424126,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Tiny private placement by junior miner, no market effect."
+    },
+    {
+      "id": 103424127,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Niche weather technology results, not market-moving."
+    },
+    {
+      "id": 103424128,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Warrant repricing at small miner, irrelevant."
+    },
+    {
+      "id": 103424129,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Insider debenture purchase at small company, immaterial."
+    },
+    {
+      "id": 103424130,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small medical device study publication, no broad impact."
+    },
+    {
+      "id": 103424131,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Micro-cap acquisition news, irrelevant to broad market."
+    },
+    {
+      "id": 103424132,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Junior mining joint venture, negligible market relevance."
+    },
+    {
+      "id": 103424133,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Exploration drilling mobilization at small firm, irrelevant."
+    },
+    {
+      "id": 103424134,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Single biotech deal and financing, minimal market relevance."
+    },
+    {
+      "id": 103424135,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Single small REIT guidance, not broad market relevant."
+    },
+    {
+      "id": 103424136,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small company board change, no market impact."
+    },
+    {
+      "id": 103424137,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Advisor appointment at tiny miner, irrelevant."
+    },
+    {
+      "id": 103424497,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small buyback at micro-cap, no broad effect."
+    },
+    {
+      "id": 103424498,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small company earnings, not market-relevant."
+    },
+    {
+      "id": 103424499,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Conference presentation by junior miner, irrelevant."
+    },
+    {
+      "id": 103424500,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Registration withdrawal by small company, irrelevant."
+    },
+    {
+      "id": 103424501,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Rebranding at small property tech firm, irrelevant."
+    },
+    {
+      "id": 103424502,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Market maker engagement for micro-cap, irrelevant."
+    },
+    {
+      "id": 103424503,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small biotech drug program update, no broad impact."
+    },
+    {
+      "id": 103424504,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Analyst rating on a small stock, not market-moving."
+    },
+    {
+      "id": 103424505,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Micro-cap non-binding LOI; irrelevant to broad market."
+    },
+    {
+      "id": 103424506,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single small-cap acquisition approval; no broad market impact."
+    },
+    {
+      "id": 103424507,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Nasdaq bid price notice for one micro-cap; irrelevant."
+    },
+    {
+      "id": 103424508,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Junior exploration sampling results; no market relevance."
+    },
+    {
+      "id": 103424509,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Single small company commercial update; negligible."
+    },
+    {
+      "id": 103424510,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Early warning filing for tiny company; irrelevant."
+    },
+    {
+      "id": 103424511,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small drilling program announcement; no broad impact."
+    },
+    {
+      "id": 103424512,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Post-merger strategy outline for small company; irrelevant."
+    },
+    {
+      "id": 103424513,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Junior gold sampling program; no market relevance."
+    },
+    {
+      "id": 103424514,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Conference presentation by small explorer; irrelevant."
+    },
+    {
+      "id": 103424515,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Corporate housekeeping update for shell company; irrelevant."
+    },
+    {
+      "id": 103424516,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small bridge financing; no broad market effect."
+    },
+    {
+      "id": 103424517,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Junior copper field work; no market relevance."
+    },
+    {
+      "id": 103424518,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Tiny private placement; irrelevant to market."
+    },
+    {
+      "id": 103424519,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Share consolidation and name change; irrelevant."
+    },
+    {
+      "id": 103424520,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company contract win; negligible market impact."
+    },
+    {
+      "id": 103424521,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Routine filing by junior miner; irrelevant."
+    },
+    {
+      "id": 103424522,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small-cap acquisition diligence; no broad impact."
+    },
+    {
+      "id": 103424523,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Single-company medical device study; irrelevant."
+    },
+    {
+      "id": 103424524,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Local regulatory approval for small firm; negligible."
+    },
+    {
+      "id": 103424525,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Internal platform rollout; marketing-type news."
+    },
+    {
+      "id": 103424526,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Junior miner financing; irrelevant."
+    },
+    {
+      "id": 103424527,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Reverse split for micro-cap; no market effect."
+    },
+    {
+      "id": 103424528,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Private placement amendment; irrelevant."
+    },
+    {
+      "id": 103424529,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Management changes at junior company; irrelevant."
+    },
+    {
+      "id": 103424530,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap late filing notice, irrelevant to broad market."
+    },
+    {
+      "id": 103424531,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Tiny company debt financing, no market implication."
+    },
+    {
+      "id": 103424532,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Single small-cap convertible notes issuance, not market relevant."
+    },
+    {
+      "id": 103424533,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Reverse split by small company, no broad market effect."
+    },
+    {
+      "id": 103424534,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Junior mining acquisition, irrelevant to S&P 500."
+    },
+    {
+      "id": 103424535,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small Canadian RNG producer results, not market moving."
+    },
+    {
+      "id": 103424536,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Routine filing certification, no implication."
+    },
+    {
+      "id": 103424537,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small biotech subsidiary agreement, immaterial to market."
+    },
+    {
+      "id": 103424538,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Junior exploration property expansion, irrelevant."
+    },
+    {
+      "id": 103424539,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Mining technical report engagement, irrelevant."
+    },
+    {
+      "id": 103424540,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Private placement extension for micro-cap, irrelevant."
+    },
+    {
+      "id": 103424541,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Exploration program details, no market relevance."
+    },
+    {
+      "id": 103424542,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Junior exploration results, no broad impact."
+    },
+    {
+      "id": 103424543,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Cease trade order revocation for tiny company."
+    },
+    {
+      "id": 103424544,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Small company executive appointment, irrelevant."
+    },
+    {
+      "id": 103424545,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Shell company qualifying transaction, no broad effect."
+    },
+    {
+      "id": 103424546,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small agricultural supply agreement, immaterial."
+    },
+    {
+      "id": 103424547,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap preliminary results, no market implication."
+    },
+    {
+      "id": 103424548,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine preferred dividend declaration, irrelevant."
+    },
+    {
+      "id": 103424549,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine preferred dividend declaration, irrelevant."
+    },
+    {
+      "id": 103424550,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Junior mining option amendment, irrelevant."
+    },
+    {
+      "id": 103424551,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single cannabis operator property purchase, minor."
+    },
+    {
+      "id": 103424552,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small quantum company partnership, not market moving."
+    },
+    {
+      "id": 103424553,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Subsidiary CEO appointment, irrelevant."
+    },
+    {
+      "id": 103424554,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Junior exploration land staking, irrelevant."
+    },
+    {
+      "id": 103424555,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small mining exploration results, irrelevant to broad market."
+    },
+    {
+      "id": 103424556,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Tiny company financing, no market impact."
+    },
+    {
+      "id": 103424557,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Tiny company financing, no market impact."
+    },
+    {
+      "id": 103425398,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small-cap share buyback, irrelevant to broad market."
+    },
+    {
+      "id": 62577772,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Opinion/personality piece, no market implication."
+    },
+    {
+      "id": 103448134,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Foreign company earnings, minimal US market relevance."
+    },
+    {
+      "id": 62577804,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Celebrity trivia, no market relevance."
+    },
+    {
+      "id": 62577840,
+      "score": -0.1,
+      "confidence": 0.3,
+      "reason": "Energy stocks rally on surging crude; inflationary pressure, mixed for broad index."
+    },
+    {
+      "id": 62577859,
+      "score": -0.15,
+      "confidence": 0.25,
+      "reason": "Airline distress from jet fuel costs signals energy-driven economic stress."
+    },
+    {
+      "id": 103486115,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Indian bank regulatory framework, irrelevant to US market."
+    },
+    {
+      "id": 103486116,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Indian bank administrative clarification, irrelevant."
+    },
+    {
+      "id": 103486541,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Indian bank earnings, negligible US impact."
+    },
+    {
+      "id": 62577901,
+      "score": -0.25,
+      "confidence": 0.35,
+      "reason": "Rising global bond yields pressure equity valuations."
+    },
+    {
+      "id": 62578560,
+      "score": -0.15,
+      "confidence": 0.25,
+      "reason": "AI trade unwinding signals risk to tech-heavy index leadership."
+    },
+    {
+      "id": 62578587,
+      "score": -0.1,
+      "confidence": 0.3,
+      "reason": "Brent targeting $120 implies inflation risk and economic headwind."
+    },
+    {
+      "id": 62578603,
+      "score": -0.15,
+      "confidence": 0.2,
+      "reason": "AI bubble warning adds sentiment risk but is one opinion."
+    },
+    {
+      "id": 62578639,
+      "score": -0.2,
+      "confidence": 0.3,
+      "reason": "Rotation to defensives amid AI bubble fears is risk-off."
+    },
+    {
+      "id": 103549867,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single drug trial result, no broad market effect."
+    },
+    {
+      "id": 103549868,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine investor day announcement."
+    },
+    {
+      "id": 62578699,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Crypto token price speculation, little broad market effect."
+    },
+    {
+      "id": 62578724,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Personality feature, no market relevance."
+    },
+    {
+      "id": 103575488,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "European bank restructuring, minimal US impact."
+    },
+    {
+      "id": 103575489,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Clinical collaboration, negligible market impact."
+    },
+    {
+      "id": 103575490,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Foreign company contract extension, irrelevant to index."
+    },
+    {
+      "id": 103575491,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Routine aircraft order option exercise."
+    },
+    {
+      "id": 103575492,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Italian bank M&A dispute; irrelevant to broad US market."
+    },
+    {
+      "id": 103575493,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Single company technology milestone in aluminium; negligible market impact."
+    },
+    {
+      "id": 103575494,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine corporate logistics partnership; no broad market relevance."
+    },
+    {
+      "id": 103575495,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "European telecom spectrum bid; not relevant to US index."
+    },
+    {
+      "id": 103575496,
+      "score": -0.02,
+      "confidence": 0.05,
+      "reason": "Single drug program discontinuation; minimal broad market effect."
+    },
+    {
+      "id": 103575497,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Italian bank governance matter; irrelevant to US market."
+    },
+    {
+      "id": 103575498,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Australian regulatory approval of a small merger; no US impact."
+    },
+    {
+      "id": 103575499,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Single European stock ownership change; negligible for US market."
+    },
+    {
+      "id": 103575500,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Industry award; no market significance."
+    },
+    {
+      "id": 103575501,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine Swedish company meeting bulletin."
+    },
+    {
+      "id": 103575502,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Product launch from small company; irrelevant to broad market."
+    },
+    {
+      "id": 103575503,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Early-stage trial data for a small biotech; no broad impact."
+    },
+    {
+      "id": 103575504,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Analyst reiteration on an Italian bank; irrelevant to US market."
+    },
+    {
+      "id": 103575505,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine voting rights notification."
+    },
+    {
+      "id": 103575506,
+      "score": -0.02,
+      "confidence": 0.06,
+      "reason": "Single automaker earnings with affiliate loss; limited broad relevance."
+    },
+    {
+      "id": 103575507,
+      "score": 0.02,
+      "confidence": 0.04,
+      "reason": "Clinical data presentation by small biotech; negligible market effect."
+    },
+    {
+      "id": 103575508,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Analyst rating maintained on small biotech."
+    },
+    {
+      "id": 103575509,
+      "score": 0.01,
+      "confidence": 0.03,
+      "reason": "Small company buyback; no market effect."
+    },
+    {
+      "id": 103575958,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small Swedish bank earnings; irrelevant to US market."
+    },
+    {
+      "id": 103575959,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Corporate headquarters opening; no market relevance."
+    },
+    {
+      "id": 103575960,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Italian bank governance matter; irrelevant to US market."
+    },
+    {
+      "id": 103575961,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small foreign company results; no broad impact."
+    },
+    {
+      "id": 103575962,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Italian bank takeover dispute; irrelevant to US market."
+    },
+    {
+      "id": 103575963,
+      "score": 0.03,
+      "confidence": 0.06,
+      "reason": "Positive drug trial for one company; minimal broad market effect."
+    },
+    {
+      "id": 103575964,
+      "score": 0.01,
+      "confidence": 0.04,
+      "reason": "Single company factory opening; negligible market impact."
+    },
+    {
+      "id": 103575965,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single biotech trial result, irrelevant to broad US market."
+    },
+    {
+      "id": 62578745,
+      "score": 0.05,
+      "confidence": 0.15,
+      "reason": "Single REIT move tied to yields retreating; minor market implication."
+    },
+    {
+      "id": 62578764,
+      "score": -0.5,
+      "confidence": 0.6,
+      "reason": "Broad index slips amid AI bubble fears and $117 oil, a notable macro headwind."
+    },
+    {
+      "id": 103602870,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine UK bank share buyback disclosure."
+    },
+    {
+      "id": 103602871,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "UK nuclear contract, no broad US market impact."
+    },
+    {
+      "id": 103602872,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine UK small-cap share cancellation notice."
+    },
+    {
+      "id": 103602873,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Corporate appointment at UK firm, irrelevant."
+    },
+    {
+      "id": 103602874,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Commentary on AI and advertising, no direct market signal."
+    },
+    {
+      "id": 103602875,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small biotech trial presentation, irrelevant to broad market."
+    },
+    {
+      "id": 103602876,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "European retail stake deal, minimal US market relevance."
+    },
+    {
+      "id": 103602877,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small UK company acquisition update."
+    },
+    {
+      "id": 103602878,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "European telecom spectrum bid, little US market effect."
+    },
+    {
+      "id": 103602879,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Regional industry forum, irrelevant."
+    },
+    {
+      "id": 103602880,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine fund disclosure update."
+    },
+    {
+      "id": 103603348,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Auto sales forecast, minor macro data point."
+    },
+    {
+      "id": 62578790,
+      "score": -0.15,
+      "confidence": 0.2,
+      "reason": "Crypto miner/neocloud credit worries signal AI-related risk sentiment, but narrow."
+    },
+    {
+      "id": 103715669,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Micro-cap delisting, irrelevant."
+    },
+    {
+      "id": 103715729,
+      "score": 0.05,
+      "confidence": 0.08,
+      "reason": "Nvidia proposal abroad, minor AI-demand signal."
+    },
+    {
+      "id": 103715730,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Charity campaign marketing item."
+    },
+    {
+      "id": 103715731,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Early clinical data for small biotech, not market-moving."
+    },
+    {
+      "id": 103715732,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Single-stock Tesla expansion news, limited broad impact."
+    },
+    {
+      "id": 103715733,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Proxy advisor commentary on pay, immaterial."
+    },
+    {
+      "id": 103715734,
+      "score": 0.05,
+      "confidence": 0.12,
+      "reason": "Single-stock analyst upgrade, slight AI-sentiment positive."
+    },
+    {
+      "id": 103715735,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Regional hospitality strategy, irrelevant."
+    },
+    {
+      "id": 103715736,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Minor USMCA labor resolution, slightly reduces trade friction."
+    },
+    {
+      "id": 103715737,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Industry trivia about a freighter aircraft; no broad market implication."
+    },
+    {
+      "id": 103715738,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Retail labeling scrutiny is niche and irrelevant to the broad market."
+    },
+    {
+      "id": 103715750,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-company product announcement with negligible market impact."
+    },
+    {
+      "id": 103715751,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-company lawsuit, immaterial to the overall market."
+    },
+    {
+      "id": 103715752,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Corporate equity divestment news, no broad market relevance."
+    },
+    {
+      "id": 103715753,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Minor logistics partnership, irrelevant to the broad market."
+    },
+    {
+      "id": 103715754,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Local broker selection process, immaterial."
+    },
+    {
+      "id": 103715755,
+      "score": -0.05,
+      "confidence": 0.1,
+      "reason": "Copper mine strike may tighten supply slightly; limited broad market effect."
+    },
+    {
+      "id": 103715756,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Index rule change, unclear direction and limited impact."
+    },
+    {
+      "id": 103715757,
+      "score": 0.1,
+      "confidence": 0.1,
+      "reason": "Crypto ETF approval mildly positive for risk appetite but small overall."
+    },
+    {
+      "id": 103715758,
+      "score": -0.05,
+      "confidence": 0.1,
+      "reason": "Cybersecurity vulnerability concern, minor market implication."
+    },
+    {
+      "id": 103715759,
+      "score": 0.1,
+      "confidence": 0.15,
+      "reason": "Strong industrial leasing signals healthy economic activity, modestly positive."
+    },
+    {
+      "id": 103715760,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Marketing badge, irrelevant to the market."
+    },
+    {
+      "id": 103715761,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Foreign facility commissioning, no broad impact."
+    },
+    {
+      "id": 103715762,
+      "score": 0.05,
+      "confidence": 0.12,
+      "reason": "M&A activity mildly positive sentiment, but single-deal news."
+    },
+    {
+      "id": 103715763,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Research report publication, no market impact."
+    },
+    {
+      "id": 103715764,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Airline cargo network expansion, immaterial to the market."
+    },
+    {
+      "id": 103715765,
+      "score": 0.05,
+      "confidence": 0.15,
+      "reason": "Analyst target raise on a mega-cap, mildly positive for sentiment."
+    },
+    {
+      "id": 103715766,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine analyst updates on a single stock."
+    },
+    {
+      "id": 103715767,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Earnings date announcement, no information content."
+    },
+    {
+      "id": 103715768,
+      "score": 0.05,
+      "confidence": 0.12,
+      "reason": "Duplicate M&A offer news; single deal, minor sentiment effect."
+    },
+    {
+      "id": 103715799,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock analyst rating maintenance."
+    },
+    {
+      "id": 103715800,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine employee inducement grants, no relevance."
+    },
+    {
+      "id": 103715801,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small-cap Canadian analyst target adjustment."
+    },
+    {
+      "id": 103715802,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Clinical data presentation for a single drug, immaterial to the market."
+    },
+    {
+      "id": 103715803,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-company product announcement with no market relevance."
+    },
+    {
+      "id": 103715804,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Analyst rating on a small-cap metals stock; irrelevant to broad market."
+    },
+    {
+      "id": 103715805,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single biotech clinical data release; no broad market impact."
+    },
+    {
+      "id": 103715806,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Analyst coverage initiation for a small company."
+    },
+    {
+      "id": 103715807,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine earnings date announcement."
+    },
+    {
+      "id": 103715808,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Single mortgage company's preliminary results; minimal broad impact."
+    },
+    {
+      "id": 103715848,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine small bank dividend."
+    },
+    {
+      "id": 103715850,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Minor product recall, irrelevant to the market."
+    },
+    {
+      "id": 103715851,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Activist stake in a small company."
+    },
+    {
+      "id": 103715852,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small retail product pilot."
+    },
+    {
+      "id": 103715853,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Minor business partnership expansion."
+    },
+    {
+      "id": 103715854,
+      "score": 0.0,
+      "confidence": 0.01,
+      "reason": "Marketing-type product update."
+    },
+    {
+      "id": 103715855,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Local industry demonstration center, no market relevance."
+    },
+    {
+      "id": 103715997,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single-stock analyst upgrade."
+    },
+    {
+      "id": 103715998,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Single-stock analyst rating reaffirmation."
+    },
+    {
+      "id": 62579015,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Political commentary with no market impact."
+    },
+    {
+      "id": 62579030,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Ukraine Starlink access story; minimal market effect."
+    },
+    {
+      "id": 62579060,
+      "score": -0.4,
+      "confidence": 0.4,
+      "reason": "Possible Iran strikes and surging oil prices raise geopolitical and inflation risk."
+    },
+    {
+      "id": 62579076,
+      "score": 0.05,
+      "confidence": 0.08,
+      "reason": "Political opinion on energy and inflation; little market implication."
+    },
+    {
+      "id": 62579115,
+      "score": 0.05,
+      "confidence": 0.08,
+      "reason": "Crypto price opinion; limited relevance to broad equities."
+    },
+    {
+      "id": 62579263,
+      "score": -0.1,
+      "confidence": 0.1,
+      "reason": "Commentary touching on AI bubble worries; weak signal."
+    },
+    {
+      "id": 62579275,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Opinion on Apple strategy; not market-moving."
+    },
+    {
+      "id": 62579289,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Opinion piece downplaying AI crash fears; mildly reassuring."
+    },
+    {
+      "id": 103733345,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Single foreign retailer earnings report."
+    },
+    {
+      "id": 103733396,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Small company financing news."
+    },
+    {
+      "id": 103733397,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small Finnish company dividend approval, irrelevant to the broad US market."
+    },
+    {
+      "id": 103733398,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Minor executive management change at a small foreign company."
+    },
+    {
+      "id": 62579301,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Political commentary with no direct market implication."
+    },
+    {
+      "id": 62579344,
+      "score": 0.1,
+      "confidence": 0.2,
+      "reason": "Foreign automaker US investment is mildly positive for manufacturing but is company-specific."
+    },
+    {
+      "id": 103736579,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Single-drug clinical data affects specific biotech names, not the broad market."
+    },
+    {
+      "id": 103736580,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Swedish car retailer earnings, irrelevant to the US index."
+    },
+    {
+      "id": 103736581,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company class action settlement update, not market relevant."
+    },
+    {
+      "id": 103736582,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Swedish property company results, negligible US market impact."
+    },
+    {
+      "id": 103736583,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Analyst target changes on a small German firm are irrelevant."
+    },
+    {
+      "id": 103736584,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Subsidiary cyberattack at a small European firm, not broadly relevant."
+    },
+    {
+      "id": 103736585,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small company strategy reaffirmation, no market impact."
+    },
+    {
+      "id": 103736586,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Short position in a small Swedish stock is not relevant to the broad market."
+    },
+    {
+      "id": 103736587,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine consensus estimate publication for a small foreign company."
+    },
+    {
+      "id": 103736588,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small biotech trial data, not broadly relevant."
+    },
+    {
+      "id": 103736589,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Analyst price target cut on a single Swedish stock."
+    },
+    {
+      "id": 103736590,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Analyst price target raises on a single small stock."
+    },
+    {
+      "id": 103736591,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Research review of a small company, not market relevant."
+    },
+    {
+      "id": 103736658,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small Swedish company earnings, negligible for the US index."
+    },
+    {
+      "id": 103736659,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Analyst price target raise on a single Swedish stock."
+    },
+    {
+      "id": 103736660,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Minor insider share purchase at a small company."
+    },
+    {
+      "id": 103736661,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Investor Q&A invitation, no market relevance."
+    },
+    {
+      "id": 103736662,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Administrative correction to a meeting notice at a small company."
+    },
+    {
+      "id": 103736663,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine insider transaction notice at a small company."
+    },
+    {
+      "id": 103736736,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Analyst price target cut on a single Swedish stock."
+    },
+    {
+      "id": 62579360,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Individual legal dispute commentary, not market relevant."
+    },
+    {
+      "id": 62579374,
+      "score": -0.2,
+      "confidence": 0.3,
+      "reason": "Political commentary referencing Iran war and Hormuz risk; mild geopolitical/oil concern but opinion-based."
+    },
+    {
+      "id": 62579386,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Political rhetoric about tax benefits, no new market-moving information."
+    },
+    {
+      "id": 62579405,
+      "score": -0.2,
+      "confidence": 0.3,
+      "reason": "Weekly roundup noting possible Iran strikes and high gas prices; mild geopolitical risk."
+    },
+    {
+      "id": 103740898,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Regional property award, irrelevant to broad market."
+    },
+    {
+      "id": 103740899,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Staffing firm survey on AI and jobs, not market moving."
+    },
+    {
+      "id": 62579453,
+      "score": -0.4,
+      "confidence": 0.4,
+      "reason": "Embassies on alert over Iranian plots signals escalating Middle East risk, bearish for risk assets."
+    },
+    {
+      "id": 62579512,
+      "score": -0.2,
+      "confidence": 0.25,
+      "reason": "Roundup of financial warnings from commentators; vague mild negative sentiment."
+    },
+    {
+      "id": 62579579,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Apple-focused weekly roundup, little broad market info."
+    },
+    {
+      "id": 62579641,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Crypto weekly roundup, minimal relevance to S&P 500."
+    },
+    {
+      "id": 103754400,
+      "score": 0.1,
+      "confidence": 0.1,
+      "reason": "Green data center collaboration, minor positive AI infrastructure news."
+    },
+    {
+      "id": 103754401,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-company plant retrofit, irrelevant to broad market."
+    },
+    {
+      "id": 103754402,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Product portfolio expansion by one company, immaterial."
+    },
+    {
+      "id": 103754403,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Corporate social programs, no market impact."
+    },
+    {
+      "id": 103754404,
+      "score": 0.1,
+      "confidence": 0.15,
+      "reason": "Analyst note on AI semiconductor cash flows, mildly supportive of AI theme."
+    },
+    {
+      "id": 62579677,
+      "score": 0.0,
+      "confidence": 0.2,
+      "reason": "Earnings volatility preview; neutral directionally, notes big expected moves."
+    },
+    {
+      "id": 62579714,
+      "score": 0.0,
+      "confidence": 0.15,
+      "reason": "Tech roundup mentioning AI spending questions; mixed and vague."
+    },
+    {
+      "id": 103759204,
+      "score": 0.1,
+      "confidence": 0.1,
+      "reason": "Nvidia AI-RAN deployment, small positive for AI theme."
+    },
+    {
+      "id": 103759205,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Single-drug early trial result, negligible market impact."
+    },
+    {
+      "id": 103759206,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Clinical data presentation, company-specific."
+    },
+    {
+      "id": 103759207,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Local train derailment, minor and company-specific."
+    },
+    {
+      "id": 103759208,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Phase 2 oncology data, company-specific."
+    },
+    {
+      "id": 103759209,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Trial data for single drug, not broad market."
+    },
+    {
+      "id": 103759210,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Branch relocation, irrelevant."
+    },
+    {
+      "id": 103759211,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Regulatory progress in China for one drug, immaterial."
+    },
+    {
+      "id": 103759212,
+      "score": 0.0,
+      "confidence": 0.08,
+      "reason": "Clinical data for a combination therapy, company-specific."
+    },
+    {
+      "id": 103759213,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-company European auto discount; irrelevant to broad US market."
+    },
+    {
+      "id": 103759214,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Corporate seminar with no market implications."
+    },
+    {
+      "id": 103759305,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-company vehicle delivery in Europe; negligible market impact."
+    },
+    {
+      "id": 103759306,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Marketing event with no market relevance."
+    },
+    {
+      "id": 103759307,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Industry award announcement; no market impact."
+    },
+    {
+      "id": 103759308,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Routine regulatory disclosure on single company."
+    },
+    {
+      "id": 103759309,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Workplace accident findings; no broad market impact."
+    },
+    {
+      "id": 103759310,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock clinical trial data; low broad market relevance."
+    },
+    {
+      "id": 103759311,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Product integration news for single company."
+    },
+    {
+      "id": 103759312,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock biotech trial results; not market relevant."
+    },
+    {
+      "id": 103759313,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine earnings date announcement."
+    },
+    {
+      "id": 103759314,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Single-company clinical trial commentary."
+    },
+    {
+      "id": 103759415,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Small company acquisition; negligible market impact."
+    },
+    {
+      "id": 103759416,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Small REIT routine financing program."
+    },
+    {
+      "id": 103759417,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Promotional interview; no market relevance."
+    },
+    {
+      "id": 62579766,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Promotional stock-picking piece; no macro content."
+    },
+    {
+      "id": 62579783,
+      "score": 0.1,
+      "confidence": 0.15,
+      "reason": "Mixed tech news roundup; AI spending signals but ambiguous overall."
+    },
+    {
+      "id": 62579792,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Auto sector weekly recap; limited broad market signal."
+    },
+    {
+      "id": 62579868,
+      "score": -0.1,
+      "confidence": 0.2,
+      "reason": "Rising yields ahead of FOMC mildly cautious for equities."
+    },
+    {
+      "id": 62579887,
+      "score": -0.2,
+      "confidence": 0.3,
+      "reason": "Rate hikes still possible in December is a hawkish risk for stocks."
+    },
+    {
+      "id": 62579924,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Generic weekly outlook with no specific direction."
+    },
+    {
+      "id": 62579974,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Speculative hypothetical about Tesla/SpaceX and bitcoin."
+    },
+    {
+      "id": 62579999,
+      "score": -0.05,
+      "confidence": 0.1,
+      "reason": "Crypto-specific outflows; minimal spillover to S&P 500."
+    },
+    {
+      "id": 62580021,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Crypto stock watchlist; no broad market signal."
+    },
+    {
+      "id": 62580038,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Single-stock biotech data; not broad market relevant."
+    },
+    {
+      "id": 62580060,
+      "score": 0.0,
+      "confidence": 0.3,
+      "reason": "Earnings preview for mega-cap tech; mild pullback noted, neutral ahead of results with some market-wide relevance."
+    },
+    {
+      "id": 62580077,
+      "score": 0.05,
+      "confidence": 0.08,
+      "reason": "Single-company oncology trial data; negligible broad market impact."
+    },
+    {
+      "id": 62580090,
+      "score": 0.03,
+      "confidence": 0.05,
+      "reason": "Small biotech trial data; irrelevant to broad market."
+    },
+    {
+      "id": 62580107,
+      "score": 0.08,
+      "confidence": 0.12,
+      "reason": "Single-company healthcare M&A talks; slight positive deal-activity signal only."
+    },
+    {
+      "id": 62580119,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Generic survey piece with no market implication."
+    },
+    {
+      "id": 62580130,
+      "score": 0.03,
+      "confidence": 0.06,
+      "reason": "Single-drug trial result for specific biotech; no broad impact."
+    },
+    {
+      "id": 62580143,
+      "score": 0.04,
+      "confidence": 0.08,
+      "reason": "Positive trial for one drugmaker; minimal market-wide effect."
+    },
+    {
+      "id": 62580155,
+      "score": 0.04,
+      "confidence": 0.08,
+      "reason": "Company-specific oncology data; negligible broad impact."
+    },
+    {
+      "id": 62580166,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Opinion commentary with no market implication."
+    },
+    {
+      "id": 62580185,
+      "score": -0.4,
+      "confidence": 0.45,
+      "reason": "Potential US attack on Iran raises geopolitical risk and oil spike, bearish for equities."
+    },
+    {
+      "id": 62580200,
+      "score": 0.0,
+      "confidence": 0.1,
+      "reason": "Speculative corporate structure commentary on two companies."
+    },
+    {
+      "id": 62580211,
+      "score": 0.0,
+      "confidence": 0.15,
+      "reason": "Routine earnings preview for two companies; neutral."
+    },
+    {
+      "id": 62580225,
+      "score": -0.15,
+      "confidence": 0.2,
+      "reason": "Opinion piece flagging AI capex depreciation risk; modest bearish sentiment."
+    },
+    {
+      "id": 62580242,
+      "score": 0.03,
+      "confidence": 0.06,
+      "reason": "Single-company oncology data; no broad market effect."
+    },
+    {
+      "id": 62580253,
+      "score": -0.02,
+      "confidence": 0.05,
+      "reason": "Failed endpoint for small drug program; irrelevant to broad market."
+    },
+    {
+      "id": 62580265,
+      "score": 0.03,
+      "confidence": 0.05,
+      "reason": "Biotech trial update; negligible market impact."
+    },
+    {
+      "id": 62580278,
+      "score": 0.03,
+      "confidence": 0.06,
+      "reason": "Positive single-drug data; no broad impact."
+    },
+    {
+      "id": 62580291,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Early-stage biotech data; irrelevant to broad market."
+    },
+    {
+      "id": 103802472,
+      "score": -0.1,
+      "confidence": 0.15,
+      "reason": "Luxury sector downturn is mildly negative sentiment but mostly European and sector-specific."
+    },
+    {
+      "id": 103802473,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Marketing partnership; no market relevance."
+    },
+    {
+      "id": 103802474,
+      "score": 0.02,
+      "confidence": 0.08,
+      "reason": "Private credit fund inflow; minor, little broad implication."
+    },
+    {
+      "id": 103802475,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Regional corporate training news; irrelevant."
+    },
+    {
+      "id": 103802476,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "European real estate firm results; not relevant to US market."
+    },
+    {
+      "id": 103802477,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Technical index adjustment for German mid-cap index."
+    },
+    {
+      "id": 103802478,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Product showcase at a trade fair; irrelevant."
+    },
+    {
+      "id": 103802479,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single small energy company rig incident; negligible market impact."
+    },
+    {
+      "id": 103802480,
+      "score": 0.05,
+      "confidence": 0.1,
+      "reason": "Foreign automaker US investment, mildly positive for US manufacturing but minor."
+    },
+    {
+      "id": 103802481,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Niche fund launch at conference; irrelevant to broad market."
+    },
+    {
+      "id": 103802482,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Cruise ship collision; no broad market implication."
+    },
+    {
+      "id": 103802597,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Brand relaunch marketing news; irrelevant."
+    },
+    {
+      "id": 103802598,
+      "score": 0.02,
+      "confidence": 0.08,
+      "reason": "Single-company clinical data update; limited market relevance."
+    },
+    {
+      "id": 103802599,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Small-cap Swedish company earnings report; no broad impact."
+    },
+    {
+      "id": 103802600,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Minor insider purchase at Swedish firm."
+    },
+    {
+      "id": 103802601,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Swedish real estate company corporate action; irrelevant to US market."
+    },
+    {
+      "id": 103802602,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Minor insider sale at small Swedish company."
+    },
+    {
+      "id": 103802603,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Asset sale by single company; immaterial to market."
+    },
+    {
+      "id": 103802604,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Executive appointment at small firm."
+    },
+    {
+      "id": 103802605,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Analyst price target change on small Swedish bank."
+    },
+    {
+      "id": 103802606,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Analyst rating reiteration on small-cap stock."
+    },
+    {
+      "id": 103802607,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Short position disclosure on small semiconductor firm."
+    },
+    {
+      "id": 103802608,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine research note; no market relevance."
+    },
+    {
+      "id": 103802609,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Analyst target cut on small Swedish company."
+    },
+    {
+      "id": 103802610,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Small Swedish IT consultancy earnings; limited relevance."
+    },
+    {
+      "id": 103802611,
+      "score": 0.0,
+      "confidence": 0.02,
+      "reason": "Routine governance announcement."
+    },
+    {
+      "id": 62580314,
+      "score": 0.03,
+      "confidence": 0.1,
+      "reason": "Positive single-drug oncology data for Lilly; minimal broad market effect."
+    },
+    {
+      "id": 62580345,
+      "score": 0.03,
+      "confidence": 0.08,
+      "reason": "Moderately positive oncology trial data; company-specific."
+    },
+    {
+      "id": 62580379,
+      "score": -0.1,
+      "confidence": 0.15,
+      "reason": "AI bubble worries and CoreWeave downside risk hint at sentiment weakness in AI trade."
+    },
+    {
+      "id": 103810223,
+      "score": 0.02,
+      "confidence": 0.05,
+      "reason": "Routine enterprise tech collaboration."
+    },
+    {
+      "id": 103810224,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "UK gas outlook; not relevant to US market."
+    },
+    {
+      "id": 103810225,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "UK storm power restoration; no US market impact."
+    },
+    {
+      "id": 103810226,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single UK insurer operational AI update; irrelevant to broad US market."
+    },
+    {
+      "id": 103810227,
+      "score": -0.02,
+      "confidence": 0.08,
+      "reason": "Isolated offshore rig incident; negligible market impact."
+    },
+    {
+      "id": 103810228,
+      "score": -0.03,
+      "confidence": 0.08,
+      "reason": "European airline capacity cuts; minimal US market relevance."
+    },
+    {
+      "id": 103810229,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine regulatory disclosure update."
+    },
+    {
+      "id": 103810230,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine UK offer period disclosure."
+    },
+    {
+      "id": 103810368,
+      "score": -0.02,
+      "confidence": 0.06,
+      "reason": "Small-cap energy rig incident; no broad market effect."
+    },
+    {
+      "id": 103810369,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Routine Form 8.3 holding disclosure."
+    },
+    {
+      "id": 62580396,
+      "score": -0.05,
+      "confidence": 0.1,
+      "reason": "Single-stock technical pattern before earnings; weak signal."
+    },
+    {
+      "id": 62580417,
+      "score": -0.03,
+      "confidence": 0.08,
+      "reason": "Single-stock technical commentary ahead of earnings."
+    },
+    {
+      "id": 62580441,
+      "score": 0.08,
+      "confidence": 0.15,
+      "reason": "Software rebound as AI-disruption fears fade is mildly positive sentiment."
+    },
+    {
+      "id": 62580455,
+      "score": -0.03,
+      "confidence": 0.1,
+      "reason": "Private company debt financing commentary; minimal broad impact."
+    },
+    {
+      "id": 62580471,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock clinical data; no broad market effect."
+    },
+    {
+      "id": 62580482,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock clinical data; no broad market effect."
+    },
+    {
+      "id": 62580506,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock clinical data; no broad market effect."
+    },
+    {
+      "id": 62580517,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock clinical data; no broad market effect."
+    },
+    {
+      "id": 62580698,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock clinical data; no broad market effect."
+    },
+    {
+      "id": 62580710,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock clinical data; no broad market effect."
+    },
+    {
+      "id": 62580819,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Single-stock clinical data; no broad market effect."
+    },
+    {
+      "id": 62580831,
+      "score": 0.01,
+      "confidence": 0.06,
+      "reason": "Positive large-cap drug data but negligible index impact."
+    },
+    {
+      "id": 62580842,
+      "score": 0.01,
+      "confidence": 0.06,
+      "reason": "Positive large-cap drug data but negligible index impact."
+    },
+    {
+      "id": 103835251,
+      "score": 0.0,
+      "confidence": 0.03,
+      "reason": "Foreign company executive departure; irrelevant to broad market."
+    },
+    {
+      "id": 103835253,
+      "score": 0.0,
+      "confidence": 0.05,
+      "reason": "Brazilian bank earnings; limited US market relevance."
+    },
+    {
+      "id": 103835372,
+      "score": -0.01,
+      "confidence": 0.06,
+      "reason": "Geopolitical spat involving a private company; minimal market impact."
+    },
+    {
+      "id": 103835373,
+      "score": 0.0,
+      "confidence": 0.04,
+      "reason": "Marketing-style single-company news."
+    },
+    {
+      "id": 103835374,
+      "score": 0.02,
+      "confidence": 0.08,
+      "reason": "AI infrastructure partnership; minor positive for tech sentiment."
+    }
+  ]
+}

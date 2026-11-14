@@ -1,0 +1,4015 @@
+{
+  "source_file": "data/scored/scored_2026-10-26.json",
+  "source_date": "2026-10-26",
+  "source_model": "claude-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-batched",
+  "batch_size": 25,
+  "runs": 5,
+  "conf_cutoff": 0.3,
+  "n_items": 1000,
+  "input_sha256": "1d8693dbbda55fea41a51d519f0a29099848aa3daca12d730dcb5168b1be5bd7",
+  "note": "headline only; summaries not stored in scored files",
+  "items": [
+    {
+      "id": 62574189,
+      "headline": "$1000 Invested In Monolithic Power Systems 15 Years Ago Would Be Worth This Much Today"
+    },
+    {
+      "id": 62574204,
+      "headline": "UBS Maintains Neutral on Fomento Economico, Raises Price Target to $134"
+    },
+    {
+      "id": 103002376,
+      "headline": "FDA Approves Awiqli\u00ae for Children 10 Years and Older with Type 2 Diabetes"
+    },
+    {
+      "id": 103002377,
+      "headline": "Siemens Launches Over 20 New Industrial Products in China"
+    },
+    {
+      "id": 103003623,
+      "headline": "MBTA Approves $310.4 Million Purchase of Siemens Locomotives"
+    },
+    {
+      "id": 103003624,
+      "headline": "Barclays Downgrades Allianz to 'Underweight'"
+    },
+    {
+      "id": 62574266,
+      "headline": "UBS Maintains Neutral on Medpace Holdings, Raises Price Target to $700"
+    },
+    {
+      "id": 103003625,
+      "headline": "Merck KGaA Announces Presentation of 25 Abstracts at ESMO 2026"
+    },
+    {
+      "id": 62574279,
+      "headline": "Climb Bio And Mabworks Report Phase 1 Data Supporting Quarterly CLYM116/MIL116 Dosing For IgA Nephropathy; Phase 3 Trial Expected In 2027"
+    },
+    {
+      "id": 103003626,
+      "headline": "Nestl\u00e9 Commits to Modifying Recycling Claims on Plastic Bottles"
+    },
+    {
+      "id": 62574296,
+      "headline": "Warren Buffett's Investment Power \u2014 or Donald Trump's Control of a Room: Bill Ackman Picks Which He Would Rather Have"
+    },
+    {
+      "id": 103003627,
+      "headline": "Societe Generale Launches Bearish BTP Bonds"
+    },
+    {
+      "id": 62574301,
+      "headline": "ArriVent BioPharma To Present Initial Safety, Efficacy Results Of Its Phase 1 Trial Of CDH17-Targeted ADC ARR-217 In Participants With Gastrointestinal Cancers At ESMO Congress 2026"
+    },
+    {
+      "id": 62574354,
+      "headline": "Ardelyx Reports Real-World Phosphate Reductions With XPHOZAH Across Phosphate Binder Groups In Dialysis Patients, Presented At The ASN Kidney Week 2026"
+    },
+    {
+      "id": 62574366,
+      "headline": "MetroCity Bankshares Q3 EPS $0.84, Inline, Sales $47.942M Miss $51.300M Estimate"
+    },
+    {
+      "id": 62574383,
+      "headline": "UBS Maintains Neutral on NVR, Raises Price Target to $7425"
+    },
+    {
+      "id": 62574401,
+      "headline": "Stock of the Day: Is IREN About to Reverse?"
+    },
+    {
+      "id": 62574430,
+      "headline": "Staff Of NYSE Regulation Determines To Commence Proceedings To Delist Shares Of Elme Communities From NYSE Immediately"
+    },
+    {
+      "id": 62574452,
+      "headline": "Stem Receives New York Stock Exchange Noncompliance Notice, Gets 45 Days Time To Regain Compliance"
+    },
+    {
+      "id": 62574454,
+      "headline": "PepsiCo From4 Filing Shows Chairman, CEO Ramon Laguarta Sells 30K Shares At An Average Price Of $135.13/Share"
+    },
+    {
+      "id": 62574497,
+      "headline": "Middlesex Water Raises Quarterly Cash Dividend From $0.36 To $0.38 Per Share"
+    },
+    {
+      "id": 62574557,
+      "headline": "UBS Maintains Neutral on Rollins, Raises Price Target to $37"
+    },
+    {
+      "id": 62574585,
+      "headline": "UBS Maintains Neutral on Boston Beer Co, Raises Price Target to $204"
+    },
+    {
+      "id": 62574603,
+      "headline": "Sunrise Realty Trust Stockholders Approve Issuance Of ~8.46M Shares In Connection With Its Merger With Southern Realty Trust"
+    },
+    {
+      "id": 62574623,
+      "headline": "UBS Maintains Buy on Valley National Bancorp, Raises Price Target to $16"
+    },
+    {
+      "id": 62574652,
+      "headline": "Cumberland Pharmaceuticals Announces Data From Its Phase 2 ASSIST-SSc Study Of Oral Ifetroban For Patients With Systemic Sclerosis; Gastrointestinal Adverse Events Were More Frequent In Ifetroban Group Than Placebo; Majority Of Patients Demonstrated Limited Disease Progression, Which Reduced Ability To Track Treatment Difference"
+    },
+    {
+      "id": 62574665,
+      "headline": "AMTD Digital H1 2026 EPS $0.19 Down From $0.22 YoY, Sales $63.83M Down From $73.16M YoY"
+    },
+    {
+      "id": 62574695,
+      "headline": "UBS Maintains Buy on Hexcel, Lowers Price Target to $117"
+    },
+    {
+      "id": 62574730,
+      "headline": "River City Bank Q3 Adj. EPS $1.29 Beats $1.26 Estimate, Sales $40.497M Beat $39.008M Estimate"
+    },
+    {
+      "id": 62574748,
+      "headline": "Offerpad Solutions Appoints Andrew Pieper Interim CFO, Effective Oct. 20, Succeeding Peter Knag"
+    },
+    {
+      "id": 62574751,
+      "headline": "Reported October 22, 2026: CTIA Sends Letter To FCC To Exclude 2.5 GHz And 3.45 GHz Bands From Satellite-To-Device Rules, Protect Terrestrial 5G Networks And Spectrum Rights"
+    },
+    {
+      "id": 62574781,
+      "headline": "UBS Maintains Buy on Liberty Energy, Lowers Price Target to $27"
+    },
+    {
+      "id": 62574800,
+      "headline": "UBS Maintains Neutral on Centrus Energy, Lowers Price Target to $120"
+    },
+    {
+      "id": 62574812,
+      "headline": "3 E Network Technology Group Announces 2-For-1 Forward Stock Split, Effective Oct. 30"
+    },
+    {
+      "id": 62574828,
+      "headline": "SunScout Waives Lock-Up Restrictions On 920,000 Shares Held By Officer-Owned Entity, Effective October 27"
+    },
+    {
+      "id": 62574850,
+      "headline": "UBS Maintains Buy on Visteon, Lowers Price Target to $96"
+    },
+    {
+      "id": 62574869,
+      "headline": "$1000 Invested In Waste Management 15 Years Ago Would Be Worth This Much Today"
+    },
+    {
+      "id": 62574881,
+      "headline": "Valor Energy Announces $5M Private Placement To Sell Up To 2,145,923 Shares At $2.33/Share To Fund AI Data Center Development And Working Capital"
+    },
+    {
+      "id": 62574982,
+      "headline": "Hyperliquid Strategies Announces Increase In Buyback Plan From $30M To $100M Through 2027 End"
+    },
+    {
+      "id": 62575012,
+      "headline": "Mf International To Wind Down Legacy Financial Trading Business, Shift Focus Completely To Digital Asset Strategy; Holds 678,922 Bitcoin Cash As Of Oct 15"
+    },
+    {
+      "id": 62575040,
+      "headline": "Laser Photonics Receives Non-Compliance Notice From Nasdaq"
+    },
+    {
+      "id": 62575082,
+      "headline": "D. Boral Capital Initiates Coverage On QT Imaging Holdings with Buy Rating, Announces Price Target of $9"
+    },
+    {
+      "id": 62575098,
+      "headline": "Wynn Macau Enters Subscription Agreement, Commits Up To MOP1.365 Billion To Macau Government Guidance Fund No. 2 For Non-Gaming Investments"
+    },
+    {
+      "id": 62575113,
+      "headline": "Aberdeen Multi-Market Income Fund Board Approves 1-For-4 Reverse Stock Split, Effective November 9"
+    },
+    {
+      "id": 62575129,
+      "headline": "Barrington Research Maintains Outperform on Stride, Lowers Price Target to $115"
+    },
+    {
+      "id": 62575152,
+      "headline": "Delek Logistics Partners Raises Quarterly Cash Distribution From $1.135 To $1.14 Per Unit"
+    },
+    {
+      "id": 62575192,
+      "headline": "Evernorth Holdings Enters Into Committed Equity Facility With CF Principal Investments, Allowing The Company To Sell Up To 5.2M Newly Issued Class A Shares"
+    },
+    {
+      "id": 62575213,
+      "headline": "Barrington Research Downgrades LKQ to Market Perform"
+    },
+    {
+      "id": 62575234,
+      "headline": "Rent The Runway Form4 Filings Show Director Peter Comisar Buys 632,922 Shares For $3.55/Share In $2.25M Purchase; Director Damian Giangiacomo Buys 632,922 Shares For $3.55/Share In $2.25M Purchase; Rent The Runway 10% Owner APS US Management Buys 458,245 Shares At $3.55/Share In $1.63M Purchase"
+    },
+    {
+      "id": 62575257,
+      "headline": "$100 Invested In Arch Capital Group 20 Years Ago Would Be Worth This Much Today"
+    },
+    {
+      "id": 62575267,
+      "headline": "Bitcoin, Ethereum, Solana Draw Uneven Corporate Bets\u2014Which Is Gaining Ground?"
+    },
+    {
+      "id": 62575272,
+      "headline": "Rexford Industrial Realty Files For Mixed Shelf Offering, Size Not Disclosed"
+    },
+    {
+      "id": 62575302,
+      "headline": "CIBC Maintains Neutral on CF Industries Holdings, Raises Price Target to $133"
+    },
+    {
+      "id": 62575352,
+      "headline": "Alpine Income Property Trust Announces $150M At-The-Market Offering Of Common Stock"
+    },
+    {
+      "id": 103039878,
+      "headline": "ExxonMobil's Joliet Refinery Expected to Resume Operations Next Week"
+    },
+    {
+      "id": 103039879,
+      "headline": "Globant Recognized at RTIH AI in Retail Awards"
+    },
+    {
+      "id": 103039880,
+      "headline": "Goldman Sachs Prime Brokerage Reports Significant Hedge Fund Losses Amid Market Volatility"
+    },
+    {
+      "id": 103039881,
+      "headline": "FDA Approves Subcutaneous Induction Regimen for AbbVie's SKYRIZI for Crohn's Disease"
+    },
+    {
+      "id": 103039882,
+      "headline": "The Williams Companies Seeks to Revive Constitution Pipeline Project"
+    },
+    {
+      "id": 103041141,
+      "headline": "Moderna and Merck Report Phase 3 Results for Cancer Vaccine"
+    },
+    {
+      "id": 103039883,
+      "headline": "Hilton Woodland Hills Appoints Charity Curtis as Director of Sales and Marketing"
+    },
+    {
+      "id": 103041143,
+      "headline": "Infosys Collaborates with Mondelez International for AI-Driven Supply Chain Transformation"
+    },
+    {
+      "id": 103039884,
+      "headline": "MetLife Foundation Partners in New AI Jobs Institute in New York City"
+    },
+    {
+      "id": 103039885,
+      "headline": "Sigma Lithium Extends Maturity of US$100 Million Senior Secured Debt to June 2027"
+    },
+    {
+      "id": 62575384,
+      "headline": "CIBC Maintains Neutral on Mosaic, Lowers Price Target to $22"
+    },
+    {
+      "id": 62575417,
+      "headline": "CIBC Maintains Outperformer on FirstService, Raises Price Target to $178"
+    },
+    {
+      "id": 62575471,
+      "headline": "CIBC Maintains Outperformer on Waste Connections, Raises Price Target to $207"
+    },
+    {
+      "id": 62575500,
+      "headline": "ReNew Energy Global Agrees To Sell Controlling Stake In 3E To Hg; Deal To Realize About $84M Cash On Investment Of About $56M Through Sale Proceeds & Redemption Of Shareholder Loans"
+    },
+    {
+      "id": 62575534,
+      "headline": "J-Star Holding H1 EPS $(0.39), Sales $6.767M"
+    },
+    {
+      "id": 62575560,
+      "headline": "Summit Therapeutics And Lunit Announce A Research Agreement To Evaluate The Use Of Lunit SCOPE IO For Tumor Microenvironment Analysis In Support Of Summit\u2019s Immuno-Oncology Development Programs With Ivonescimab"
+    },
+    {
+      "id": 62575578,
+      "headline": "If You Invested $1000 In SPDR Gold MiniShares Trust Stock 5 Years Ago, You Would Have This Much Today"
+    },
+    {
+      "id": 62575662,
+      "headline": "Freedom Broker Maintains Buy on M/I Homes, Lowers Price Target to $155"
+    },
+    {
+      "id": 62575673,
+      "headline": "First Cap Q3 EPS $1.53 Up From $1.34 YoY, Sales $14.802M Up From $13.262M YoY"
+    },
+    {
+      "id": 62575684,
+      "headline": "Jefferies Maintains Buy on Roper Technologies, Raises Price Target to $540"
+    },
+    {
+      "id": 62575695,
+      "headline": "Jefferies Maintains Hold on RingCentral, Raises Price Target to $75"
+    },
+    {
+      "id": 62575725,
+      "headline": "Jefferies Upgrades MSC Industrial Direct Co to Buy, Raises Price Target to $135"
+    },
+    {
+      "id": 62575739,
+      "headline": "Jefferies Maintains Buy on Ulta Beauty, Raises Price Target to $730"
+    },
+    {
+      "id": 62575750,
+      "headline": "Allegiant Travel Says Allegiant Air Exercises Six Boeing 737-8 Options Under 2021 Purchase Agreement;  Six Boeing 737-8 Aircraft Scheduled For Delivery In 2028;  List Price Of Six Aircraft Totals Over $720M, Subject To Discounts And Escalations"
+    },
+    {
+      "id": 62575765,
+      "headline": "Jones Trading Maintains Buy on Alpine Income Property Tr, Lowers Price Target to $20"
+    },
+    {
+      "id": 62575838,
+      "headline": "Maxim Group Maintains Buy on Deep Fission, Lowers Price Target to $12"
+    },
+    {
+      "id": 62575899,
+      "headline": "Maxim Group Maintains Buy on Jakks Pacific, Raises Price Target to $57"
+    },
+    {
+      "id": 62575914,
+      "headline": "'Meta acquires AI data platform Sundial'- Axios"
+    },
+    {
+      "id": 62575929,
+      "headline": "If You Invested $100 In Strategy Stock 10 Years Ago, You Would Have This Much Today"
+    },
+    {
+      "id": 103077686,
+      "headline": "LATAM Airlines Aircraft Struck by Lightning During Flight in Chile"
+    },
+    {
+      "id": 103077687,
+      "headline": "Embraer Reports Record Order Backlog of $35.7 Billion for Q3 2026"
+    },
+    {
+      "id": 62575998,
+      "headline": "Maxim Group Maintains Buy on Scienture Holdings, Adjusts Price Target To $6 (reverse stock split 1:25)"
+    },
+    {
+      "id": 62576025,
+      "headline": "Telsey Advisory Group Maintains Outperform on Tractor Supply, Raises Price Target to $40"
+    },
+    {
+      "id": 62576039,
+      "headline": "12 Information Technology Stocks Moving In Friday's After-Market Session"
+    },
+    {
+      "id": 62576040,
+      "headline": "12 Industrials Stocks Moving In Friday's After-Market Session"
+    },
+    {
+      "id": 62576041,
+      "headline": "12 Health Care Stocks Moving In Friday's After-Market Session"
+    },
+    {
+      "id": 62576042,
+      "headline": "12 Consumer Discretionary Stocks Moving In Friday's After-Market Session"
+    },
+    {
+      "id": 62576087,
+      "headline": "Telsey Advisory Group Maintains Market Perform on Deckers Outdoor, Lowers Price Target to $90"
+    },
+    {
+      "id": 62576120,
+      "headline": "DA Davidson Maintains Neutral on Pool, Lowers Price Target to $200"
+    },
+    {
+      "id": 62576144,
+      "headline": "DA Davidson Maintains Neutral on Banner, Raises Price Target to $76"
+    },
+    {
+      "id": 62576169,
+      "headline": "Silver Bow Mining Enters First Amendment To Asset Purchase Agreement Effective Oct 14, 2026; Outside Date Amended To 60 Days After Delivery of MTMI Audited Financials"
+    },
+    {
+      "id": 62576181,
+      "headline": "DA Davidson Maintains Neutral on Pinnacle Finl Partners, Raises Price Target to $115"
+    },
+    {
+      "id": 62576195,
+      "headline": "Here\u2019s How Much You Would Have Made Owning Palo Alto Networks Stock In The Last 10 Years"
+    },
+    {
+      "id": 62576240,
+      "headline": "DA Davidson Maintains Buy on AppFolio, Raises Price Target to $250"
+    },
+    {
+      "id": 62576255,
+      "headline": "Circle8 Group Says Lyneer Staffing Solutions Receives Default Notice From Employers' Personnel Under Service Agreement;  By Letter Dated Oct 14, Spp Credit Advisors Notified Events Of Default Under Loan Agreement Dated April 29, 2025; Co Reviewing These Matters & Veracity Of Purported Defaults Particularly In View Of Settlement Agreement Dated August 7, 2026"
+    },
+    {
+      "id": 62576274,
+      "headline": "Howard Hughes To Replace Arcosa In The S&P SmallCap 600 Effective Prior To The Opening Of Trading On Wednesday, October 28"
+    },
+    {
+      "id": 62576308,
+      "headline": "Treasure Global's Tadaa Technologies Enters Software Development Agreement With Techcom Vintage On Oct 21, 2026;  Techcom Vintage To Deliver Government Smart Fertilizer Traceability & AI Agriculture Intelligence Platform; Tadaa To Pay Fixed Software Development Fees Of RM8,000,000"
+    },
+    {
+      "id": 62576325,
+      "headline": "Traws Pharma Enters Stock Purchase Agreement With Roth Principal Investments On Oct 23, 2026; May Sell Up To $50M In Common Stock To Roth Principal Investments"
+    },
+    {
+      "id": 62576350,
+      "headline": "Amass Brands Announces Zachary Ament To Resign As CFO Effective November 16, 2026;  Geoffrey Mcfarlane Appointed As Interim CFO Effective November 17, 2026"
+    },
+    {
+      "id": 62576407,
+      "headline": "Here\u2019s How Much You Would Have Made Owning Apple Stock In The Last 15 Years"
+    },
+    {
+      "id": 103115548,
+      "headline": "Hercules Metals Corp. Continues Growth Supported by Barrick Investment"
+    },
+    {
+      "id": 103115549,
+      "headline": "GFG Resources Inc. Closes Financing and Highlights Partnership with Barrick"
+    },
+    {
+      "id": 103115550,
+      "headline": "Stifel Analyst Maintains Buy Rating on ATS Corporation Ahead of Q2 Results"
+    },
+    {
+      "id": 103115551,
+      "headline": "Analyst Maintains Buy Rating on The Cigna Group"
+    },
+    {
+      "id": 103115552,
+      "headline": "Permian Basin Royalty Trust Announces Special Meeting for Business Combination Proposal"
+    },
+    {
+      "id": 103115553,
+      "headline": "Wells Fargo Maintains Buy Rating and $295 Price Target on Datadog"
+    },
+    {
+      "id": 103115554,
+      "headline": "Waldorf Astoria New York Hosts Artist-in-Residence Evi Photopoulos"
+    },
+    {
+      "id": 103115555,
+      "headline": "Worthington Steel Announces Rejection of Kloeckner Domination and Profit and Loss Transfer Agreement"
+    },
+    {
+      "id": 103116851,
+      "headline": "Dime Commercial Bancshares, Inc. Announces Dividend for Series A Preferred Stock"
+    },
+    {
+      "id": 103116852,
+      "headline": "Perdoceo Education Corporation Schedules Third Quarter 2026 Financial Results Announcement"
+    },
+    {
+      "id": 103116853,
+      "headline": "Bob's Discount Furniture Announces Third Quarter 2026 Conference Call Date"
+    },
+    {
+      "id": 103115556,
+      "headline": "Bernstein Maintains Buy Rating on GE Aerospace, Adjusts Price Target"
+    },
+    {
+      "id": 103115557,
+      "headline": "Desjardins Securities Adjusts Price Target for Hemlo Mining Corp."
+    },
+    {
+      "id": 103115558,
+      "headline": "Easterly Government Properties Introduces New Brand Identity"
+    },
+    {
+      "id": 103116857,
+      "headline": "Riskified Recognized as a Winner at the RTIH AI in Retail Awards"
+    },
+    {
+      "id": 103115559,
+      "headline": "CTS Corporation Completes Acquisition of Millar Holdings, Inc."
+    },
+    {
+      "id": 103116858,
+      "headline": "Moody's Ratings Affirms Chile's A2 Sovereign Rating"
+    },
+    {
+      "id": 103116860,
+      "headline": "Blackstone Digital Infrastructure Trust Announces Third-Quarter 2026 Earnings Release and Conference Call"
+    },
+    {
+      "id": 103116861,
+      "headline": "Savaria Corporation Declares Monthly Dividend"
+    },
+    {
+      "id": 103115560,
+      "headline": "BofA Adjusts Price Target on PagerDuty to $11 From $9.50, Keeps Underperform Rating"
+    },
+    {
+      "id": 103115561,
+      "headline": "Whirlpool and Other Employers Sue UnitedHealth Group Over Claims Handling Practices"
+    },
+    {
+      "id": 103115562,
+      "headline": "KeyBanc Maintains Buy Rating and Raises Sweetgreen Price Target"
+    },
+    {
+      "id": 103115563,
+      "headline": "Revolve Opens First Florida Store at Aventura Mall"
+    },
+    {
+      "id": 103115564,
+      "headline": "Simon Property Group to Implement Paid Parking at The Galleria in Houston"
+    },
+    {
+      "id": 103115565,
+      "headline": "Truist Adjusts Price Target on Integra LifeSciences to $13 From $15"
+    },
+    {
+      "id": 103115566,
+      "headline": "Broad Arrow Auctions Releases Digital Catalog for Las Vegas Auction"
+    },
+    {
+      "id": 103116868,
+      "headline": "Astec Industries, Inc. Announces Third Quarter 2026 Earnings Conference Call"
+    },
+    {
+      "id": 103116870,
+      "headline": "MetroCity Bankshares Reports Q3 Earnings and Revenue Growth"
+    },
+    {
+      "id": 103115567,
+      "headline": "Simfabric Signs Agreement with Apple for iPhone Duo App Development"
+    },
+    {
+      "id": 103115568,
+      "headline": "Goldman Sachs Adjusts Rapport Therapeutics Price Target"
+    },
+    {
+      "id": 103115569,
+      "headline": "Piper Sandler Adjusts Community Trust Bancorp Price Target"
+    },
+    {
+      "id": 103115570,
+      "headline": "Raymond James Lowers Price Target for Community Trust Bancorp"
+    },
+    {
+      "id": 103116875,
+      "headline": "PubMatic Reports Q2 Earnings and Guidance Beat"
+    },
+    {
+      "id": 103116876,
+      "headline": "Telesat Schedules Third Quarter 2026 Earnings Conference Call"
+    },
+    {
+      "id": 103115571,
+      "headline": "Gold.com, Inc. Schedules Fiscal First Quarter 2027 Earnings Conference Call"
+    },
+    {
+      "id": 103115572,
+      "headline": "Citi Maintains Hold Rating on The Wendy's Company, Lowers Price Target"
+    },
+    {
+      "id": 103115573,
+      "headline": "New Economic Study Estimates Benefits of Proposed Union Pacific\u2013Norfolk Southern Merger"
+    },
+    {
+      "id": 103115574,
+      "headline": "Gyre Therapeutics Enters Employment Agreement with Thomas Eastling as CFO"
+    },
+    {
+      "id": 103115575,
+      "headline": "Gyre Therapeutics Enters Employment Agreement with Ying Luo as CEO"
+    },
+    {
+      "id": 103115576,
+      "headline": "Winnebago Industries Announces Board Nomination and Cooperation Agreement"
+    },
+    {
+      "id": 103115577,
+      "headline": "Intuit Among Companies Objecting to Stock Tokenization on OKXICE"
+    },
+    {
+      "id": 103115578,
+      "headline": "Instacart Reportedly Holds Preliminary Sale Talks with DoorDash and Uber"
+    },
+    {
+      "id": 103115579,
+      "headline": "Entravision to Announce Third Quarter 2026 Financial Results"
+    },
+    {
+      "id": 103115580,
+      "headline": "Analyst Consensus Estimates for Leon's Furniture Limited Ahead of Q3 2026 Earnings"
+    },
+    {
+      "id": 103116884,
+      "headline": "Southern Missouri Bancorp Declares Dividend of $0.27 Per Share"
+    },
+    {
+      "id": 103116888,
+      "headline": "Jefferies Adjusts Price Target on Bloom Energy"
+    },
+    {
+      "id": 103116889,
+      "headline": "Middlesex Water Company Increases Common Dividend by 5.56%"
+    },
+    {
+      "id": 103116890,
+      "headline": "Myers Industries Maintains Quarterly Dividend"
+    },
+    {
+      "id": 103116891,
+      "headline": "Taboola Europe Limited Regulatory Disclosure"
+    },
+    {
+      "id": 103116892,
+      "headline": "EagleRock Land, LLC Announces Third Quarter 2026 Earnings Release Date"
+    },
+    {
+      "id": 103116893,
+      "headline": "Hammond Power Solutions Announces Third Quarter 2026 Financial Results Conference Call and Webcast"
+    },
+    {
+      "id": 103116894,
+      "headline": "PRISM MarketView Highlights Omada Health for National Physical Therapy Month"
+    },
+    {
+      "id": 103116895,
+      "headline": "ZoomInfo Launches Native Integration With Exa"
+    },
+    {
+      "id": 103116896,
+      "headline": "Tompkins Financial Corporation Reports Financial Results for Third Quarter of 2026"
+    },
+    {
+      "id": 103116897,
+      "headline": "BB Biotech Initiates Position in Alto Neuroscience"
+    },
+    {
+      "id": 103116898,
+      "headline": "Climb Bio and Mabworks Announce CLYM116/MIL116 Data at ASN Kidney Week 2026"
+    },
+    {
+      "id": 103116899,
+      "headline": "Analyst Estimates for Doman Building Materials Group's Upcoming Quarterly Results"
+    },
+    {
+      "id": 103116900,
+      "headline": "Lyntris Inc. Schedules Third Quarter Fiscal Year 2026 Earnings Release"
+    },
+    {
+      "id": 103116901,
+      "headline": "General Dynamics Appoints Amy Johnson as President of GDIT"
+    },
+    {
+      "id": 103116902,
+      "headline": "Analysts Adjust Biohaven Price Targets Following FDA News"
+    },
+    {
+      "id": 103116903,
+      "headline": "Civista Bancshares Appoints Jeremy Normington-Slay to Board of Directors"
+    },
+    {
+      "id": 103116904,
+      "headline": "Marcus & Millichap to Report Third Quarter 2026 Financial Results on November 6, 2026"
+    },
+    {
+      "id": 103116905,
+      "headline": "Peoples Financial Services Declares Quarterly Dividend"
+    },
+    {
+      "id": 103116906,
+      "headline": "Avalo Therapeutics Downgraded by HC Wainwright and Guggenheim"
+    },
+    {
+      "id": 103116907,
+      "headline": "ORIC Pharmaceuticals Presents Preclinical Data for Rinzimetostat at ESMO Congress 2026"
+    },
+    {
+      "id": 103116908,
+      "headline": "IRADIMED CORPORATION to Hold Third Quarter 2026 Financial Results Conference Call on October 30, 2026"
+    },
+    {
+      "id": 103116909,
+      "headline": "River City Bank Reports Third Quarter 2026 Financial Results"
+    },
+    {
+      "id": 103116910,
+      "headline": "Amerant Bancorp Inc. Declares Quarterly Cash Dividend"
+    },
+    {
+      "id": 103116911,
+      "headline": "Tecsys Named One of the 2026 Best Workplaces in Quebec"
+    },
+    {
+      "id": 103116912,
+      "headline": "California Court Preliminarily Approves $32 Million GoodRx Privacy Settlement"
+    },
+    {
+      "id": 103116913,
+      "headline": "Cantor Fitzgerald Maintains Overweight Rating on The Elmet Group"
+    },
+    {
+      "id": 103116914,
+      "headline": "BofA Securities Lifts Asana Price Target to $12.75 From $10.75, Maintains Buy Rating"
+    },
+    {
+      "id": 103116915,
+      "headline": "Lassonde Industries Inc. Announces Third Quarter 2026 Financial Results Conference Call"
+    },
+    {
+      "id": 103116916,
+      "headline": "Eikon Therapeutics Presents Clinical Data for PARP1 and WRN Helicase Programs at ESMO 2026"
+    },
+    {
+      "id": 103116917,
+      "headline": "KITS Eyecare Sets Third Quarter 2026 Conference Call Date"
+    },
+    {
+      "id": 103116918,
+      "headline": "BB Biotech Initiates Position in Eupraxia Pharmaceuticals"
+    },
+    {
+      "id": 103116919,
+      "headline": "Kyverna Therapeutics Presents Updated Phase 1 Data for Miv-cel in Progressive Multiple Sclerosis"
+    },
+    {
+      "id": 103116920,
+      "headline": "DiaMedica Therapeutics Reaches Patient Enrollment Milestone for Phase 2/3 Trial of DM199 in Acute Ischemic Stroke"
+    },
+    {
+      "id": 103116921,
+      "headline": "CME Group Executive Comments on Copper Market Fragmentation"
+    },
+    {
+      "id": 103116922,
+      "headline": "Inaugural Podcast Summit 'POD U' Held in Partnership with iHeartMedia"
+    },
+    {
+      "id": 103116923,
+      "headline": "Hercules Metals Announces Upsize of Bought Deal Private Placement to $45 Million"
+    },
+    {
+      "id": 103116924,
+      "headline": "Escalade Announces Third Quarter 2026 Results Conference Call Date"
+    },
+    {
+      "id": 103116925,
+      "headline": "Alpine Income Property Trust Reports Third Quarter 2026 Financial Results and New Financing"
+    },
+    {
+      "id": 103116926,
+      "headline": "First National Corporation Reports Third Quarter 2026 Financial Results"
+    },
+    {
+      "id": 103116927,
+      "headline": "Itafos Inc. Announces Date for Q3 2026 Financial Results"
+    },
+    {
+      "id": 103116928,
+      "headline": "FS Bancorp, Inc. Appoints Matthew D. Mullet to Board of Directors"
+    },
+    {
+      "id": 103116929,
+      "headline": "Perspective Therapeutics Reports Clinical Trial Data and Hosts Conference Call"
+    },
+    {
+      "id": 103116930,
+      "headline": "Conduent Completes $447 Million Refinancing Transaction"
+    },
+    {
+      "id": 103116931,
+      "headline": "Fulcrum Therapeutics, Inc. Expected to Post a Loss of 14 Cents a Share - Earnings Preview"
+    },
+    {
+      "id": 62576457,
+      "headline": "Here's How Much $100 Invested In iShares U.S. Technology ETF 20 Years Ago Would Be Worth Today"
+    },
+    {
+      "id": 62576543,
+      "headline": "'JetBlue Creditors Huddle With Restructuring Adviser as Bonds, Shares Sink'- WSJ"
+    },
+    {
+      "id": 62576561,
+      "headline": "Here's How Much $100 Invested In Copart 10 Years Ago Would Be Worth Today"
+    },
+    {
+      "id": 103156119,
+      "headline": "First Quantum Minerals Plans to Apply for Argentina's RIGI Incentive for Taca Taca Copper Project"
+    },
+    {
+      "id": 103156120,
+      "headline": "Franklin Templeton Canada Announces ETF Cash Distributions"
+    },
+    {
+      "id": 103156121,
+      "headline": "Carlyle Executive Discusses Risks in AI Chip Financing Market"
+    },
+    {
+      "id": 103156122,
+      "headline": "UBS Reports Potential Impact of Cyclospora Outbreak on Yum! Brands' Third-Quarter Earnings"
+    },
+    {
+      "id": 103156123,
+      "headline": "D.R. Horton Recognized at 2026 Houston's Best PRISM Awards"
+    },
+    {
+      "id": 103156124,
+      "headline": "ATB Cormark Maintains Outperform Rating on Pembina Pipeline Corporation"
+    },
+    {
+      "id": 103156125,
+      "headline": "Analysts Adjust Price Targets for Packaging Corporation of America"
+    },
+    {
+      "id": 103156126,
+      "headline": "Investigation Announced Into TTM Technologies Regarding Potential Securities Law Violations"
+    },
+    {
+      "id": 103156127,
+      "headline": "Brown-Forman Expands Jack Daniel's RTD Portfolio with Tennessee Blackberry"
+    },
+    {
+      "id": 103156128,
+      "headline": "Ralph Lauren and Other Major Companies File Lawsuit Against UnitedHealthcare Over 'Cross-Plan Offsetting'"
+    },
+    {
+      "id": 103156129,
+      "headline": "Investor Rights Law Firm Investigates Potential Acquisition of Synaptics by onsemi"
+    },
+    {
+      "id": 103156130,
+      "headline": "Circle Shareholder Files Derivative Lawsuit Against Trump and World Liberty Financial"
+    },
+    {
+      "id": 103156131,
+      "headline": "TD Cowen Raises Pinnacle Financial Price Target to $118"
+    },
+    {
+      "id": 103156132,
+      "headline": "Hydration Brand air up Launches U.S. Retail Presence at Urban Outfitters"
+    },
+    {
+      "id": 103156133,
+      "headline": "President Trump Signs Executive Order Targeting Mortgage and Housing Costs"
+    },
+    {
+      "id": 103156134,
+      "headline": "MGM Resorts CEO Bill Hornbuckle Co-Chairs Intermountain Health Campaign"
+    },
+    {
+      "id": 103156135,
+      "headline": "Wintrust Financial Corporation Insider Executes Stock Sale"
+    },
+    {
+      "id": 103156136,
+      "headline": "BofA Securities Raises Price Target on DocuSign to $70"
+    },
+    {
+      "id": 103156137,
+      "headline": "BTIG Raises HubSpot Price Target to $300"
+    },
+    {
+      "id": 103156138,
+      "headline": "Constellation Brands Leaders Discuss Marketing Strategies at BREW 'Making Moves' Event"
+    },
+    {
+      "id": 103156139,
+      "headline": "Analysts Update Ratings and Price Targets for Element Solutions"
+    },
+    {
+      "id": 103156140,
+      "headline": "Citigroup Maintains Neutral Rating on Texas Roadhouse and Lowers Price Target"
+    },
+    {
+      "id": 103156141,
+      "headline": "International Seaways Enters into $500 Million Revolving Credit Facility"
+    },
+    {
+      "id": 103157515,
+      "headline": "California American Water Submits Updated Application for Monterey Peninsula Water Supply Project"
+    },
+    {
+      "id": 103157516,
+      "headline": "Stephens Maintains Buy Rating and Raises Price Target for Pool Corp"
+    },
+    {
+      "id": 103157517,
+      "headline": "Texas Regulatory Update Regarding Marketplace Tax Treatment"
+    },
+    {
+      "id": 103157518,
+      "headline": "RBC Capital Markets Lowers Price Target on Graco Inc."
+    },
+    {
+      "id": 103157519,
+      "headline": "Del Valle ISD Education Foundation Receives F1 Allwyn Global Community Award"
+    },
+    {
+      "id": 103157521,
+      "headline": "Piper Sandler Lowers Price Target for Sphere Entertainment Co."
+    },
+    {
+      "id": 103157522,
+      "headline": "Gartner Launches First Magic Quadrant for PR and Media Monitoring Tools"
+    },
+    {
+      "id": 103157523,
+      "headline": "Amentum Partners with Aiken Corporation for New Nonprofit Village"
+    },
+    {
+      "id": 103157524,
+      "headline": "The Ensign Group Schedules Third Quarter 2026 Earnings Call"
+    },
+    {
+      "id": 103157525,
+      "headline": "Analysts Adjust Price Targets for Roper Technologies Following Q3 Results"
+    },
+    {
+      "id": 103157526,
+      "headline": "Madison Square Garden Sports Corp. Addresses Phishing Incident Involving Championship Rings"
+    },
+    {
+      "id": 103157527,
+      "headline": "Pui-Wing Tam Named Business Editor at The New York Times"
+    },
+    {
+      "id": 103157528,
+      "headline": "Fair Isaac Corporation Maintains Mortgage Score Pricing for Preferred Program Lenders"
+    },
+    {
+      "id": 103157529,
+      "headline": "Al Jazeera Documentary Investigates Operations at GEO Group Facility"
+    },
+    {
+      "id": 103157530,
+      "headline": "Instacart Mulls Sale; Holds Preliminary Talks With Uber, DoorDash"
+    },
+    {
+      "id": 103157531,
+      "headline": "Elastic Announces Multi-Year Partnership with Audi Revolut F1 Team"
+    },
+    {
+      "id": 103157532,
+      "headline": "Hershey Expands Reese's Christmas Product Range"
+    },
+    {
+      "id": 103157533,
+      "headline": "Former Hershey US President Todd Tillemans Joins Rip Van as CEO"
+    },
+    {
+      "id": 103157534,
+      "headline": "UBS Maintains Liberty Energy with Buy Rating, Adjusts Price Target"
+    },
+    {
+      "id": 103157535,
+      "headline": "Peyto Exploration & Development Corp. Initiated at Buy by Ventum Financial"
+    },
+    {
+      "id": 103157536,
+      "headline": "Travel + Leisure Co. Acquires The Cedars Ranch in Texas"
+    },
+    {
+      "id": 103157537,
+      "headline": "Brookfield Japan, Hitachi, Hartree, and Tokyo Gas Collaborate on Green Data Centers"
+    },
+    {
+      "id": 103157538,
+      "headline": "Huntington Adjusts Price Target on Alpine Income Property Trust"
+    },
+    {
+      "id": 103157539,
+      "headline": "Five9 Named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service"
+    },
+    {
+      "id": 103157540,
+      "headline": "TD Cowen Adjusts Boot Barn Holdings Price Target to $160"
+    },
+    {
+      "id": 103157541,
+      "headline": "SiriusXM to Feature FOX News Audio Pre-Election Programming"
+    },
+    {
+      "id": 103157542,
+      "headline": "J.P. Morgan Maintains Overweight Rating on IMAX Corporation"
+    },
+    {
+      "id": 103157543,
+      "headline": "Notice of Potential Settlement Payment for Brighthouse Life Insurance Policyholders"
+    },
+    {
+      "id": 103157544,
+      "headline": "Mueller Water Products Announces Dates for Fourth Quarter and Full Year 2026 Earnings Release and Conference Call"
+    },
+    {
+      "id": 103157545,
+      "headline": "Penguin Solutions Shares Rise Amid Takeover Speculation"
+    },
+    {
+      "id": 103157546,
+      "headline": "Telsey Advisory Maintains Buy Rating and Raises Price Target on Tractor Supply"
+    },
+    {
+      "id": 103157547,
+      "headline": "Polaris Expands Call of Duty Collaboration with In-Game DAGOR Vehicle"
+    },
+    {
+      "id": 103157548,
+      "headline": "Bronstein, Gewirtz & Grossman, LLC Investigates Potential Claims Against Silvercorp Metals Inc."
+    },
+    {
+      "id": 103157549,
+      "headline": "Analysts Adjust Price Targets for Boyd Gaming Following Q3 Earnings"
+    },
+    {
+      "id": 103157550,
+      "headline": "Truist Securities Adjusts Shift4 Payments Price Target"
+    },
+    {
+      "id": 103157551,
+      "headline": "First Busey Corporation Dividend Declaration"
+    },
+    {
+      "id": 103157552,
+      "headline": "Howard Hughes Holdings Set to Join S&P SmallCap 600"
+    },
+    {
+      "id": 103157553,
+      "headline": "Gelion plc Publishes Annual Report and Notice of AGM"
+    },
+    {
+      "id": 103157554,
+      "headline": "Wells Fargo Maintains InvenTrust Properties With Buy Rating, Adjusts Price Target"
+    },
+    {
+      "id": 103157555,
+      "headline": "Immutep Announces Presentation of Quality of Life Data from EFTISARC-NEO Phase II Trial at ESMO 2026"
+    },
+    {
+      "id": 103157556,
+      "headline": "Adyton Resources Provides Exploration Update on Feni Island Gold-Copper Project"
+    },
+    {
+      "id": 103157557,
+      "headline": "Delek Logistics Partners Increases Quarterly Dividend"
+    },
+    {
+      "id": 103157558,
+      "headline": "Century Aluminum Company Announces Third Quarter 2026 Earnings Date"
+    },
+    {
+      "id": 103157559,
+      "headline": "Propanc Biopharma Announces 1-for-10 Reverse Stock Split"
+    },
+    {
+      "id": 103157560,
+      "headline": "Needham Initiates Coverage of Proto Labs with Buy Rating"
+    },
+    {
+      "id": 103157561,
+      "headline": "Firehouse Subs Launches K-9 Crew Plushie Collection for First Responders Month"
+    },
+    {
+      "id": 103157562,
+      "headline": "Barclays Maintains Equal-Weight Rating on Bread Financial"
+    },
+    {
+      "id": 103157563,
+      "headline": "Wells Fargo Lowers Kaiser Aluminum Price Target to $125.00"
+    },
+    {
+      "id": 103157564,
+      "headline": "Barclays Maintains Medpace Holdings With Hold Rating, Raises Target Price to $675"
+    },
+    {
+      "id": 103157565,
+      "headline": "Portland General Electric Declares Quarterly Dividend"
+    },
+    {
+      "id": 103157566,
+      "headline": "Hilltop Holdings Projects 7% to 8% Full-Year Loan Growth for 2026"
+    },
+    {
+      "id": 103157567,
+      "headline": "Litigation Capital Management Limited Receives Termination Notice on Funded Collective Action"
+    },
+    {
+      "id": 103157568,
+      "headline": "Citi Lowers AECOM Price Target to $79.00"
+    },
+    {
+      "id": 103157569,
+      "headline": "Wingstop Price Target Cut to $200.00/Share From $240.00"
+    },
+    {
+      "id": 103157570,
+      "headline": "Truist Adjusts Price Target on Patrick Industries"
+    },
+    {
+      "id": 103157571,
+      "headline": "Mahoney Environmental Attends Wingstop Global Brand Partner Convention"
+    },
+    {
+      "id": 103157572,
+      "headline": "Analysts Adjust Price Targets for Rollins, Inc. Following Q3 2026 Earnings"
+    },
+    {
+      "id": 103157573,
+      "headline": "Regency Centers Price Target Cut to $84.00/Share From $88.00"
+    },
+    {
+      "id": 103157574,
+      "headline": "Immuron CEO Steven Lydeamore to Present at Emerging Growth Conference"
+    },
+    {
+      "id": 103157575,
+      "headline": "Allegiant Travel Company Exercises Options to Purchase Six Boeing 737-8 Aircraft"
+    },
+    {
+      "id": 62576592,
+      "headline": "Here\u2019s How Much You Would Have Made Owning Seagate Technology Hldgs Stock In The Last 20 Years"
+    },
+    {
+      "id": 62576640,
+      "headline": "If You Invested $100 In Booking Holdings Stock 20 Years Ago, You Would Have This Much Today"
+    },
+    {
+      "id": 62576683,
+      "headline": "$100 Invested In Iron Mountain 5 Years Ago Would Be Worth This Much Today"
+    },
+    {
+      "id": 62576717,
+      "headline": "Here's How Much $100 Invested In Cintas 10 Years Ago Would Be Worth Today"
+    },
+    {
+      "id": 103242182,
+      "headline": "BlackRock Canada Announces Dissolution of iShares Convertible Bond Index ETF"
+    },
+    {
+      "id": 103242183,
+      "headline": "Cboe Clear U.S. Receives SEC Registration for Binary Options Clearing"
+    },
+    {
+      "id": 103242184,
+      "headline": "Goldman Sachs Adjusts Price Target on Dow Inc."
+    },
+    {
+      "id": 103242185,
+      "headline": "Goldman Sachs Adjusts Price Target on CME Group"
+    },
+    {
+      "id": 103243624,
+      "headline": "UBS Comments on Union Pacific's 2027 Growth Outlook"
+    },
+    {
+      "id": 103243625,
+      "headline": "Salesforce Grants Inducement Equity Awards"
+    },
+    {
+      "id": 62576749,
+      "headline": "If You Invested $100 In Ubiquiti Stock 10 Years Ago, You Would Have This Much Today"
+    },
+    {
+      "id": 62576782,
+      "headline": "Here's How Much $1000 Invested In Williams Companies 5 Years Ago Would Be Worth Today"
+    },
+    {
+      "id": 62576817,
+      "headline": "$1000 Invested In Mastercard 10 Years Ago Would Be Worth This Much Today"
+    },
+    {
+      "id": 62576834,
+      "headline": "Trading Halt: Halted at 7:50:00 p.m. ET - Trading Halt: Halt News Pending"
+    },
+    {
+      "id": 103328586,
+      "headline": "Analyst Speculation Regarding Potential Tesla-SpaceX Merger"
+    },
+    {
+      "id": 103328587,
+      "headline": "JPMorgan Chase & Co. Reduces Holding in Vistry Group PLC Below Reporting Threshold"
+    },
+    {
+      "id": 103328588,
+      "headline": "DUDE WOW Cocktails Selected for Walmart Distribution at Open Call 2026"
+    },
+    {
+      "id": 103328589,
+      "headline": "RBC Wealth Management Recruits $1 Billion Financial Advisor Team"
+    },
+    {
+      "id": 103328590,
+      "headline": "Oracle Schedules Investor Day Meeting for October 28, 2026"
+    },
+    {
+      "id": 103328591,
+      "headline": "Tokyo Lifestyle Co., Ltd. Opens Third Directly Operated Retail Store in Australia"
+    },
+    {
+      "id": 103328592,
+      "headline": "TNL Mediagene Expands Content Commerce Capabilities Through Partnership with The Marvel of Everything (TMOE)"
+    },
+    {
+      "id": 103328593,
+      "headline": "Allegiant Travel to Purchase Six Boeing 737-8 Aircraft"
+    },
+    {
+      "id": 103328602,
+      "headline": "Vertex Pharmaceuticals Announces Publication of Phase 3 RAINIER Results for Povetacicept"
+    },
+    {
+      "id": 103328603,
+      "headline": "UBS Identifies Freeport-McMoRan Among Top Copper Producers in Market Outlook"
+    },
+    {
+      "id": 103328604,
+      "headline": "Higgsfield AI Extends Series B Financing with Investment from NVIDIA"
+    },
+    {
+      "id": 103328605,
+      "headline": "Micware Co., Ltd. Announces Date for First Half Fiscal Year 2027 Financial Results"
+    },
+    {
+      "id": 103328606,
+      "headline": "Leifras Director Appointed to Expert Committee for Japan Sports Agency Project"
+    },
+    {
+      "id": 103328607,
+      "headline": "Robinhood Markets Insider Executes Share Sale"
+    },
+    {
+      "id": 103328608,
+      "headline": "Chevron Implements Permian Operational Strategy in Argentina's Vaca Muerta"
+    },
+    {
+      "id": 103329494,
+      "headline": "HashKey RWA Launches First Tokenized Security Under 'hToken' Series"
+    },
+    {
+      "id": 103329495,
+      "headline": "mF International Announces Wind-Down of Legacy Financial Trading Business"
+    },
+    {
+      "id": 103329496,
+      "headline": "Ryde Group Ltd Announces Non-Binding Term Sheet for Strategic Investment in OneT Solutions"
+    },
+    {
+      "id": 103329497,
+      "headline": "Yimutian Inc. Regains Compliance with Nasdaq Minimum Stockholders' Equity Requirement"
+    },
+    {
+      "id": 103329498,
+      "headline": "HomesToLife Receives Conditional Eligibility-to-List Letter for Proposed Secondary Listing on SGX"
+    },
+    {
+      "id": 103329499,
+      "headline": "Aurora Mobile Launches 'Agent Email' for EngageLab Platform"
+    },
+    {
+      "id": 103329500,
+      "headline": "Masonglory Limited Files for Mixed Shelf Offering of Up to $200 Million"
+    },
+    {
+      "id": 103329501,
+      "headline": "Yunji Technology Announces Operational Growth and Management Lock-up Extension"
+    },
+    {
+      "id": 103329502,
+      "headline": "Top Wealth Group Announces 1-for-100 Share Consolidation"
+    },
+    {
+      "id": 103329503,
+      "headline": "Nexpu Ltd. Subsidiary Launches DPU Platform for Music Creation"
+    },
+    {
+      "id": 103329504,
+      "headline": "Lianhe Sowell International Group Ltd. Announces 1-for-8 Share Consolidation"
+    },
+    {
+      "id": 103329505,
+      "headline": "Cellyan Biotechnology Announces 1-for-20 Reverse Stock Split"
+    },
+    {
+      "id": 103329506,
+      "headline": "Jinko Holdings to Report Third Quarter 2026 Results on October 30, 2026"
+    },
+    {
+      "id": 103329507,
+      "headline": "JinkoSolar Completes Name Change to Jinko Holdings Limited"
+    },
+    {
+      "id": 103329508,
+      "headline": "J-Star Holding Files Interim Financial Results and Announces Strategic Pivot"
+    },
+    {
+      "id": 103329509,
+      "headline": "Acceler8 Ventures PLC Transitions Trading to SETS"
+    },
+    {
+      "id": 103329541,
+      "headline": "Founder Group Limited Regains Compliance with Nasdaq's Minimum Publicly Held Shares Requirement"
+    },
+    {
+      "id": 103329542,
+      "headline": "E-Power Inc. Discloses Technical Details of Mid-Sulfur Petroleum Coke Anode Route"
+    },
+    {
+      "id": 103329543,
+      "headline": "Perfect Corp. Announces Completion of Merger"
+    },
+    {
+      "id": 103329544,
+      "headline": "Click Holdings Limited Reports Record Financial Results for Fiscal Year 2026"
+    },
+    {
+      "id": 103329545,
+      "headline": "MobilityOne Limited Announces Results of Annual General Meeting"
+    },
+    {
+      "id": 103329546,
+      "headline": "RC365 Holding PLC Announces Exercise of Broker Warrants and Issue of Equity"
+    },
+    {
+      "id": 103329547,
+      "headline": "China SXT Pharmaceuticals Announces 1-for-100 Reverse Stock Split"
+    },
+    {
+      "id": 103329548,
+      "headline": "Eason Technology Subsidiary Granted Patent for Industrial Park Smart Grid Dispatch System"
+    },
+    {
+      "id": 103329549,
+      "headline": "Avation PLC Announces Share Repurchase Transaction"
+    },
+    {
+      "id": 103329550,
+      "headline": "3 E Network Commences Phased Delivery of $5.0 Million Core Storage Hardware Order"
+    },
+    {
+      "id": 103329551,
+      "headline": "3 E Network Announces 2-for-1 Share Consolidation"
+    },
+    {
+      "id": 103329552,
+      "headline": "Orangekloud Technology Inc. Reports First Half 2026 Financial Results"
+    },
+    {
+      "id": 103329553,
+      "headline": "Amber International Holding Limited Announces Results of 2026 Annual General Meeting"
+    },
+    {
+      "id": 103329554,
+      "headline": "WeRide Named Among 'Top 10 Automotive AI Application Cases of 2026' at WICV"
+    },
+    {
+      "id": 103332210,
+      "headline": "Bernstein Maintains Hold Rating on Canadian National Railway, Adjusts Price Target"
+    },
+    {
+      "id": 103332211,
+      "headline": "SpaceX Receives Double Upgrade from PhilipCapital Analyst"
+    },
+    {
+      "id": 103332212,
+      "headline": "Bronstein, Gewirtz & Grossman, LLC Announces Investigation into Merck & Co., Inc."
+    },
+    {
+      "id": 103332213,
+      "headline": "Moody's Maintains France's Credit Rating at Aa3"
+    },
+    {
+      "id": 103332214,
+      "headline": "Citi Maintains Buy Rating and Raises Price Target for Thermo Fisher Scientific"
+    },
+    {
+      "id": 103332215,
+      "headline": "IAM Union Advocates for 10-Year F-35 Procurement Contract"
+    },
+    {
+      "id": 103332216,
+      "headline": "Capital One Executive Discusses AI Fraud and Authentication"
+    },
+    {
+      "id": 103332217,
+      "headline": "Correction Issued Regarding Western Digital Earnings Projections"
+    },
+    {
+      "id": 103332218,
+      "headline": "NewGenIvf Group Limited Announces 1-for-8 Reverse Stock Split"
+    },
+    {
+      "id": 103332219,
+      "headline": "MarketAxess Addresses Shareholder Complaints Regarding Planned ICE Merger"
+    },
+    {
+      "id": 103332220,
+      "headline": "Moderna and Merck Release Phase 3 Data for Cancer Vaccine Candidate Intismeran Autogene"
+    },
+    {
+      "id": 103332277,
+      "headline": "TD Cowen Maintains Buy Rating and Raises Price Target on Norfolk Southern"
+    },
+    {
+      "id": 103332278,
+      "headline": "SailPoint Expands Partnership with CrowdStrike for Identity Intelligence Integration"
+    },
+    {
+      "id": 62577115,
+      "headline": "Oil Jumps to Nearly 6-Month High as Houthi Attacks on Saudi Arabia Stoke Supply Fears, While Trump Faces Fuel-Price Headwinds Ahead of Midterms"
+    },
+    {
+      "id": 62577133,
+      "headline": "Marjorie Taylor Greene Backs Elon Musk's Ukraine War Spending Criticism, as Starlink Restrictions Persist: \u2018Never Got the Audit I Demanded\u2019"
+    },
+    {
+      "id": 62577176,
+      "headline": "First Russian Diesel Tanker Heads to New York Since 2022 Under Trump-Putin Deal as US Fuel Prices Stay Elevated: Kremlin Says 'Further Shipments Will Continue\u2019"
+    },
+    {
+      "id": 62577196,
+      "headline": "OpenAI Resumes Frontier AI Training After September Security Scare, Restricts Live Internet Access During Training Amid Growing Concerns"
+    },
+    {
+      "id": 62577212,
+      "headline": "Skydance Reportedly Unveils New Ad Leadership Team After Warner Bros. Merger Amid Integration Push"
+    },
+    {
+      "id": 62577241,
+      "headline": "Mark Cuban Says AI Agents Can Be Like \u2018Cockroaches\u2019 That Find Ways Into Systems, But Defenders Can Fight Back With AI: \u2018We\u2019ve Always Had Hacks\u2019"
+    },
+    {
+      "id": 62577268,
+      "headline": "Trump Eases 50% Tariffs on Select Canadian Goods Days Before Midterms, While Susan Collins Faces Tough Reelection Fight"
+    },
+    {
+      "id": 103346142,
+      "headline": "Preliminary Result of S-Bank's Subsequent Offer Period for Oma Savings Bank"
+    },
+    {
+      "id": 103346143,
+      "headline": "eQ Plc Reports Q3 2026 Interim Results"
+    },
+    {
+      "id": 103346144,
+      "headline": "Jury Awards $33 Million Verdict Against Caesarstone in Silicosis Lawsuit"
+    },
+    {
+      "id": 103346145,
+      "headline": "Rise Nano Optics Ltd. Announces Proposed C$5 Million Private Placement"
+    },
+    {
+      "id": 103346146,
+      "headline": "Enlivex Announces 1-for-16 Reverse Stock Split"
+    },
+    {
+      "id": 103346147,
+      "headline": "Capital Clean Energy Carriers Corp. Schedules Third Quarter 2026 Earnings Release and Conference Call"
+    },
+    {
+      "id": 103346148,
+      "headline": "NeuroThera Labs Reports Progress in Phase IIb Clinical Trial for Tourette Syndrome"
+    },
+    {
+      "id": 103346149,
+      "headline": "Steakholder Foods Announces 1-for-5 Reverse Stock Split"
+    },
+    {
+      "id": 103346150,
+      "headline": "BioLineRx and Hemispherian Present Preclinical Data on GLIX1 Synergy with PARP Inhibitors at ESMO 2026"
+    },
+    {
+      "id": 103346151,
+      "headline": "Canadian Investment Regulatory Organization Imposes Trading Halt on Eventer Technologies Ltd."
+    },
+    {
+      "id": 103346152,
+      "headline": "Eventer Technologies Ltd. Announces Acquisition of Remaining 49% Stake in Israeli Subsidiary"
+    },
+    {
+      "id": 103346222,
+      "headline": "Beamr Imaging Ltd. Featured on RedChip Small Stocks, Big Money\u2122 Show"
+    },
+    {
+      "id": 103346223,
+      "headline": "Wearable Devices Ltd. Enters Strategic Collaboration with Encord for Physical AI"
+    },
+    {
+      "id": 103346224,
+      "headline": "Robin Energy Announces LPG Vessel Acquisition"
+    },
+    {
+      "id": 103346225,
+      "headline": "SciSparc Subsidiary NeuroThera Labs Achieves Regulatory Milestone for Tourette Syndrome Clinical Trial"
+    },
+    {
+      "id": 103346226,
+      "headline": "PRF Technologies Issues Letter to Shareholders Highlighting Financial Position and Strategic Progress"
+    },
+    {
+      "id": 103346227,
+      "headline": "Mobileye Achieves First T\u00dcV S\u00dcD Inspection Certificate for ADAS Development"
+    },
+    {
+      "id": 62577328,
+      "headline": "Melania Trump Brokers Russia-Ukraine Ceasefire in Occupied City, Draws Praise From Both Sides: \u2018Without My Intervention, The Possibility to Bring\u2026\u2019"
+    },
+    {
+      "id": 103350728,
+      "headline": "Gimv Identified as Investor in Equine Healthcare Sector"
+    },
+    {
+      "id": 103350729,
+      "headline": "Man Group PLC Discloses 3.13% Interest in RHI Magnesita N.V."
+    },
+    {
+      "id": 103350730,
+      "headline": "Husqvarna AB Declares Dividend"
+    },
+    {
+      "id": 103350731,
+      "headline": "BW Energy Announces New Awards Under Long-Term Incentive Program"
+    },
+    {
+      "id": 103350732,
+      "headline": "Tesla and Nvidia Fund SEMCO Technologies Substrate Lines"
+    },
+    {
+      "id": 103350733,
+      "headline": "Kl\u00f6ckner & Co Shareholders Reject Domination and Profit and Loss Transfer Agreement"
+    },
+    {
+      "id": 103350734,
+      "headline": "Juventus Draws 2-2 with Rennes in Europa League"
+    },
+    {
+      "id": 103350735,
+      "headline": "Banca Akros Raises GVS Price Target to 6 Euros"
+    },
+    {
+      "id": 103350736,
+      "headline": "Vitec Software Group Reports 15% Sales Growth and Two New Acquisitions"
+    },
+    {
+      "id": 103350737,
+      "headline": "Viaplay Group Corrects Q3 2026 Presentation Slide"
+    },
+    {
+      "id": 103350738,
+      "headline": "Costamare Bulkers Holdings Limited Files Form 6-K"
+    },
+    {
+      "id": 103350739,
+      "headline": "MPCM Adjusts Vossloh Price Target to 57 EUR"
+    },
+    {
+      "id": 103350740,
+      "headline": "Adtran Networks SE: Voting Rights Notification"
+    },
+    {
+      "id": 103350741,
+      "headline": "Hansa Biopharma Announces Positive Idefirix PAES Results Presented at ASN Kidney Week 2026"
+    },
+    {
+      "id": 103350742,
+      "headline": "STRATEC SE Announces Major Voting Rights Notification Regarding Morgan Stanley"
+    },
+    {
+      "id": 103350743,
+      "headline": "Logwin AG Announces Upcoming Publication of Quarterly Financial Report"
+    },
+    {
+      "id": 103350744,
+      "headline": "OKEA ASA Announces Invitation to Third Quarter 2026 Conference Call"
+    },
+    {
+      "id": 103350745,
+      "headline": "EPH Group AG Receives Prospectus Approval for New 10% Corporate Bond"
+    },
+    {
+      "id": 103350746,
+      "headline": "Deutsche Bank Research Maintains 'Buy' Rating on Medios AG"
+    },
+    {
+      "id": 103350747,
+      "headline": "Goldman Sachs Group, Inc. Reports Exceeding 10% Voting Rights Threshold in Gerresheimer AG"
+    },
+    {
+      "id": 103350748,
+      "headline": "WISeQey Group Launches WISMind.AI Trust Platform"
+    },
+    {
+      "id": 103350749,
+      "headline": "Analysts Update Price Targets for MilDef Group AB"
+    },
+    {
+      "id": 103350750,
+      "headline": "BlueNord ASA Major Holding Notification"
+    },
+    {
+      "id": 103350751,
+      "headline": "Izertis Completes Fifth Commercial Paper Issuance"
+    },
+    {
+      "id": 103350752,
+      "headline": "SBB Extraordinary General Meeting Results"
+    },
+    {
+      "id": 103350753,
+      "headline": "Parrot Launches Evolver DFR Emergency Response Solution"
+    },
+    {
+      "id": 103350754,
+      "headline": "WISeKey Group Announces Integration of WISMind.AI Across Subsidiaries Including SEALSQ"
+    },
+    {
+      "id": 103350755,
+      "headline": "Rejlers to Design New Pumping Station for Viscaria's Swedish Mine"
+    },
+    {
+      "id": 103350756,
+      "headline": "Ajax Resources PLC Confirms Admission to Euronext Growth Oslo"
+    },
+    {
+      "id": 103350757,
+      "headline": "Cr\u00e9dit Agricole Sud Rh\u00f4ne Alpes Reports Financial Results for the Period Ending September 30, 2026"
+    },
+    {
+      "id": 103350758,
+      "headline": "Apella Terminates Partnership with Netfonds"
+    },
+    {
+      "id": 103350759,
+      "headline": "Otello Corporation ASA Announces Share Buyback Program Status"
+    },
+    {
+      "id": 103350760,
+      "headline": "EQUNICO SE Subsidiary Secures Construction Contract in Kyrgyzstan"
+    },
+    {
+      "id": 103350761,
+      "headline": "Eurotech Receives Financial Commitment from Emera"
+    },
+    {
+      "id": 103350762,
+      "headline": "Fast Ejendom Danmark A/S Updates 2027 Financial Calendar"
+    },
+    {
+      "id": 103350763,
+      "headline": "Xplora Technologies AS Publishes Minutes of Extraordinary General Meeting"
+    },
+    {
+      "id": 103350764,
+      "headline": "Otovo Completes $3 Million Equity Raise and Announces Asset Divestiture"
+    },
+    {
+      "id": 103350765,
+      "headline": "Rafamet S.A. w restrukturyzacji enters into agreement with subsidiary Odlewnia Rafamet Sp. z o.o."
+    },
+    {
+      "id": 103350766,
+      "headline": "Rafamet S.A. w restrukturyzacji secures significant order from VBBr"
+    },
+    {
+      "id": 103350767,
+      "headline": "Vow ASA Awarded EUR 7.7 Million Contract for Cruise Ship Equipment"
+    },
+    {
+      "id": 103350768,
+      "headline": "Brockhaus Technologies AG Announces Change in Major Voting Rights"
+    },
+    {
+      "id": 103350769,
+      "headline": "ABG Sundal Collier Adjusts Price Target for Atlas Copco"
+    },
+    {
+      "id": 103350770,
+      "headline": "AMTD IDEA Group Reports H1 2026 Financial Results and Hospitality Growth"
+    },
+    {
+      "id": 103350771,
+      "headline": "Atari Begins Trading on OTCQX Best Market"
+    },
+    {
+      "id": 103350772,
+      "headline": "Tr\u00f8ndelag Sparebank Announces Early Redemption and Repurchase of Tier 1 Capital Bonds"
+    },
+    {
+      "id": 103350773,
+      "headline": "Iniziative Bresciane Appoints New Investor Relator"
+    },
+    {
+      "id": 103350774,
+      "headline": "Museo Nazionale dell'Automobile Hosts Exhibition Celebrating Pininfarina Designer Aldo Brovarone"
+    },
+    {
+      "id": 103350775,
+      "headline": "The Italian Sea Group Summoned by Florence Bankruptcy Court Amid Financial Deterioration"
+    },
+    {
+      "id": 103350903,
+      "headline": "Quirin Privatbank Publishes Original Research on Serviceware SE"
+    },
+    {
+      "id": 103350776,
+      "headline": "Original Research Report on Serviceware SE by Quirin Privatbank"
+    },
+    {
+      "id": 103350777,
+      "headline": "MWB Research Updates Rating and Price Target for Singulus Technologies AG"
+    },
+    {
+      "id": 103350778,
+      "headline": "Adiuvo Investments S.A. Reports Court Decision on Arrangement Proceedings"
+    },
+    {
+      "id": 103350779,
+      "headline": "SoftOx Solutions AS: New Share Capital"
+    },
+    {
+      "id": 103350780,
+      "headline": "IDEX Biometrics to Close UK Site and Consolidate Operations in Norway"
+    },
+    {
+      "id": 103350909,
+      "headline": "Valereum PLC Publishes Valereum Vox Issue 14"
+    },
+    {
+      "id": 103350910,
+      "headline": "Flekkefjord Sparebank Announces Extraordinary General Meeting"
+    },
+    {
+      "id": 103350911,
+      "headline": "Mostostal Warszawa S.A. Announces Extraordinary General Meeting Recess"
+    },
+    {
+      "id": 103350912,
+      "headline": "Chembio Diagnostic Systems Awarded $5.7 Million for DPP\u00ae Biothreat Panel Development"
+    },
+    {
+      "id": 103350913,
+      "headline": "FluoGuide A/S Announces Q3 2026 Interim Report and Investor Webcast"
+    },
+    {
+      "id": 103350914,
+      "headline": "Getin Holding S.A. Announces Change in Quarterly Report Publication Date"
+    },
+    {
+      "id": 103350915,
+      "headline": "Sazerac Launches Acceptance Period for Takeover Offer of Berentzen-Gruppe AG"
+    },
+    {
+      "id": 103350916,
+      "headline": "123fahrschule SE Reports 68% Increase in Group EBITDA for First Nine Months of 2026"
+    },
+    {
+      "id": 103350917,
+      "headline": "Smoltek Nanotech Receives Funding from Swedish Energy Agency"
+    },
+    {
+      "id": 103350918,
+      "headline": "Artprice by Artmarket Congratulates 2026 Marcel Duchamp Prize Winners"
+    },
+    {
+      "id": 103350919,
+      "headline": "Tonkens Agrar AG Reports Preliminary Financial Results for Fiscal Year 2025/2026"
+    },
+    {
+      "id": 103350920,
+      "headline": "Havila Shipping ASA: Equinor Energy AS Exercises One-Year Option for PSV Vessels"
+    },
+    {
+      "id": 103350921,
+      "headline": "Rigsave S.p.A. Reports Director Dealing Transaction"
+    },
+    {
+      "id": 103350922,
+      "headline": "Ayfie International AS Announces Change of Chairman of the Board"
+    },
+    {
+      "id": 103350923,
+      "headline": "Maisons du Monde Reports Q3 2026 Sales Decline"
+    },
+    {
+      "id": 103350924,
+      "headline": "EPH Group AG Receives Prospectus Approval for New 10% Corporate Bond"
+    },
+    {
+      "id": 103350925,
+      "headline": "KPPD-Szczecinek S.A. Extraordinary General Meeting Resolutions"
+    },
+    {
+      "id": 103350926,
+      "headline": "KPPD-Szczecinek S.A. Shareholder Disclosure for October 2026 Meeting"
+    },
+    {
+      "id": 103350927,
+      "headline": "Biovica Announces Outcome of Rights Issue"
+    },
+    {
+      "id": 103350928,
+      "headline": "Korporacja Gospodarcza \"efekt\" S.A. Receives Notification Under Article 69"
+    },
+    {
+      "id": 103350929,
+      "headline": "Nanologica Announces Rights Issue to Raise 111 Million SEK"
+    },
+    {
+      "id": 103350930,
+      "headline": "Spago Nanomedical AB (publ) Holds Extraordinary General Meeting and Approves Employee Stock Option Programs"
+    },
+    {
+      "id": 103350931,
+      "headline": "Winamp Group Announces Continuation of Bond Financing with Hexagon Capital Fund"
+    },
+    {
+      "id": 103350932,
+      "headline": "Kropz Plc Announces Final Drawdown on Bridge Loan Facility"
+    },
+    {
+      "id": 103350933,
+      "headline": "Nexity Reports Business Activity for the First Nine Months of 2026 and Confirms Full-Year Guidance"
+    },
+    {
+      "id": 103350934,
+      "headline": "JLT Mobile Computers AB (publ) Publishes Interim Report for January\u2013September 2026"
+    },
+    {
+      "id": 103350935,
+      "headline": "Qlife Secures ISO Certification for At-home Phenylalanine Testing"
+    },
+    {
+      "id": 103350936,
+      "headline": "SimFabric Unit MobileFabric Signs Agreement with Apple"
+    },
+    {
+      "id": 103350937,
+      "headline": "Valora Effekten Handel AG Reports Q3 2026 Results and Raises Revenue Guidance"
+    },
+    {
+      "id": 103351096,
+      "headline": "Algene Holding SE Reports Positive Interim Results from Technical University of Munich Study"
+    },
+    {
+      "id": 103350938,
+      "headline": "Herkules S.A. Reports Results of Share Buyback Program"
+    },
+    {
+      "id": 103351098,
+      "headline": "SaveLend Group Publishes Trading Update for the Third Quarter of 2026"
+    },
+    {
+      "id": 103351099,
+      "headline": "Nacon Announces Success of Tenth Employee Capital Increase"
+    },
+    {
+      "id": 103351100,
+      "headline": "Nacon Launches REVOLUTION PRO X \u2013 SE Wireless Controller"
+    },
+    {
+      "id": 103351101,
+      "headline": "Teneo AI AB Releases Quarterly Report for July\u2013September 2026"
+    },
+    {
+      "id": 62577354,
+      "headline": "Apple\u2019s iPhone Duo Launch Lines Surprise Gene Munster, Who Sees 20 Million Units and $8 Billion Revenue Boost; Tim Cook Says, \u2018Welcome to the World\u2019"
+    },
+    {
+      "id": 62577374,
+      "headline": "Biden and Trump Administrations Both Reportedly Sought to Control Where Elon Musk\u2019s Starlink Works, From Iran to Ukraine"
+    },
+    {
+      "id": 103360393,
+      "headline": "Informa Markets Vietnam Announces VIETWATER 2026 Exhibition"
+    },
+    {
+      "id": 103360394,
+      "headline": "Science Group plc Announces Transaction in Own Shares"
+    },
+    {
+      "id": 103360395,
+      "headline": "Kier Group plc Announces Transaction in Own Shares"
+    },
+    {
+      "id": 103360396,
+      "headline": "Pensana Plc Publishes 2026 Annual Report"
+    },
+    {
+      "id": 103360397,
+      "headline": "Foxtons Group plc Grants One-Off Awards to CEO and CFO"
+    },
+    {
+      "id": 103360398,
+      "headline": "The Goldman Sachs Group, Inc. Reduces Voting Rights in Irish Residential Properties REIT plc"
+    },
+    {
+      "id": 103360399,
+      "headline": "ICAMAP Real Estate Securities Fund Discloses Opening Position in Irish Residential Properties REIT plc"
+    },
+    {
+      "id": 103360400,
+      "headline": "Director/PDMR Shareholding: Rian Dartnell Purchases 5,000 Shares"
+    },
+    {
+      "id": 103360401,
+      "headline": "UBS Securities Issues Preview of Capri Holdings' Fiscal Q2 Earnings"
+    },
+    {
+      "id": 103360402,
+      "headline": "Colefax Group PLC Announces Final Results of Tender Offer"
+    },
+    {
+      "id": 103360403,
+      "headline": "Panoro Energy ASA: Major Shareholding Disclosure"
+    },
+    {
+      "id": 103360577,
+      "headline": "Ramsdens Holdings PLC Listed in Takeover Panel Disclosure Table"
+    },
+    {
+      "id": 103360579,
+      "headline": "Kooth PLC Announces Director-Related Shareholding Reorganisation"
+    },
+    {
+      "id": 103360580,
+      "headline": "WeShop Announces Share Claims for UK Members"
+    },
+    {
+      "id": 103360581,
+      "headline": "Everyman Media Group PLC Announces PDMR Share Purchase"
+    },
+    {
+      "id": 103360582,
+      "headline": "Invinity Energy Systems plc Publishes Circular and Notice of General Meeting"
+    },
+    {
+      "id": 103360583,
+      "headline": "YouGov plc Executes Share Buyback Programme"
+    },
+    {
+      "id": 103360584,
+      "headline": "Trafalgar Minerals PLC Announces Results of Annual General Meeting"
+    },
+    {
+      "id": 103360585,
+      "headline": "Halo Minerals PLC Receives Key Mining Permit for Playa Verde Project"
+    },
+    {
+      "id": 103360586,
+      "headline": "Cornish Metals plc Announces Notice of General Meeting"
+    },
+    {
+      "id": 103360587,
+      "headline": "Dowgate Group Limited Increases Stake in Croma Security Solutions Group PLC"
+    },
+    {
+      "id": 103360588,
+      "headline": "Mind Gym PLC Announces Return of CFO Emily Fyffe"
+    },
+    {
+      "id": 103360589,
+      "headline": "IXICO Announces Two New Alzheimer's Disease Contracts Valued at \u00a31.5 Million"
+    },
+    {
+      "id": 103360590,
+      "headline": "NeoTerra Group PLC Announces Equity Conversion of Loan Interest"
+    },
+    {
+      "id": 103360591,
+      "headline": "Marechale Capital plc Announces Board Changes"
+    },
+    {
+      "id": 103360592,
+      "headline": "TheraCryf plc Announces Results of Annual General Meeting"
+    },
+    {
+      "id": 103360593,
+      "headline": "UK Energy Group PLC Interests Acquisition Update"
+    },
+    {
+      "id": 103360594,
+      "headline": "eEnergy Group plc Announces Results of General Meeting and Completion of Fundraising"
+    },
+    {
+      "id": 103360595,
+      "headline": "Pythia Sports Joins NYCE Product Marketplace"
+    },
+    {
+      "id": 103360596,
+      "headline": "KCR Residential REIT plc Announces Final Results for the Year Ended 30 June 2026"
+    },
+    {
+      "id": 103360597,
+      "headline": "First Equity Limited Increases Holding in Tooru PLC"
+    },
+    {
+      "id": 103360598,
+      "headline": "Lift Global Ventures Notes IntelliAM AI Fundraising and Proposed AIM Admission"
+    },
+    {
+      "id": 103360599,
+      "headline": "Focus Xplore PLC Provides Technical Overview of Clarkdon Gold Property Exploration"
+    },
+    {
+      "id": 103360600,
+      "headline": "Energy B plc Raises \u00a3607,500 in Share Placing"
+    },
+    {
+      "id": 103360601,
+      "headline": "Huddled Group PLC to Acquire Joint Venture Partner AEWW Ltd"
+    },
+    {
+      "id": 103360602,
+      "headline": "Springfield Properties PLC Grants Performance Share Awards to Executives"
+    },
+    {
+      "id": 103360603,
+      "headline": "Kore Potash Plc - Form 8.5 (EPT/RI) Disclosure"
+    },
+    {
+      "id": 103360604,
+      "headline": "Ajax Resources PLC Approved for Trading on Euronext Growth Oslo"
+    },
+    {
+      "id": 103360605,
+      "headline": "Ajax Resources PLC Completes Private Investor Subscription"
+    },
+    {
+      "id": 103360606,
+      "headline": "Catenai PLC Provides Update on Klarian Ltd Administration"
+    },
+    {
+      "id": 103360607,
+      "headline": "Reveille Resources plc Issues Warrants to Market Maker"
+    },
+    {
+      "id": 103360608,
+      "headline": "Reveille Resources plc Chairman Discusses Strategic Vision in Interview"
+    },
+    {
+      "id": 103360609,
+      "headline": "Reveille Resources plc Announces Exercise of Warrants"
+    },
+    {
+      "id": 103360610,
+      "headline": "Biodexa Pharmaceuticals Announces 1-for-8 Reverse Stock Split"
+    },
+    {
+      "id": 103360611,
+      "headline": "Tufton Assets Limited Confirms Third Quarter 2026 Dividend Timetable"
+    },
+    {
+      "id": 62577400,
+      "headline": "Palo Alto CEO Nikesh Arora Warns Companies to Assume They Will Get \u2018Breached\u2019 and Fix Their \u2018Technology Debt\u2019 as AI Uncovers Critical Software Flaws"
+    },
+    {
+      "id": 103372884,
+      "headline": "Dekel Agri-Vision Announces Proposed Equity Fundraising via AIM Capital Access Window"
+    },
+    {
+      "id": 62577636,
+      "headline": "Benzinga Bulls and Bears: SpaceX, Meta, Netflix"
+    },
+    {
+      "id": 103410505,
+      "headline": "SoftBank-Backed OPay Discloses Terms for US IPO"
+    },
+    {
+      "id": 103410506,
+      "headline": "KT Breaks Ground on 50MW Data Center in Ansan"
+    },
+    {
+      "id": 103410507,
+      "headline": "Honda and Mitsubishi Motors Sign First-ever MOU on Complementary Automobile Product Supply"
+    },
+    {
+      "id": 62577669,
+      "headline": "Tesla, SpaceX, Micron and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week"
+    },
+    {
+      "id": 62577702,
+      "headline": "EXCLUSIVE: A SpaceX\u2013Tesla Merger Could Boost Passive ETF Demand, But ERShares\u2019 Joel Shulman Flags a Big Risk"
+    },
+    {
+      "id": 103423228,
+      "headline": "Lilly Announces Positive Phase 1 Data for Investigational ADC Sofetabart Mipitecan in Ovarian Cancer"
+    },
+    {
+      "id": 103423229,
+      "headline": "Brazil's Superior Electoral Court Demands Explanations from Meta Ahead of Presidential Runoff"
+    },
+    {
+      "id": 103423230,
+      "headline": "NVIDIA and HUMAIN Expand Partnership for Saudi Arabia AI Infrastructure"
+    },
+    {
+      "id": 103423231,
+      "headline": "Starlink and Starshield Connectivity Restored in Ukraine"
+    },
+    {
+      "id": 103423232,
+      "headline": "Johnson & Johnson Announces Positive Phase 3 PROTEUS Substudy Results for Prostate Cancer Treatment"
+    },
+    {
+      "id": 103423233,
+      "headline": "Cheniere Energy Partners Announces Quarterly Distribution"
+    },
+    {
+      "id": 103423234,
+      "headline": "Vadzo Imaging Introduces Falcon-234CGH Camera Using onsemi AR0234 Sensor"
+    },
+    {
+      "id": 103423235,
+      "headline": "Vadzo Imaging Launches Bolt-521CRS Camera Featuring onsemi AR0521 Sensor"
+    },
+    {
+      "id": 103423236,
+      "headline": "BlackRock Launches iShares Future Robotics and Related Technologies Active ETF"
+    },
+    {
+      "id": 103423237,
+      "headline": "Agoda Designates Bangkok as Its Largest Global Office"
+    },
+    {
+      "id": 103423238,
+      "headline": "Amazon Threat Intelligence Identifies Exploitation Attempts of PHP Vulnerabilities"
+    },
+    {
+      "id": 103423239,
+      "headline": "Amazon Announces First Right Now Climate Fund Investment in Japan"
+    },
+    {
+      "id": 103423240,
+      "headline": "Procter & Gamble Receives OMP Supply Chain Award"
+    },
+    {
+      "id": 103423241,
+      "headline": "Moody's Ratings Assigns Definitive Ratings to DataBank Colocation Data Center Securitization"
+    },
+    {
+      "id": 103423474,
+      "headline": "UBS Identifies First Quantum Minerals as Key Player in Copper Market Outlook"
+    },
+    {
+      "id": 103423242,
+      "headline": "Semtech Enhances AirLink 5G Networking Solutions with Network Slicing and FIPS 140-3"
+    },
+    {
+      "id": 103423243,
+      "headline": "Genmab and Incyte Announce Clinical Trial Collaboration in Metastatic Colorectal Cancer"
+    },
+    {
+      "id": 103423477,
+      "headline": "Zijin Mining Group Co., Ltd. Reports Earnings Results for the Nine Months Ended September 30, 2026"
+    },
+    {
+      "id": 103423244,
+      "headline": "Summit Therapeutics and Lunit Announce Research Agreement for AI-Powered Tumor Microenvironment Analysis"
+    },
+    {
+      "id": 103423245,
+      "headline": "JINGDONG Logistics Partners with Anchanto to Enhance Cross-Border Logistics for Korean Brands"
+    },
+    {
+      "id": 103423246,
+      "headline": "DA Davidson Maintains Neutral Rating on Pinnacle Financial Partners"
+    },
+    {
+      "id": 103423481,
+      "headline": "Warner Music Collaborates on Guru Randhawa's 'The Sirra Era' Concert"
+    },
+    {
+      "id": 103423247,
+      "headline": "Law Firm Investigates Penske Automotive Group's Proposed Take-Private Merger"
+    },
+    {
+      "id": 103423483,
+      "headline": "Slate Grocery REIT Provides Update on Acquisition by Brixmor Property Group Joint Venture"
+    },
+    {
+      "id": 103423484,
+      "headline": "BeOne Medicines Presents New Data for Investigational Oncology Medicines at ESMO 2026"
+    },
+    {
+      "id": 103423485,
+      "headline": "Varonis Threat Labs Identifies New 'Stadia' Malware"
+    },
+    {
+      "id": 103423486,
+      "headline": "Travere Therapeutics Presents New Biomarker Data for FILSPARI at ASN Kidney Week 2026"
+    },
+    {
+      "id": 103423487,
+      "headline": "Parabilis Medicines Announces Updated Phase 1/2 Data for Zolucatetide in Desmoid Tumors"
+    },
+    {
+      "id": 103423488,
+      "headline": "Antitrust Allegations Against Cal-Maine Foods and Egg Industry"
+    },
+    {
+      "id": 103423489,
+      "headline": "GeneDx to Report Third Quarter 2026 Financial Results on November 9, 2026"
+    },
+    {
+      "id": 103423490,
+      "headline": "Celcuity Presents Updated Results from the PIK3CA MT Cohort of the Phase 3 VIKTORIA-1 Study"
+    },
+    {
+      "id": 103423734,
+      "headline": "Leon's Furniture Franchise Opens New Store in Stratford, P.E.I."
+    },
+    {
+      "id": 103423735,
+      "headline": "Western Union Launches Stablecoin Payments Service"
+    },
+    {
+      "id": 103423736,
+      "headline": "Cronos Group CEO Comments on Dutch Cannabis Legalization Requirements"
+    },
+    {
+      "id": 103423737,
+      "headline": "Desjardins Analyst Raises Mullen Group Price Target Following Operational Performance"
+    },
+    {
+      "id": 103423738,
+      "headline": "ArriVent BioPharma to Present Phase 1 Data for ARR-217 at ESMO Congress 2026"
+    },
+    {
+      "id": 103423739,
+      "headline": "Needham Adjusts T1 Energy Price Target"
+    },
+    {
+      "id": 103423740,
+      "headline": "Zymeworks Presents Phase 1 Clinical Data for ZW191 at ESMO Congress 2026"
+    },
+    {
+      "id": 103423741,
+      "headline": "Piper Sandler Adjusts Unusual Machines Price Target"
+    },
+    {
+      "id": 103423742,
+      "headline": "Cantor Fitzgerald Initiates Coverage of Quantum Corporation with Overweight Rating"
+    },
+    {
+      "id": 103423743,
+      "headline": "Piper Sandler Maintains Hold Rating on Red Cat Holdings, Lowers Price Target"
+    },
+    {
+      "id": 103423744,
+      "headline": "Citigroup Raises Sweetgreen Price Target to $13.00"
+    },
+    {
+      "id": 103423745,
+      "headline": "Stifel Maintains Buy Rating on Gentherm, Lowers Price Target to $46"
+    },
+    {
+      "id": 103423746,
+      "headline": "Olema Oncology Awarded State Grant for Workforce Training"
+    },
+    {
+      "id": 103423747,
+      "headline": "Stephens Maintains Buy Rating and Raises Price Target for PacBio"
+    },
+    {
+      "id": 103423748,
+      "headline": "Slate Grocery REIT Announces Receipt of Interim Order for Proposed Acquisition"
+    },
+    {
+      "id": 103423749,
+      "headline": "Piper Sandler Adjusts LightPath Technologies Price Target"
+    },
+    {
+      "id": 103423750,
+      "headline": "Analysts Adjust Price Targets for The Boston Beer Company Following Q3 Results"
+    },
+    {
+      "id": 103423751,
+      "headline": "Tompkins Financial Corporation Increases Quarterly Cash Dividend"
+    },
+    {
+      "id": 103423752,
+      "headline": "HealthStream Director Linda Rebrovick Sells 12,000 Shares"
+    },
+    {
+      "id": 103423753,
+      "headline": "StoneX Maintains Buy Rating for Third Coast Bancshares"
+    },
+    {
+      "id": 103423754,
+      "headline": "Green Plains Inc. Announces Third Quarter 2026 Earnings Conference Call"
+    },
+    {
+      "id": 103423755,
+      "headline": "Amerant Bancorp Inc. Provides Q4 2026 Financial Guidance"
+    },
+    {
+      "id": 103423756,
+      "headline": "Cricut, Inc. Form 4 Filing"
+    },
+    {
+      "id": 103423757,
+      "headline": "National Bank Maintains Sector Perform Rating on Winpak Ltd."
+    },
+    {
+      "id": 103423758,
+      "headline": "NerdWallet Releases Survey Findings on Holiday BNPL Usage"
+    },
+    {
+      "id": 103423759,
+      "headline": "Carriage Services Announces 2026 Third Quarter Earnings Release and Conference Call Schedule"
+    },
+    {
+      "id": 103423760,
+      "headline": "Adtran Networks SE Voting Rights Notification"
+    },
+    {
+      "id": 103423761,
+      "headline": "BlackRock, Inc. Voting Rights Disclosure for ADTRAN Holdings, Inc."
+    },
+    {
+      "id": 103423762,
+      "headline": "Florida Supreme Court Issues Ruling in Lawsuit Involving Universal Property & Casualty"
+    },
+    {
+      "id": 103423763,
+      "headline": "Strata Critical Medical Schedules Third Quarter 2026 Earnings Conference Call"
+    },
+    {
+      "id": 103423764,
+      "headline": "Everspin Technologies Expands MRAM Focus to AI and Satellite Markets"
+    },
+    {
+      "id": 103423765,
+      "headline": "Rapid7 Identifies Critical PHP Vulnerabilities"
+    },
+    {
+      "id": 103423766,
+      "headline": "Orthofix Medical Inc. to Report Third Quarter 2026 Financial Results"
+    },
+    {
+      "id": 103423767,
+      "headline": "TD Cowen Lowers Price Target for BSR Real Estate Investment Trust"
+    },
+    {
+      "id": 103423768,
+      "headline": "ATB Cormark Raises Price Target for Tidewater Midstream and Infrastructure Ltd."
+    },
+    {
+      "id": 103423769,
+      "headline": "Arbor Realty Trust Schedules Third Quarter 2026 Earnings Conference Call"
+    },
+    {
+      "id": 103423770,
+      "headline": "Boston Pizza Royalties Income Fund and Boston Pizza International Inc. to Announce 2026 Third Quarter Results on November 9th"
+    },
+    {
+      "id": 103423771,
+      "headline": "Zhihu Inc. Announces Share Repurchase"
+    },
+    {
+      "id": 103424060,
+      "headline": "Evolv Technologies Deploys Screening Systems at Utah's Delta Center"
+    },
+    {
+      "id": 103424061,
+      "headline": "StorageVault Canada Inc. Price Target Cut by Analysts"
+    },
+    {
+      "id": 103424062,
+      "headline": "Freedom Capital Markets Maintains Price Target for Consensus Cloud Solutions"
+    },
+    {
+      "id": 103423772,
+      "headline": "Seaport Entertainment Group Announces 2026 Summer Season Finale at Pier 17"
+    },
+    {
+      "id": 103424064,
+      "headline": "Newegg Announces Availability of NVIDIA RTX Spark Laptops"
+    },
+    {
+      "id": 103424065,
+      "headline": "Citigroup Lowers Price Target for BJ's Restaurants"
+    },
+    {
+      "id": 103423773,
+      "headline": "Ares Commercial Real Estate Corporation Schedules Third Quarter 2026 Earnings Release"
+    },
+    {
+      "id": 103424066,
+      "headline": "MacroGenics Announces Positive Interim Phase 1 Results for MGC026"
+    },
+    {
+      "id": 103423774,
+      "headline": "AN2 Therapeutics, Inc. Reports Inducement Grants Under Listing Rule 5635(c)(4)"
+    },
+    {
+      "id": 103423775,
+      "headline": "First Capital, Inc. Reports Third Quarter 2026 Financial Results"
+    },
+    {
+      "id": 103424070,
+      "headline": "Oaktree Capital Management Commits $1 Billion to New Investment Firm Cobblers Cove Capital"
+    },
+    {
+      "id": 103424071,
+      "headline": "Energy Services of America Completes Acquisition of FAMCO, Inc. Assets"
+    },
+    {
+      "id": 103423776,
+      "headline": "Mogotes Metals Announces Grant of Stock Options"
+    },
+    {
+      "id": 103423777,
+      "headline": "RxSight Announces Inducement Grants for New Employees"
+    },
+    {
+      "id": 103423778,
+      "headline": "BV Financial, Inc. Reports Q3 2026 Financial Results"
+    },
+    {
+      "id": 103424075,
+      "headline": "The Eastern Company Announces Timing of Third Quarter 2026 Earnings Release and Conference Call"
+    },
+    {
+      "id": 103424076,
+      "headline": "TCGX Leads $250 Million PIPE Financing for Zai Lab"
+    },
+    {
+      "id": 103424077,
+      "headline": "Black Rock Coffee Bar Expands California Footprint with New Rancho Cucamonga Location"
+    },
+    {
+      "id": 103424078,
+      "headline": "Duluth Trading Named Official Rugged Lifestyle Partner of Sporting Kansas City"
+    },
+    {
+      "id": 103424079,
+      "headline": "Lake Shore Bancorp, Inc. Declares Cash Dividend"
+    },
+    {
+      "id": 103424080,
+      "headline": "Sherritt Announces Operational Reduction at Moa Joint Venture Due to Fuel Constraints"
+    },
+    {
+      "id": 103424081,
+      "headline": "Cumberland Pharmaceuticals Announces Top-Line Results from Phase 2a ASSIST-SSc Trial"
+    },
+    {
+      "id": 103424082,
+      "headline": "Nicola Mining Provides Merritt Mill Operational Update"
+    },
+    {
+      "id": 103424083,
+      "headline": "Apex Critical Metals Corp. Completes Nasdaq Listing and US$1.86 Million Offering"
+    },
+    {
+      "id": 103424084,
+      "headline": "Evercore ISI Group Adjusts B&G Foods Price Target"
+    },
+    {
+      "id": 103424085,
+      "headline": "Sunrise Realty Trust Stockholders Approve Merger with Southern Realty Trust"
+    },
+    {
+      "id": 103424086,
+      "headline": "Li-FT Power Ltd. Announces Change of Local Agent and Australian Registered Office"
+    },
+    {
+      "id": 103424087,
+      "headline": "Noodles & Company Schedules Third Quarter 2026 Earnings Conference Call"
+    },
+    {
+      "id": 103424088,
+      "headline": "Denarius Metals Files Toral Project Technical Report and Announces Property Extension"
+    },
+    {
+      "id": 103424089,
+      "headline": "Avanti Gold Corp. Announces Results of Annual General and Special Meeting"
+    },
+    {
+      "id": 103424090,
+      "headline": "Nicola Mining Provides Operational Update on Merritt Mill and Partner Projects"
+    },
+    {
+      "id": 103424091,
+      "headline": "XBiotech Inc. Appoints Co-Chief Executive Officers"
+    },
+    {
+      "id": 103424092,
+      "headline": "Citizens JMP Initiates Coverage of Microbot Medical with Buy Rating"
+    },
+    {
+      "id": 103424093,
+      "headline": "Black Hawk Acquisition Extends Deadline for Business Combination"
+    },
+    {
+      "id": 103424094,
+      "headline": "Silvercrest Asset Management Group Inc. Schedules Third Quarter 2026 Earnings Conference Call"
+    },
+    {
+      "id": 103424095,
+      "headline": "Travelzoo Announces Q3 2026 Earnings Conference Call"
+    },
+    {
+      "id": 103424096,
+      "headline": "Rocket Doctor AI Inc. Announces Equity Grant to Officer and Personnel"
+    },
+    {
+      "id": 103424097,
+      "headline": "Zefiro Methane Corp. Announces Closing of C$5.0 Million Non-Brokered Private Placement"
+    },
+    {
+      "id": 103424098,
+      "headline": "Elicio Therapeutics Announces Positive Phase 2 AMPLIFY-7P Results for Camupepimut"
+    },
+    {
+      "id": 103424099,
+      "headline": "Power Probe PLC Announces Director Share Purchase"
+    },
+    {
+      "id": 103424100,
+      "headline": "Happy Belly Food Group Announces New Rosie's Burgers Location and Executive Departure"
+    },
+    {
+      "id": 103424101,
+      "headline": "RYTHM Powers Upcoming Veterans Day Bash at The Stash Room"
+    },
+    {
+      "id": 103424102,
+      "headline": "GFG Resources Closes Upsized Financing of C$8.1 Million"
+    },
+    {
+      "id": 103424103,
+      "headline": "FTC Solar, Inc. Files Form 4 Insider Transaction"
+    },
+    {
+      "id": 103424104,
+      "headline": "U.S. Department of Energy Designates Helium as a Critical Material"
+    },
+    {
+      "id": 103424105,
+      "headline": "NexgenRx Inc. Declares Dividend of $0.005 Per Common Share"
+    },
+    {
+      "id": 103424106,
+      "headline": "Actinium Pharmaceuticals to Present Phase 1 Study of ATNM-400 at ESMO 2026"
+    },
+    {
+      "id": 103424107,
+      "headline": "Quantum eMotion Corp. Trading Halt"
+    },
+    {
+      "id": 103424108,
+      "headline": "Key Tronic Corporation Announces First Quarter Fiscal 2027 Earnings Date"
+    },
+    {
+      "id": 103424109,
+      "headline": "XTI Aerospace Subsidiary Drone Nerds Adds ABZ Innovation C30 Cleaning Drone to Portfolio"
+    },
+    {
+      "id": 103424110,
+      "headline": "Beacon Securities Reiterates Buy Rating on Atlas Engineered Products Following Clinton Facility Visit"
+    },
+    {
+      "id": 103424111,
+      "headline": "Andrew Simpson Files Schedule 13D/A for HeartSciences Inc."
+    },
+    {
+      "id": 103424112,
+      "headline": "Starcore Announces Results of Annual General Meeting"
+    },
+    {
+      "id": 103424113,
+      "headline": "Mirasol Resources Announces Grant of Incentive Stock Options"
+    },
+    {
+      "id": 103424114,
+      "headline": "Comet Industries Ltd. Announces 10-Acre Parcel Under Contract at Iron Mask Industrial Park"
+    },
+    {
+      "id": 103424115,
+      "headline": "Karus Mining Inc. Announces Board and Management Changes"
+    },
+    {
+      "id": 103424116,
+      "headline": "Caldwell Announces Sale of IQTalent"
+    },
+    {
+      "id": 103424117,
+      "headline": "Carlin Gold Corporation Proposes Royalty-Focused Spinout"
+    },
+    {
+      "id": 103424118,
+      "headline": "Ecolomondo Corporation Receives Court Approval for Asset Sale"
+    },
+    {
+      "id": 103424119,
+      "headline": "IC Group Holdings Inc. Announces Leadership Realignment and Restructuring Charge"
+    },
+    {
+      "id": 103424120,
+      "headline": "Argentina Metals Announces Insider-Led Private Placement for up to $3 Million CAD"
+    },
+    {
+      "id": 103424121,
+      "headline": "Copper One Resources Corp. Commences Phase 2 Drill Program at Majuba Hill"
+    },
+    {
+      "id": 103424122,
+      "headline": "Hampton Securities Limited Acts as Financial Advisor for LUNR Aerospace Corporation Prospectus"
+    },
+    {
+      "id": 103424123,
+      "headline": "Pasithea Therapeutics Announces Positive PAS-004 Clinical Data from Phase 1 Advanced Cancer Study"
+    },
+    {
+      "id": 103424124,
+      "headline": "House of Doge Inc. Announces Acquisition of McQueen Labs Tokenization Platform and Assets"
+    },
+    {
+      "id": 103424125,
+      "headline": "PreveCeutical Medical Inc. Closes Initial Tranche of Private Placement"
+    },
+    {
+      "id": 103424126,
+      "headline": "Goldcana Resources Inc. Closes $1 Million Non-Brokered Private Placement"
+    },
+    {
+      "id": 103424127,
+      "headline": "Rain Enhancement Technologies Reports Preliminary Warm-Season Precipitation Enhancement Results"
+    },
+    {
+      "id": 103424128,
+      "headline": "Orex Minerals Announces Proposed Repricing of Outstanding Warrants"
+    },
+    {
+      "id": 103424129,
+      "headline": "J.R. Kingsley Ward Acquires Convertible Debenture Units of NowVertical Group Inc."
+    },
+    {
+      "id": 103424130,
+      "headline": "Aurora Spine Announces Publication of REFINE Study's 12-Month Results"
+    },
+    {
+      "id": 103424131,
+      "headline": "GOAT Industries Ltd. Enters Definitive Agreement to Acquire Epoxy AI Customer Contract Revenues"
+    },
+    {
+      "id": 103424132,
+      "headline": "Foremost Clean Energy Enters Joint Venture Agreement with Denison Mines"
+    },
+    {
+      "id": 103424133,
+      "headline": "SLAM Exploration Mobilizes Drill Team to Moose Lake Project"
+    },
+    {
+      "id": 103424134,
+      "headline": "Bolt Biotherapeutics Announces Acquisition of Prana Therapies and $120 Million Private Placement"
+    },
+    {
+      "id": 103424135,
+      "headline": "Alpine Income Property Trust Outlines 2026 AFFO Guidance"
+    },
+    {
+      "id": 103424136,
+      "headline": "Encore Technologies Announces Portfolio Milestone and Board Reconstitution"
+    },
+    {
+      "id": 103424137,
+      "headline": "Uranium One Mining Corp. Engages Adrian Huerta Ruiz as Technical Advisor"
+    },
+    {
+      "id": 103424497,
+      "headline": "CXApp Inc. Announces Strategic Initiatives Including $1 Million Share Repurchase Program and Standstill Agreement"
+    },
+    {
+      "id": 103424498,
+      "headline": "THS Maple Holdings Ltd. Reports Fiscal Year 2026 Financial Results"
+    },
+    {
+      "id": 103424499,
+      "headline": "Red Metal Resources Ltd. to Present at the Emerging Growth Conference"
+    },
+    {
+      "id": 103424500,
+      "headline": "Akanda Corp. Files Registration Withdrawal Request"
+    },
+    {
+      "id": 103424501,
+      "headline": "Tribe Property Technologies Inc. Transitions DMS Group to Tribe Management Brand"
+    },
+    {
+      "id": 103424502,
+      "headline": "Coyote Copper Mines Inc. Engages Independent Trading Group as Market Maker"
+    },
+    {
+      "id": 103424503,
+      "headline": "Rakovina Therapeutics and Variational AI Advance Brain-Penetrant ATR Program Toward Development Candidate Selection"
+    },
+    {
+      "id": 103424504,
+      "headline": "Maxim Group Maintains Buy Rating on Scienture Holdings, Lowers Price Target"
+    },
+    {
+      "id": 103424505,
+      "headline": "Reliance Global Group Announces Non-Binding LOI to Acquire GPU Cloud Provider"
+    },
+    {
+      "id": 103424506,
+      "headline": "Critical Metals Corp. Announces Shareholder Approval for Acquisition of European Lithium"
+    },
+    {
+      "id": 103424507,
+      "headline": "SenesTech Receives Nasdaq Minimum Bid Price Notification"
+    },
+    {
+      "id": 103424508,
+      "headline": "Spark Energy Minerals Reports Surface Sampling Results at Arapaima Project"
+    },
+    {
+      "id": 103424509,
+      "headline": "Interactive Strength Inc. Provides Q3 and October Commercial Update"
+    },
+    {
+      "id": 103424510,
+      "headline": "Ashley Gold Corp. President Files Updated Early Warning Report"
+    },
+    {
+      "id": 103424511,
+      "headline": "URU Metals Subsidiary Commences Drilling Program at Zebediela Nickel Project"
+    },
+    {
+      "id": 103424512,
+      "headline": "XCF Global Outlines Integrated Strategy Following Business Combination with DevvStream Corp."
+    },
+    {
+      "id": 103424513,
+      "headline": "Canadian Gold Resources Ltd. Announces Commencement of Bulk Sampling Program at Lac Arsenault"
+    },
+    {
+      "id": 103424514,
+      "headline": "Great Atlantic Resources to Present at 2026 New Brunswick Exploration, Mining and Petroleum Conference"
+    },
+    {
+      "id": 103424515,
+      "headline": "Sparta Capital Ltd. Provides Corporate Update on Reinstatement Review and Financial Corrections"
+    },
+    {
+      "id": 103424516,
+      "headline": "Onconetix Provides Additional $500,000 Bridge Financing to Realbotix LLC"
+    },
+    {
+      "id": 103424517,
+      "headline": "Cleghorn Minerals Completes First Phase of Field Work at Rocco Copper Prospect"
+    },
+    {
+      "id": 103424518,
+      "headline": "Therma Bright Announces up to $420,000 Non-Brokered Private Placement"
+    },
+    {
+      "id": 103424519,
+      "headline": "Hydaway Digital Corp. Announces Proposed Share Consolidation and Name Change"
+    },
+    {
+      "id": 103424520,
+      "headline": "BIO-key Secures New Middle East Government Contract for IAM and Biometric Solutions"
+    },
+    {
+      "id": 103424521,
+      "headline": "Vinland Lithium Inc. Files Interim Financial Statements and Management Discussion and Analysis"
+    },
+    {
+      "id": 103424522,
+      "headline": "Vivakor Completes Due Diligence for Proposed $40 Million Acquisition of Direct Midstream"
+    },
+    {
+      "id": 103424523,
+      "headline": "Catheter Precision Announces Publication of Comparative Study for LockeT Suture Retention Device"
+    },
+    {
+      "id": 103424524,
+      "headline": "Vivakor Receives Regulatory Approval for Houston-Area Remediation Processing Center"
+    },
+    {
+      "id": 103424525,
+      "headline": "Prospect Media Group Announces Internal Rollout of Prospect Intelligence Platform"
+    },
+    {
+      "id": 103424526,
+      "headline": "Cascade Copper Announces Critical Mineral Flow-Through Financing"
+    },
+    {
+      "id": 103424527,
+      "headline": "iPower Inc. Announces 1-for-12 Reverse Stock Split"
+    },
+    {
+      "id": 103424528,
+      "headline": "Graphano Energy Announces Amendment to Private Placement"
+    },
+    {
+      "id": 103424529,
+      "headline": "Quadro Resources Announces Management Changes and Stock Option Grants"
+    },
+    {
+      "id": 103424530,
+      "headline": "Aeon Strategies Ltd. (formerly Cloud3 Ventures Inc.) Announces Anticipated Late Filing of Annual Financial Statements"
+    },
+    {
+      "id": 103424531,
+      "headline": "Advantex Marketing International Inc. Completes $250,000 Debt Financing and Extends Existing Debenture Maturity"
+    },
+    {
+      "id": 103424532,
+      "headline": "Glucotrack Issues Senior Secured Convertible Notes"
+    },
+    {
+      "id": 103424533,
+      "headline": "Glucotrack Announces 1-for-2 Reverse Stock Split"
+    },
+    {
+      "id": 103424534,
+      "headline": "American Salars Lithium Inc. Completes Acquisition of K20 Minerals and Lake Throssell Project"
+    },
+    {
+      "id": 103424535,
+      "headline": "EverGen Infrastructure Announces Record RNG Production for Q3 2026"
+    },
+    {
+      "id": 103424536,
+      "headline": "Xplore Resources Corp. Files Certification of Annual Filings"
+    },
+    {
+      "id": 103424537,
+      "headline": "Niki BioSolutions Subsidiary DiamiR Biosciences Signs APOE Genotyping Agreement with Charter Research"
+    },
+    {
+      "id": 103424538,
+      "headline": "ProAm Explorations Expands Golden Ridge Property in New Brunswick"
+    },
+    {
+      "id": 103424539,
+      "headline": "Algo Grande Copper Corp. Engages Addison Mining Services for NI 43-101 Technical Report Update"
+    },
+    {
+      "id": 103424540,
+      "headline": "TrustBIX Inc. Announces Further Extension to Private Placement"
+    },
+    {
+      "id": 103424541,
+      "headline": "Mayo Lake Minerals Provides Particulars of 2026 Program to Finalize Targeting for 2027 Diamond Drilling Program"
+    },
+    {
+      "id": 103424542,
+      "headline": "Kingman Minerals Reports Exploration Results for Tombstone Project"
+    },
+    {
+      "id": 103424543,
+      "headline": "Newlox Gold Ventures Corp. Announces Revocation of Cease Trade Order and Operational Update"
+    },
+    {
+      "id": 103424544,
+      "headline": "Global Hemp Group Inc. Appoints New CFO and Auditor"
+    },
+    {
+      "id": 103424545,
+      "headline": "TruSilver Metals Corp. Completes Qualifying Transaction"
+    },
+    {
+      "id": 103424546,
+      "headline": "Edible Garden Announces Commercial Supply Agreement and Strategic Partnership with Caney Fork Farms"
+    },
+    {
+      "id": 103424547,
+      "headline": "22nd Century Group Reports Preliminary Third Quarter 2026 Financial Results"
+    },
+    {
+      "id": 103424548,
+      "headline": "Cedar Realty Trust, Inc. Declares Preferred Stock Dividends"
+    },
+    {
+      "id": 103424549,
+      "headline": "Cedar Realty Trust Declares Dividends on Preferred Stock"
+    },
+    {
+      "id": 103424550,
+      "headline": "Lucky Minerals Inc. Announces Strategic Amendments to Prudhomme Property Option Agreement"
+    },
+    {
+      "id": 103424551,
+      "headline": "Vireo Growth Acquires Florida Cultivation Campus for $21 Million"
+    },
+    {
+      "id": 103424552,
+      "headline": "Integrated Quantum Technologies Inc. Announces Partnership with ARMI Solutions LLC"
+    },
+    {
+      "id": 103424553,
+      "headline": "NUBURU Appoints Gianluca Trezza as CEO of Tekne"
+    },
+    {
+      "id": 103424554,
+      "headline": "Anteros Metals Establishes 1,900-Hectare Land Position in Newfoundland's Deer Lake Basin"
+    },
+    {
+      "id": 103424555,
+      "headline": "Skull Ridge Gold Corp. Reports Trench Sampling Results"
+    },
+    {
+      "id": 103424556,
+      "headline": "Silver Pony Resources Corp. Closes Up-Sized $1.6 Million Strategic Unit Offering"
+    },
+    {
+      "id": 103424557,
+      "headline": "Silver Pony Resources Corp. Closes Up-Sized $1.3 Million Flow-Through Offering"
+    },
+    {
+      "id": 103425398,
+      "headline": "Mkango Magnetic Materials Limited Announces Share Buyback"
+    },
+    {
+      "id": 62577772,
+      "headline": "Anthony Scaramucci Once Shared This Cautionary Tale for Navigating Personal and Business Relationships \u2014 Crypto Bull Warns \u2018You Can\u2019t Put Your Pride and Ego\u2019 Into Decisions"
+    },
+    {
+      "id": 103448134,
+      "headline": "Holcim Reports Q3 2026 Results Highlighting Cementos Pacasmayo Acquisition Impact"
+    },
+    {
+      "id": 62577804,
+      "headline": "Bill Ackman and Elon Musk Both Want Dinner With the Same Founding Father"
+    },
+    {
+      "id": 62577840,
+      "headline": "Chevron, Exxon, Shell and ConocoPhillips Hit Record Highs as Crude Rally Powers On Into Earnings"
+    },
+    {
+      "id": 62577859,
+      "headline": "JetBlue Stock Sinks, Bond Yields Surge as Creditors Hire Advisors Amid Higher Jet Fuel Prices"
+    },
+    {
+      "id": 103486115,
+      "headline": "State Bank of India Implements Policy Framework for New Trade Regulations"
+    },
+    {
+      "id": 103486116,
+      "headline": "HDFC Bank Clarifies Export Declaration Form Requirements Following Oversight"
+    },
+    {
+      "id": 103486541,
+      "headline": "Kotak Mahindra Bank Reports 26% Growth in Q2 Consolidated Profit"
+    },
+    {
+      "id": 62577901,
+      "headline": "French Bonds Breach 5%, Briefly Overtaking U.S. Treasurys: Why It Matters For American Investors"
+    },
+    {
+      "id": 62578560,
+      "headline": "Celestica Stock Dips as the AI Trade Unwinds: Can Earnings Turn It Around?"
+    },
+    {
+      "id": 62578587,
+      "headline": "XLE, VDE, IXC ETFs Hit Record Highs as Inflows Jump as Brent Crude Targets $120"
+    },
+    {
+      "id": 62578603,
+      "headline": "Mike Novogratz: AI Could Be 'Biggest Bubble of Our Lifetime,' Bitcoin to Hit $100,000 in 2026"
+    },
+    {
+      "id": 62578639,
+      "headline": "Safe Haven Trade: SCHD Outperforms VOO and QQQ as AI Bubble Fears Mount"
+    },
+    {
+      "id": 103549867,
+      "headline": "Orion Announces Positive Phase III Results for Nubeqa in Prostate Cancer"
+    },
+    {
+      "id": 103549868,
+      "headline": "Konecranes Plc - Analyst/Investor Day"
+    },
+    {
+      "id": 62578699,
+      "headline": "XRP Price Faces Downside Risk Despite Rising ETF Inflows and RLUSD Growth"
+    },
+    {
+      "id": 62578724,
+      "headline": "Elon Musk Is \u2018Okay With Being Disliked\u2019 \u2014 and He Knows Exactly Where His $985 Billion Fortune Is Going"
+    },
+    {
+      "id": 103575488,
+      "headline": "ABN AMRO Announces Plan to Reduce Workforce by 20% by 2028"
+    },
+    {
+      "id": 103575489,
+      "headline": "Genmab and Incyte Announce Clinical Trial Collaboration in Metastatic Colorectal Cancer"
+    },
+    {
+      "id": 103575490,
+      "headline": "Alstom Secures 15-Year, \u00a3800 Million Services Contract Extension From Greater Anglia"
+    },
+    {
+      "id": 103575491,
+      "headline": "American Airlines Exercises Options for Five Additional Airbus Aircraft"
+    },
+    {
+      "id": 103575492,
+      "headline": "Norges Bank Opposes MPS Acquisition Offer for Banca Generali"
+    },
+    {
+      "id": 103575493,
+      "headline": "Hydro Produces First Aluminium Using HalZero Technology"
+    },
+    {
+      "id": 103575494,
+      "headline": "DHL Supply Chain and Biogen T\u00fcrkiye Expand Temperature-Controlled Logistics Partnership"
+    },
+    {
+      "id": 103575495,
+      "headline": "Orange, Deutsche Telekom, Telef\u00f3nica, and Vodafone Plan Joint Bid for Mobile Satellite Services Spectrum"
+    },
+    {
+      "id": 103575496,
+      "headline": "Roche Discontinues Development of RG6540 CAR-T Therapy"
+    },
+    {
+      "id": 103575497,
+      "headline": "Norges Bank Investment Management Opposes Key Strategic Proposals at Monte dei Paschi di Siena"
+    },
+    {
+      "id": 103575498,
+      "headline": "ACCC Approves Merger Between Linfox Armaguard and Prosegur"
+    },
+    {
+      "id": 103575499,
+      "headline": "Frasers Group Becomes Controlling Shareholder of Hugo Boss AG"
+    },
+    {
+      "id": 103575500,
+      "headline": "Avianca Cargo and Kuehne+Nagel Win Cargo iQ Quality Rally"
+    },
+    {
+      "id": 103575501,
+      "headline": "Bulletin from the Extraordinary General Meeting of PPI Public Property Invest AB"
+    },
+    {
+      "id": 103575502,
+      "headline": "Electrolux Professional Launches Generation 7000 Laundry Range"
+    },
+    {
+      "id": 103575503,
+      "headline": "Nanobiotix Announces Final Data from Phase 1 Study of JNJ-1900 in Cutaneous Melanoma"
+    },
+    {
+      "id": 103575504,
+      "headline": "KBW Reaffirms Positive View on FinecoBank"
+    },
+    {
+      "id": 103575505,
+      "headline": "Adtran Networks SE Receives Major Voting Rights Notification"
+    },
+    {
+      "id": 103575506,
+      "headline": "Volvo Cars Reports Q3 2026 Financial Results Including Polestar Loss Recognition"
+    },
+    {
+      "id": 103575507,
+      "headline": "Immatics Presents Clinical Activity of IMA402 and IMA203CD8 at ESMO 2026"
+    },
+    {
+      "id": 103575508,
+      "headline": "Piper Sandler Maintains Buy Rating and $26 Price Target for Inventiva"
+    },
+    {
+      "id": 103575509,
+      "headline": "Vitec Software Group Resolves to Repurchase Class B Shares"
+    },
+    {
+      "id": 103575958,
+      "headline": "Norion Bank Reports Third Quarter 2026 Financial Results"
+    },
+    {
+      "id": 103575959,
+      "headline": "Lufthansa Cargo Subsidiary GlobeCross Opens New Headquarters"
+    },
+    {
+      "id": 103575960,
+      "headline": "Norges Bank Opposes Proposed MPS-Mediobanca Merger and Restructuring"
+    },
+    {
+      "id": 103575961,
+      "headline": "AMTD Digital Announces Unaudited Financial Results for the Six Months Ended April 30, 2026"
+    },
+    {
+      "id": 103575962,
+      "headline": "Norges Bank Opposes MPS Takeover Bid for Banco BPM"
+    },
+    {
+      "id": 103575963,
+      "headline": "Bayer Reports Positive Phase III Results for NUBEQA\u00ae in Prostate Cancer Patients"
+    },
+    {
+      "id": 103575964,
+      "headline": "Schaeffler Opens Lighthouse Smart Factory in Taicang for Humanoid Robot Actuators"
+    },
+    {
+      "id": 103575965,
+      "headline": "Idorsia Reports Positive Phase 2 Results for Daridorexant in Pediatric Insomnia"
+    },
+    {
+      "id": 62578745,
+      "headline": "Realty Income Stock Climbs Back as Treasury Yields Retreat, Yet Challenges Persist"
+    },
+    {
+      "id": 62578764,
+      "headline": "S&P 500 and Nasdaq 100 Slip as Strong Earnings Collide With AI Bubble Fears and $117 Oil"
+    },
+    {
+      "id": 103602870,
+      "headline": "NatWest Group Announces Transaction in Own Shares"
+    },
+    {
+      "id": 103602871,
+      "headline": "Rolls-Royce SMR Signs Contract for UK's First Small Modular Reactor Project"
+    },
+    {
+      "id": 103602872,
+      "headline": "M.P. Evans Group PLC Announces Share Purchase and Cancellation"
+    },
+    {
+      "id": 103602873,
+      "headline": "Kier Group Appoints Ben Stone as New Group Sustainability Director"
+    },
+    {
+      "id": 103602874,
+      "headline": "Sir Martin Sorrell Discusses AI's Impact on Advertising"
+    },
+    {
+      "id": 103602875,
+      "headline": "Avacta Presents FOCUS-01 Phase 1 Trial Design and Preclinical Data for AVA6103 at ESMO Congress"
+    },
+    {
+      "id": 103602876,
+      "headline": "Frasers Group Acquires Controlling Stake in Hugo Boss"
+    },
+    {
+      "id": 103602877,
+      "headline": "Eleco plc Provides Update on Letter of Intent Regarding Proposed Acquisition"
+    },
+    {
+      "id": 103602878,
+      "headline": "Vodafone, Deutsche Telekom, Orange, and Telef\u00f3nica Plan Joint Bid for MSS Spectrum"
+    },
+    {
+      "id": 103602879,
+      "headline": "Savills Vietnam Co-Hosts Industry Forum on ESG and Industrial Sustainability"
+    },
+    {
+      "id": 103602880,
+      "headline": "NextEnergy Solar Fund Limited Disclosure Table Update"
+    },
+    {
+      "id": 103603348,
+      "headline": "J.D. Power\u2013GlobalData October Vehicle Forecast"
+    },
+    {
+      "id": 62578790,
+      "headline": "RIOT, MARA, IREN, and CORZ Stocks Slide as Bitcoin Miners Turn Neoclouds Face Credit Risks"
+    },
+    {
+      "id": 103715669,
+      "headline": "Robot Consulting Announces Receipt of Nasdaq Delisting Determination and Request to Appeal"
+    },
+    {
+      "id": 103715729,
+      "headline": "NVIDIA Proposes Physical AI Hub in Kazakhstan"
+    },
+    {
+      "id": 103715730,
+      "headline": "Amazon Canada Collaborates with Royal Canadian Legion for 2026 National Poppy Campaign"
+    },
+    {
+      "id": 103715731,
+      "headline": "BioInvent and Merck Present Updated Data on BI-1808 and Keytruda Combination"
+    },
+    {
+      "id": 103715732,
+      "headline": "Tesla Expands Robotaxi Service Cities and Releases Safety Data"
+    },
+    {
+      "id": 103715733,
+      "headline": "Glass Lewis Report Highlights Goldman Sachs Retention Awards"
+    },
+    {
+      "id": 103715734,
+      "headline": "Goldman Sachs Upgrades CoreWeave to 'Buy'"
+    },
+    {
+      "id": 103715735,
+      "headline": "Hilton Outlines Regional MICE Strategy for Southeast Asia"
+    },
+    {
+      "id": 103715736,
+      "headline": "United States Announces Resolution of USMCA Labor Matter at Amphenol Optimize M\u00e9xico"
+    },
+    {
+      "id": 103715737,
+      "headline": "Boeing 777 Freighter Becomes World's Most Widely Operated Freighter"
+    },
+    {
+      "id": 103715738,
+      "headline": "Retailers Face Scrutiny Over Electronic Shelf Labels"
+    },
+    {
+      "id": 103715750,
+      "headline": "Axon Announces Next-Generation Axon Body 5 and Body 5 Pro Cameras"
+    },
+    {
+      "id": 103715751,
+      "headline": "Class Action Lawsuit Filed Against Darden Restaurants, Inc. Regarding California Labor Code Violations"
+    },
+    {
+      "id": 103715752,
+      "headline": "Rolls-Royce SMR Shareholders Support Divestment of Constellation Energy's Equity Interest"
+    },
+    {
+      "id": 103715753,
+      "headline": "Biogen T\u00fcrkiye and DHL Supply Chain Expand Logistics Partnership"
+    },
+    {
+      "id": 103715754,
+      "headline": "Brown & Brown Participates in Conway City Council Broker Selection Process"
+    },
+    {
+      "id": 103715755,
+      "headline": "Teck Resources Limited Announces Strike Action at Highland Valley Copper Operations"
+    },
+    {
+      "id": 103715756,
+      "headline": "MSCI Adopts New Index Exclusion Rules"
+    },
+    {
+      "id": 103715757,
+      "headline": "Franklin Templeton Receives Nasdaq Approval for Bitcoin-Linked ETFs"
+    },
+    {
+      "id": 103715758,
+      "headline": "Zscaler CEO Discusses Business Concerns Regarding PHP Vulnerability"
+    },
+    {
+      "id": 103715759,
+      "headline": "CoStar Group Reports U.S. Industrial New Lease Count Returns to Historical Peak"
+    },
+    {
+      "id": 103715760,
+      "headline": "Geekly Media Awarded HubSpot Real Estate Industry Specialist Badge"
+    },
+    {
+      "id": 103715761,
+      "headline": "Bunge and Wilmar International Commission Expanded Soybean Crushing Facility in Vietnam"
+    },
+    {
+      "id": 103715762,
+      "headline": "Couche-Tard Proposes $7.5\u20138 Billion Offer for Cumberland Farms"
+    },
+    {
+      "id": 103715763,
+      "headline": "Banking Frontiers and Zeta Global Publish 'Crossing the AI Divide' Research Report"
+    },
+    {
+      "id": 103715764,
+      "headline": "Air Canada Cargo Expands Winter Freighter Network"
+    },
+    {
+      "id": 103715765,
+      "headline": "Evercore ISI Maintains Outperform Rating and Raises Price Target for Meta Platforms"
+    },
+    {
+      "id": 103715766,
+      "headline": "Analysts Update Price Targets and Ratings for Medpace Holdings, Inc."
+    },
+    {
+      "id": 103715767,
+      "headline": "EquipmentShare Announces Date for Fiscal Third Quarter 2026 Financial Results"
+    },
+    {
+      "id": 103715768,
+      "headline": "Couche-Tard Proposes Up to $8 Billion Offer for Cumberland Farms"
+    },
+    {
+      "id": 103715799,
+      "headline": "Baird Maintains Buy Rating on Biohaven, Adjusts Price Target"
+    },
+    {
+      "id": 103715800,
+      "headline": "Nektar Therapeutics Announces Inducement Grants for New Employees"
+    },
+    {
+      "id": 103715801,
+      "headline": "ATB Cormark Adjusts Price Target for StorageVault Canada Inc."
+    },
+    {
+      "id": 103715802,
+      "headline": "Ardelyx Presents Real-World Data at ASN Kidney Week 2026 for XPHOZAH"
+    },
+    {
+      "id": 103715803,
+      "headline": "LGI Homes Introduces New Carolina Floor Plan at The Valley Community"
+    },
+    {
+      "id": 103715804,
+      "headline": "Scotiabank Maintains Blue Moon Metals with Buy Rating and Raises Target Price"
+    },
+    {
+      "id": 103715805,
+      "headline": "Climb Bio Presents Initial PrisMN Phase 2 Data for Budoprutug at ASN Kidney Week 2026"
+    },
+    {
+      "id": 103715806,
+      "headline": "Northland Securities Initiates Coverage of Unusual Machines with Buy Rating"
+    },
+    {
+      "id": 103715807,
+      "headline": "Hawaiian Electric Industries to Announce Third Quarter 2026 Results on November 6"
+    },
+    {
+      "id": 103715808,
+      "headline": "UWM Holdings Announces Preliminary Third Quarter 2026 Results"
+    },
+    {
+      "id": 103715848,
+      "headline": "River City Bank Announces Quarterly Cash Dividend"
+    },
+    {
+      "id": 103715850,
+      "headline": "Natural Grocers Recalls Organic Mung Beans"
+    },
+    {
+      "id": 103715851,
+      "headline": "Third Point Files 13D Activist Stake in Strata Critical Medical"
+    },
+    {
+      "id": 103715852,
+      "headline": "Vital Farms Launches Limited Pilot of Free-Range Eggs at Target"
+    },
+    {
+      "id": 103715853,
+      "headline": "Donegal Insurance Expands Partnership with ZestyAI for AI-Powered Property Risk Assessment"
+    },
+    {
+      "id": 103715854,
+      "headline": "Vantage Markets Enhances V-Card Premium Payment Experience"
+    },
+    {
+      "id": 103715855,
+      "headline": "Shenzhen Bao'an District and EHang Launch UAM Operation Demonstration Center at OH Bay"
+    },
+    {
+      "id": 103715997,
+      "headline": "Canaccord Genuity Upgrades Eldorado Gold to Buy"
+    },
+    {
+      "id": 103715998,
+      "headline": "Canaccord Genuity Reaffirms Buy Rating on Compass Therapeutics"
+    },
+    {
+      "id": 62579015,
+      "headline": "Mike Lee Pushes Back on Bernie Sanders Over Billionaire Political Spending: \u2018If You Want Less Money in Politics...'"
+    },
+    {
+      "id": 62579030,
+      "headline": "Ukraine Gets Starlink Speeds Back as Elon Musk Says Offensive Drone Use Was Never Allowed"
+    },
+    {
+      "id": 62579060,
+      "headline": "Pentagon Prepares New Iran Strike Options for Trump as Oil Prices Surge: Report"
+    },
+    {
+      "id": 62579076,
+      "headline": "Rick Scott Defends Trump\u2019s Energy Push, Calls For Budget Cuts and Less Regulation to Tackle Inflation"
+    },
+    {
+      "id": 62579115,
+      "headline": "Bitcoin Will Hit $100,000 Before $60,000, Says Mike Alfred, Who\u2019d Bet Up to $1 Million \u2014 Scaramucci Backs the Call"
+    },
+    {
+      "id": 62579263,
+      "headline": "Chamath Palihapitiya Takes Dig at Claude as Economist Warns of AI Bubble: \u2018AI Moves in Mysterious Ways\u2019"
+    },
+    {
+      "id": 62579275,
+      "headline": "Peter Thiel Says Apple Did \u2018Nothing New\u2019 After Steve Jobs, Calls It a \u2018Pure, Well-Run Value Stock\u2019"
+    },
+    {
+      "id": 62579289,
+      "headline": "AI Boom Has Clear Parallels With Dot-Com Era, but Crash Fears Are Overblown, Says Veteran Investor"
+    },
+    {
+      "id": 103733345,
+      "headline": "Lindex Group Reports Q3 2026 Financial Results"
+    },
+    {
+      "id": 103733396,
+      "headline": "Lamor Considers Directed Share Issue and Negotiates Financing Covenants"
+    },
+    {
+      "id": 103733397,
+      "headline": "Tecnotree Corporation Extraordinary General Meeting Approves Dividend Distribution"
+    },
+    {
+      "id": 103733398,
+      "headline": "Summa Defence Announces Changes to Executive Management Team"
+    },
+    {
+      "id": 62579301,
+      "headline": "Rand Paul Says Government Programs Keep Asking Taxpayers for More: \u2018Liberty Is the Answer, Not Socialism\u2019"
+    },
+    {
+      "id": 62579344,
+      "headline": "Trump Says Audi Will Invest $4 Billion in Georgia SUV Plant as Tariffs Reshape Auto Industry"
+    },
+    {
+      "id": 103736579,
+      "headline": "BioNTech and Bristol Myers Squibb Report Encouraging Phase 2 Data for Pumitamig in Advanced NSCLC"
+    },
+    {
+      "id": 103736580,
+      "headline": "Bilia AB Reports Q3 2026 Financial Results"
+    },
+    {
+      "id": 103736581,
+      "headline": "Huuuge, Inc. Class Action Settlement Update"
+    },
+    {
+      "id": 103736582,
+      "headline": "Corem Property Group Reports Higher Q3 Net Profit"
+    },
+    {
+      "id": 103736583,
+      "headline": "Analysts Adjust Price Targets for Mensch und Maschine Following Nine-Month Results"
+    },
+    {
+      "id": 103736584,
+      "headline": "HomeToGo SE Reports Cyberattack at Subsidiary SECRA Bookings GmbH"
+    },
+    {
+      "id": 103736585,
+      "headline": "Alquiber Reaffirms Focus on International Expansion Strategy"
+    },
+    {
+      "id": 103736586,
+      "headline": "Citadel Becomes New Public Short Seller in Mips"
+    },
+    {
+      "id": 103736587,
+      "headline": "Electrolux Professional Group Q3 2026 Consensus Estimates Published"
+    },
+    {
+      "id": 103736588,
+      "headline": "BioInvent Announces Updated Clinical Data for BI-1808 in Combination with KEYTRUDA"
+    },
+    {
+      "id": 103736589,
+      "headline": "SEB Lowers Price Target for Intrum"
+    },
+    {
+      "id": 103736590,
+      "headline": "Multiple Analysts Raise Price Targets for Lyko Group"
+    },
+    {
+      "id": 103736591,
+      "headline": "Redeye Publishes Q3 Review for Enea"
+    },
+    {
+      "id": 103736658,
+      "headline": "Ependion Reports Q3 Results with Firm Growth and Record EBITA"
+    },
+    {
+      "id": 103736659,
+      "headline": "SEB Raises Price Target for Vitec Software Group"
+    },
+    {
+      "id": 103736660,
+      "headline": "Board member at Midsummer acquires shares"
+    },
+    {
+      "id": 103736661,
+      "headline": "Annexin Pharmaceuticals: Invitation for Investor Q&A with Redeye Analyst"
+    },
+    {
+      "id": 103736662,
+      "headline": "Arcoma AB Issues Correction to Notice of Extraordinary General Meeting"
+    },
+    {
+      "id": 103736663,
+      "headline": "Insider Transactions at Tempest Security AB (publ)"
+    },
+    {
+      "id": 103736736,
+      "headline": "SEB Lowers Price Target for Stend\u00f6rren"
+    },
+    {
+      "id": 62579360,
+      "headline": "Peter Schiff Says Google Gemini Challenged Government\u2019s Case Against His Bank: \u2018Did Nothing Wrong\u2019"
+    },
+    {
+      "id": 62579374,
+      "headline": "Obama Says Trump\u2019s Iran War Gave Tehran \u2018Veto Power\u2019 Over Strait of Hormuz, Urges Voters to \u2018Flip the Circuit Breaker\u2019"
+    },
+    {
+      "id": 62579386,
+      "headline": "Mike Johnson Slams Democrats Over Opposition to GOP Tax Benefits: \u2018Make Life Easier for Hardworking Families\u2019"
+    },
+    {
+      "id": 62579405,
+      "headline": "Ukraine Gets Starlink Back, Pentagon Weighs Iran Strikes, Gas Prices Stay High and More: This Week in Politics"
+    },
+    {
+      "id": 103740898,
+      "headline": "Savills Property Management Limited Recognized at RICS Hong Kong Awards 2026"
+    },
+    {
+      "id": 103740899,
+      "headline": "SThree Releases Survey Findings on AI's Impact on STEM Employment"
+    },
+    {
+      "id": 62579453,
+      "headline": "US Embassies on Alert Across Middle East as Iran Plots Against Americans Reach \u2018Advanced Stages:\u2019 Report"
+    },
+    {
+      "id": 62579512,
+      "headline": "O\u2019Leary, Warren, Warsh, Schiff and Paul Deliver a Weekend Full of Financial Warnings: This Week in Economics"
+    },
+    {
+      "id": 62579579,
+      "headline": "Apple, Peter Thiel and the iPhone Duo Set Up a High-Stakes Weekend for Investors: This Week in Appleverse"
+    },
+    {
+      "id": 62579641,
+      "headline": "Novogratz Sees Bitcoin Upside, Pepe Surges and More: This Week in Crypto"
+    },
+    {
+      "id": 103754400,
+      "headline": "Hitachi, Brookfield, Hartree, and Tokyo Gas Launch Collaboration for Green Data Centers"
+    },
+    {
+      "id": 103754401,
+      "headline": "Mitsubishi Power Completes Retrofit of Darajat Geothermal Power Plant in Indonesia"
+    },
+    {
+      "id": 103754402,
+      "headline": "TDK Corporation Expands NTC Temperature Sensor Portfolio"
+    },
+    {
+      "id": 103754403,
+      "headline": "POSCO Group Expands Employee-Funded Social Contribution Programs"
+    },
+    {
+      "id": 103754404,
+      "headline": "Nomura Releases Analysis on AI Infrastructure and Semiconductor Cash Flows"
+    },
+    {
+      "id": 62579677,
+      "headline": "Earnings Volatility Watch: SanDisk and 11 Other Stocks Are Priced for at Least 10% Swings This Week"
+    },
+    {
+      "id": 62579714,
+      "headline": "Apple\u2019s iPhone Duo, Musk\u2019s Merger Challenge, AI Spending Questions and More: This Week in Tech"
+    },
+    {
+      "id": 103759204,
+      "headline": "Supermicro and Nokia Deploy NVIDIA Aerial RAN Computer Solutions for AI-RAN"
+    },
+    {
+      "id": 103759205,
+      "headline": "Johnson & Johnson Reports Positive Phase 1 Results for JNJ-6143 in Advanced Prostate Cancer"
+    },
+    {
+      "id": 103759206,
+      "headline": "Eli Lilly Presents New Clinical Data for Olomorasib at ESMO 2026"
+    },
+    {
+      "id": 103759207,
+      "headline": "Norfolk Southern Train Derails in Altoona, Pennsylvania"
+    },
+    {
+      "id": 103759208,
+      "headline": "BioNTech and Bristol Myers Squibb Report Encouraging Phase 2 Data for Pumitamig in Advanced NSCLC"
+    },
+    {
+      "id": 103759209,
+      "headline": "Regeneron Announces Long-Term Phase 3 C-POST Trial Data for Libtayo in High-Risk CSCC"
+    },
+    {
+      "id": 103759210,
+      "headline": "CIBC to Relocate Historic Edmonton Branch to Ice District"
+    },
+    {
+      "id": 103759211,
+      "headline": "MSD and Kelun-Biotech Announce Regulatory Progress for sac-TMT in China"
+    },
+    {
+      "id": 103759212,
+      "headline": "New Clinical Data Presented for KEYTRUDA in Combination with Olomorasib"
+    },
+    {
+      "id": 103759213,
+      "headline": "BYD Offers Significant Discounts on Seal 6 Model in Germany"
+    },
+    {
+      "id": 103759214,
+      "headline": "Ping An Hosts Seminar on Green Development and Global Contributions in Shenzhen"
+    },
+    {
+      "id": 103759305,
+      "headline": "XPeng Delivers First L03 Model in Europe"
+    },
+    {
+      "id": 103759306,
+      "headline": "Monster Energy Hosts Gamer-Focused Event at Cosm Los Angeles"
+    },
+    {
+      "id": 103759307,
+      "headline": "Cushman & Wakefield Wins \"Best Deal of the Year\" and \"Valuation Team of the Year\" at RICS Hong Kong Awards 2026"
+    },
+    {
+      "id": 103759308,
+      "headline": "H.B. Fuller Subsidiary Identified as Offeror in Regulatory Disclosure"
+    },
+    {
+      "id": 103759309,
+      "headline": "CNESST Releases Findings on Fatal Workplace Accident at Allied Properties REIT Site"
+    },
+    {
+      "id": 103759310,
+      "headline": "Xencor Presents Phase 1 Dose Selection Data for XmAb819 in Advanced ccRCC"
+    },
+    {
+      "id": 103759311,
+      "headline": "Upwork Launches App Integration Within ChatGPT"
+    },
+    {
+      "id": 103759312,
+      "headline": "ArriVent BioPharma Announces Initial Phase 1 Results for ARR-217 in Gastrointestinal Cancers"
+    },
+    {
+      "id": 103759313,
+      "headline": "PROG Holdings, Inc. to Release Third Quarter 2026 Financial Results on October 28, 2026"
+    },
+    {
+      "id": 103759314,
+      "headline": "Amarin Highlights Findings from Investigator-Initiated Phase 3 EMT2 Trial"
+    },
+    {
+      "id": 103759415,
+      "headline": "FreightCar America Completes Acquisition of Trinity Equipment Company"
+    },
+    {
+      "id": 103759416,
+      "headline": "Alpine Income Property Trust Launches New ATM Offering Programs"
+    },
+    {
+      "id": 103759417,
+      "headline": "FreeCast CEO William Mobley Discusses Streaming Infrastructure and PEAC Metric on 'New to The Street'"
+    },
+    {
+      "id": 62579766,
+      "headline": "Benzinga's 'Stock Whisper' Index: Five Stocks Investors Secretly Monitor But Don't Talk About Yet"
+    },
+    {
+      "id": 62579783,
+      "headline": "Consumer Tech (Oct 19-23): OpenAI Reportedly Seeks $30 Billion, Tesla Cuts 2026 Capex Forecast, Anthropic Commits To Over $600 Billion & More"
+    },
+    {
+      "id": 62579792,
+      "headline": "Tesla\u2019s Big Quarter, GM's Buyback Fight, Elon Musk\u2019s Autonomous Driving Push and More: This Week in Mobility"
+    },
+    {
+      "id": 62579868,
+      "headline": "Gold Price Outlook as US Bond Yields Rise Ahead of FOMC Decision"
+    },
+    {
+      "id": 62579887,
+      "headline": "Fed, ECB Expected To Hold Rates Next Week, But December Hikes Still In Play"
+    },
+    {
+      "id": 62579924,
+      "headline": "S&P 500, VOO, and SPY Outlook: What Investors Need to Watch This Week"
+    },
+    {
+      "id": 62579974,
+      "headline": "If Tesla Merges With SpaceX, How Many Bitcoin Would Elon's Companies Hold?"
+    },
+    {
+      "id": 62579999,
+      "headline": "Ethereum Price Faces Deeper Downside Risk as October ETH ETF Outflows Reach $1 Billion"
+    },
+    {
+      "id": 62580021,
+      "headline": "Top Crypto Stocks to Watch This Week: SoFi, Strategy, Coinbase"
+    },
+    {
+      "id": 62580038,
+      "headline": "ArriVent Announced Sunday, Initial Phase 1 Data For CDH17-Targeted ADC ARR-217 In Gastrointestinal Cancers At ESMO, Demonstrating 44.8% Objective Response Rate At 6mg/kg Dose In Late-Line Colorectal Cancer Patients"
+    },
+    {
+      "id": 62580060,
+      "headline": "Magnificent Seven ETF Pulls Back: What to Expect from Microsoft, Google, and Amazon Earnings"
+    },
+    {
+      "id": 62580077,
+      "headline": "Agenus Announced Sunday, Phase 2 NEOASIS Data At ESMO Showing 72% Of Locally Advanced dMMR Colon Cancer Patients Had No Cancer Remaining At Surgery After 6 Weeks Of BOT+BAL; 83% Achieved Major Pathologic Response, Meeting Primary Endpoint"
+    },
+    {
+      "id": 62580090,
+      "headline": "NovaBridge Biosciences Announced Sunday, Updated Phase 1b Givastomig Combination Data Showing 79% ORR At 8 Mg/Kg In First-Line HER2-Negative Metastatic Gastroesophageal Adenocarcinoma At ESMO"
+    },
+    {
+      "id": 62580107,
+      "headline": "Financial Times Reported Sunday, Bon Secours Mercy Health In Late-Stage Talks To Acquire Majority Stake In Surgery Partners For ~$20/Share; Deal Would be Valued At ~$6B Including Debt"
+    },
+    {
+      "id": 62580119,
+      "headline": "Survey Reveals the Retirement Fear Holding Americans Back"
+    },
+    {
+      "id": 62580130,
+      "headline": "Summit Therapeutics Partner Akeso Announced Sunday, Phase 3 HARMONi-GI1 Trial Met Overall Survival Superiority Endpoint For Ivonescimab + Chemotherapy Vs. Durvalumab + Chemotherapy In First-Line Advanced Biliary Tract Cancer"
+    },
+    {
+      "id": 62580143,
+      "headline": "AstraZeneca Announced Sunday, Phase 3 CLARITY-Gastric01 Trial Met Primary Overall Survival Endpoint;  Sone-Ve Reduced Risk Of Death By 53% In Later-Line CLDN18.2-Positive Advanced Gastric Cancer"
+    },
+    {
+      "id": 62580155,
+      "headline": "AstraZeneca Announced At ESMO Sunday, TAGRISSO Plus Savolitinib Extended Median Overall Survival By Nearly Five Months In Patients With EGFRm Lung Cancer"
+    },
+    {
+      "id": 62580166,
+      "headline": "Bill Ackman Questions Whether College Is Still Worth It: \u2018AI Is Changing Education\u2019"
+    },
+    {
+      "id": 62580185,
+      "headline": "Brent Crude Oil Price Nears Crucial Level as Trump Prepares Iran Attack"
+    },
+    {
+      "id": 62580200,
+      "headline": "A SpaceX and Tesla Merger Would Build a Conglomerate Just as Spin-Offs Thrive"
+    },
+    {
+      "id": 62580211,
+      "headline": "Verizon, Welltower On Deck Monday As Wireless Growth, Senior Housing Demand Face Test"
+    },
+    {
+      "id": 62580225,
+      "headline": "A $1 Trillion Depreciation Bomb Is Ticking Beneath the AI Market"
+    },
+    {
+      "id": 62580242,
+      "headline": "Johnson & Johnson Announced Sunday at ESMO, Phase 1b/2 OrigAMI-4 Data Showing 77% Response Rate, 14% Complete Responses With RYBREVANT Combination In First-Line HNSCC"
+    },
+    {
+      "id": 62580253,
+      "headline": "Amarin Announced Sunday at ESMO, Highlighted Phase 3 EMT2 Trial Data Showing VAZKEPA/VASCEPA Primary Progression-Free Survival Endpoint Not Met"
+    },
+    {
+      "id": 62580265,
+      "headline": "Genmab Announced Sunday At ESMO,  Updated Phase 2 Petosemtamab Plus Chemotherapy Data Showing 75% First-Line, 67% Second-Line Response Rates In Metastatic Colorectal Cancer"
+    },
+    {
+      "id": 62580278,
+      "headline": "Regeneron Announced Sunday At ESMO, Updated Phase 3 C-POST Data Showing Libtayo Reduced Risk Of Death By 37% Vs. Placebo At 44-Month Follow-Up In High-Risk Cutaneous Squamous Cell Carcinoma"
+    },
+    {
+      "id": 62580291,
+      "headline": "Xencor Announced Sunday At ESMO,  Phase 1 XmAb819 Data In Advanced Clear Cell Renal Cell Carcinoma Showing 45.5% Confirmed ORR"
+    },
+    {
+      "id": 103802472,
+      "headline": "Herm\u00e8s Market Valuation Declines Amid Luxury Sector Downturn"
+    },
+    {
+      "id": 103802473,
+      "headline": "Westfield Rise Partners with Lionsgate for Hunger Games Immersive Experience"
+    },
+    {
+      "id": 103802474,
+      "headline": "US Insurers Inject $510 Million into Partners Group Credit Fund"
+    },
+    {
+      "id": 103802475,
+      "headline": "Mercedes-Benz Korea Expands After-Sales Training for Electric Vehicles"
+    },
+    {
+      "id": 103802476,
+      "headline": "Xior Reports Strong Nine-Month Results and Confirms 2026 Outlook"
+    },
+    {
+      "id": 103802477,
+      "headline": "Stoxx Announces Temporary MDAX Index Adjustment"
+    },
+    {
+      "id": 103802478,
+      "headline": "Piaggio Research Center Presents OmniCar Robot at Maker Faire Rome"
+    },
+    {
+      "id": 103802479,
+      "headline": "BW Energy: Drilling rig incident on the Dussafu licence"
+    },
+    {
+      "id": 103802480,
+      "headline": "Audi Announces $4 Billion Investment for New SUV Manufacturing Plant in the United States"
+    },
+    {
+      "id": 103802481,
+      "headline": "Triodos Bank and Fondaction Launch Value Nature Fund at COP17"
+    },
+    {
+      "id": 103802482,
+      "headline": "TUI Cruises' 'Mein Schiff 3' Involved in Collision in Bremerhaven"
+    },
+    {
+      "id": 103802597,
+      "headline": "Ariston Announces Brand Relaunch in Middle East and Africa"
+    },
+    {
+      "id": 103802598,
+      "headline": "Genmab Announces Updated Follow-Up Analyses from Phase 2 Study of Petosemtamab in Metastatic Colorectal Cancer"
+    },
+    {
+      "id": 103802599,
+      "headline": "Vitrolife AB: Interim report Q3, 2026"
+    },
+    {
+      "id": 103802600,
+      "headline": "Atrium Ljungberg Board Member Purchases Shares"
+    },
+    {
+      "id": 103802601,
+      "headline": "SBB Intends to Convene Extraordinary General Meeting Regarding Repurchase and Redemption of Class D Shares"
+    },
+    {
+      "id": 103802602,
+      "headline": "Insider Sale of Idun Industrier Shares"
+    },
+    {
+      "id": 103802603,
+      "headline": "SGL Carbon Sells Former Carbon Fiber Facility in Moses Lake, USA"
+    },
+    {
+      "id": 103802604,
+      "headline": "Bnode Appoints Nicolas Baise as CEO of Bpost Business Unit"
+    },
+    {
+      "id": 103802605,
+      "headline": "SB1 Raises Price Target for Norion Bank Following Strong Earnings Report"
+    },
+    {
+      "id": 103802606,
+      "headline": "Nordea Reiterates Buy Rating for Svedbergs Group"
+    },
+    {
+      "id": 103802607,
+      "headline": "Citadel No Longer Publicly Shorting Sivers Semiconductors"
+    },
+    {
+      "id": 103802608,
+      "headline": "ABG Sundal Collier Issues Research Note on Nepa"
+    },
+    {
+      "id": 103802609,
+      "headline": "SEB Lowers Price Target for John Mattson"
+    },
+    {
+      "id": 103802610,
+      "headline": "Knowit Reports Q3 2026 Financial Results"
+    },
+    {
+      "id": 103802611,
+      "headline": "Nomination Committee Appointed for Stockholm Nordtech Group's 2027 Annual General Meeting"
+    },
+    {
+      "id": 62580314,
+      "headline": "Eli Lilly Announced Sunday At ESMO, Olomorasib Plus Chemoimmunotherapy Data Showing 62% Overall Response Rate, 14.5-Month Median Response Duration In First-Line KRAS G12C NSCLC"
+    },
+    {
+      "id": 62580345,
+      "headline": "BioNTech, Bristol Myers Squibb Announced Sunday At ESMO, Phase 2 ROSETTA Lung-107 Data Showing Pumitamig + Docetaxel Achieved 36.7% Confirmed Objective Response Rate, 90% Disease Control Rate, 6.9-Month Median PFS In Previously Treated Metastatic NSCLC"
+    },
+    {
+      "id": 62580379,
+      "headline": "CoreWeave Stock at Risk of Falling Below $50 as AI Bubble Index Jumps to 74"
+    },
+    {
+      "id": 103810223,
+      "headline": "Accenture and SandboxAQ Collaborate on Enterprise Data Encryption"
+    },
+    {
+      "id": 103810224,
+      "headline": "National Gas Transmission Plc Releases Winter Gas Outlook"
+    },
+    {
+      "id": 103810225,
+      "headline": "National Grid Reports Power Restoration Following Storm Austen"
+    },
+    {
+      "id": 103810226,
+      "headline": "Aviva Details AI Integration for Operational Risk Management"
+    },
+    {
+      "id": 103810227,
+      "headline": "Borr Drilling Confirms Prospector 5 Rig Incident Offshore Gabon"
+    },
+    {
+      "id": 103810228,
+      "headline": "easyJet Announces Further Capacity Reductions for Winter 2026-2027 Schedule"
+    },
+    {
+      "id": 103810229,
+      "headline": "Capricorn Energy PLC Disclosure Table Update"
+    },
+    {
+      "id": 103810230,
+      "headline": "Advanced Medical Solutions Group plc Regulatory Disclosure Regarding Offer Period"
+    },
+    {
+      "id": 103810368,
+      "headline": "Panoro Energy Reports Drilling Rig Incident on Dussafu License"
+    },
+    {
+      "id": 103810369,
+      "headline": "Form 8.3 Disclosure: The Vanguard Group, Inc. Interest in Spire Healthcare Group plc"
+    },
+    {
+      "id": 62580396,
+      "headline": "Boeing Stock Forms Rare Bearish Flag as Earnings Loom: Will It Drop Further?"
+    },
+    {
+      "id": 62580417,
+      "headline": "Reddit Stock Drops to Crucial Support as Earnings Loom: Will It Rebound or Fall Further?"
+    },
+    {
+      "id": 62580441,
+      "headline": "ServiceNow Stock Rebounds as SaaSpocalypse Fears Fade: What to Expect from Earnings"
+    },
+    {
+      "id": 62580455,
+      "headline": "Elon Musk On Sunday, Posted On X: SpaceX Closed $40B Of Debt Financing For GPUs, But We\u2019re Investment Grade And Have Starlink And Launch Revenue"
+    },
+    {
+      "id": 62580471,
+      "headline": "Zymeworks Announced Saturday At ESMO, Phase 1 ZW191 Data Showing 64.5% Confirmed Objective Response Rate At 6.4 Mg/Kg Dose In Patients With High-Grade Serous Platinum-Resistant Ovarian Cancer"
+    },
+    {
+      "id": 62580482,
+      "headline": "Immatics Announced At ESMO Saturday,  Updated Phase 1b IMA402 Data Showing 32% Confirmed Response Rate, 12.5-Month Median Duration Of Response And 91% One-Year Overall Survival Rate In Advanced Melanoma Patients With High PRAME Expression"
+    },
+    {
+      "id": 62580506,
+      "headline": "Compass Therapeutics Announced At ESMO Saturday Phase 2/3 COMPANION-002 Tovecimig Plus Paclitaxel Met Primary ORR, Key Secondary PFS Endpoints In Advanced Biliary Tract Cancer, Reducing Progression Or Death Risk By 56%, With 62.2% Disease Control Rate Vs. 36.8%"
+    },
+    {
+      "id": 62580517,
+      "headline": "BeOne Medicines Announced At ESMO Saturday, Data Showing Investigational GPC3 x 4-1BB Bispecific Achieved 36% Confirmed Response Rate At Phase 3 Dose With Favorable Safety Profile In Heavily Pretreated Liver Cancer Patients"
+    },
+    {
+      "id": 62580698,
+      "headline": "Celcuity Announced At ESMO Saturday, Phase 3 VIKTORIA-1 Data In PIK3CA-Mutant Breast Cancer Showing 59% ORR, 19.4-Month DOR For Gedatolisib Triplet, 43%, 27.8 Months For Doublet Vs. 33%, 7.5 Months For Alpelisib + Fulvestrant"
+    },
+    {
+      "id": 62580710,
+      "headline": "Nanobiotix Announced At ESMO Saturday, Phase 1 JNJ-1900 Data Showing 41.7% Response Rate, With 4 Complete Responses, 75% Disease Control Rate, 17.8-Month Median Overall Survival In Heavily Pretreated Anti-PD-1-Resistant Advanced Melanoma"
+    },
+    {
+      "id": 62580819,
+      "headline": "Parabilis Medicines Announced At ESMO Saturday, Zolucatetide Data Showing 72.2% Response Rate, 100% Disease Control At \u2265450 Mg In Desmoid Tumors, With No Progression"
+    },
+    {
+      "id": 62580831,
+      "headline": "Johnson & Johnson Announced At ESMO Saturday, Phase 3 PROTEUS Substudy Data Showing Perioperative Apalutamide Plus ADT Reduced Risk Of Disease Recurrence Or Death By 62%, Metastasis Or Death By 51% Vs. Surgery Alone In High-Risk Prostate Cancer"
+    },
+    {
+      "id": 62580842,
+      "headline": "Amgen Announced At ESMO Saturday, Phase 3 DeLLphi-305 Data Showing IMDELLTRA + IMFINZI Reduced Death Risk By 58% In First-Line ES-SCLC Maintenance, With Median Overall Survival Of 21.1 Vs. 12.7 Months; One-Year Survival Of Nearly 80% Vs. 53%"
+    },
+    {
+      "id": 103835251,
+      "headline": "Nubank Announces Resignation of Chief Technology Officer Eric Young"
+    },
+    {
+      "id": 103835253,
+      "headline": "Banco Bradesco S.A. Reports Q3 2026 Financial Results"
+    },
+    {
+      "id": 103835372,
+      "headline": "SpaceX CEO Elon Musk Accuses Ukraine of Violating Starlink Terms"
+    },
+    {
+      "id": 103835373,
+      "headline": "Carvana Opens First Car Vending Machine in Las Vegas"
+    },
+    {
+      "id": 103835374,
+      "headline": "Cisco Joins AMD's Open Compute Project AI Infrastructure Blueprint"
+    }
+  ]
+}
